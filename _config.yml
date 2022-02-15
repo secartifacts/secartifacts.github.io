@@ -1,0 +1,24 @@
+repository: 'secartifacts/secartifacts.github.io'
+url: "https://secartifacts.github.io"
+
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-redirect-from # see https://docs.github.com/en/enterprise/2.13/user/articles/redirects-on-github-pages
+  - jekyll-include-cache # required by the minimal-mistakes theme
+
+title: Security Research Artifacts # Can we find a better name?
+
+# Make stuff in _conferences accessible from /
+collections:
+  conferences:
+    output: true
+    permalink: /:path
+
+# Apply the default layout to all files (= empty path)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      classes: "wide"
