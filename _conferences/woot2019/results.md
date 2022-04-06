@@ -3,15 +3,33 @@ title: Results
 order: 20
 artifacts:
 
-  - title: "RISC-V: #AlphanumericShellcoding"
-    paper_url: "https://www.usenix.org/conference/woot19/presentation/barral"
-    artifact_url: "#"
-    badges: "Artifact Evaluated"
+  - title:: "RISC-V: #AlphanumericShellcoding"
+  badges: "Artifact Evaluated"
+  artifact_url: "https://github.com/RischardV/riscv-alphanumeric-shellcoding"
+  paper_url: "https://www.usenix.org/system/files/woot19-paper_barral.pdf"
 
-  - title: "Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing"
-    paper_url: "https://www.usenix.org/conference/woot19/presentation/maier"
-    artifact_url: "#"
+  - title: "A better zip bomb"
     badges: "Artifact Evaluated"
+    paper_url: "https://www.usenix.org/system/files/woot19-paper_fifield_0.pdf"
+
+  - title: "Automatic Wireless Protocol Reverse Engineering"
+    badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/jopohl/urh/releases/tag/v2.7.3"
+    paper_url: "https://www.usenix.org/system/files/woot19-paper_pohl.pdf"
+
+  - title:: "D-TIME: Distributed Threadless Independent Malware Execution for Runtime Obfuscation"
+    badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/JithinPavithran/d-time"
+    paper_url: "https://www.usenix.org/system/files/woot19-paper_pavithran.pdf"
+
+  - title:: "Unicorefuzz: On the Viability of Emulation for Kernelspace Fuzzing"
+    badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/fgsect/unicorefuzz"
+    paper_url: "https://www.usenix.org/system/files/woot19-paper_maier.pdf"
+
+  - title: "Distributed Password Hash Computation on Commodity Heterogeneous Programmable Platforms"
+    badges: "Artifact Evaluated"
+    paper_url: "https://www.usenix.org/system/files/woot19-paper_pervan.pdf"
 
 ---
 
