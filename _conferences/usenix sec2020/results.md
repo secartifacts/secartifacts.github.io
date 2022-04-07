@@ -113,6 +113,11 @@ artifacts:
     artifact_url: "https://github.com/MoonLight-SteinsGate/EcoFuzz"
     paper_url: "https://www.usenix.org/system/files/sec20-yue.pdf"
 
+  - title: "Temporal System Call Specialization for Attack Surface Reduction"
+    badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/shamedgh/temporal-specialization"
+    paper_url: "https://www.usenix.org/system/files/sec20-ghavamnia.pdf"
+
 ---
 
 <table>
