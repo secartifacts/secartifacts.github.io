@@ -127,7 +127,7 @@ end). If you are concerned you could be identified through other means, such as
 because of your IP address (e.g., because you do not have access to a VPN),
 contact the chairs.
 
-##Bidding phase
+## Bidding phase
 
 Once artifacts are submitted, you need to bid for the artifacts you want to
 review. You can enter your preferences by the bidding deadline by logging into
