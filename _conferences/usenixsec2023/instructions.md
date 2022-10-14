@@ -95,7 +95,7 @@ The intention for the artifact appendix is to be published in conjunction with
 your artifact. A template for the artifact appendix can be found here: [LaTeX
 Template](appendix/usesec23-ae-latex.zip) and [PDF Example](appendix/usesec23-appendix.pdf).
 
-**Artifact Appendices are limited to 3 pages.**
+**Artifact Appendices are recommended to be 3 pages max.**
 
 ### usenixbadges.sty --- affix USENIX Artifact Evaluation badges
 
