@@ -135,9 +135,7 @@ artifacts:
 
 -   title: 'Reassembly is Hard: A Reflection on Challenges and Strategies'
     badges: 'Badges: Available, Functional, Reproduced'
-    artifact_url: '- Source code of Reassessor: https://github.com/SoftSec-KAIST/Reassessor/tree/v1.0.0
-
-        - Dataset: https://doi.org/10.5281/zenodo.7178116'
+    artifact_url: https://github.com/SoftSec-KAIST/Reassessor/tree/v1.0.0
     appendix_url: appendix-files/sec23summerae-final24.pdf
     paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/kimhyungseok
 
