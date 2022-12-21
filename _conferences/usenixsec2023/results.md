@@ -31,7 +31,7 @@ artifacts:
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/fuzztruction/fuzztruction/tree/91ba684d2b8fa21ae19e403496b507f3729c4ff5
     appendix_url: appendix-files/sec23summerae-final1.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/bars
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/bars
 
 -   title: 'The Impostor Among US(B): Off-Path Injection Attacks on USB Communications'
     badges: 'Badges: Available, Functional'
@@ -43,42 +43,42 @@ artifacts:
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/byshen/seclog_ae/releases/tag/v1.0
     appendix_url: appendix-files/sec23summerae-final5.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/shen
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/shen
 
 -   title: '(M)WAIT for It: Bridging the Gap between Microarchitectural and Architectural Side Channels'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/cispa/mwait/tree/ae
     appendix_url: appendix-files/sec23summerae-final8.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/zhangruiyi
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zhangruiyi
 
 -   title: 'FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/SpaceNaN/fuzzjit/tree/a3d3f6da7f7f8577476892d6135eee6c50afc7ad
     appendix_url: appendix-files/sec23summerae-final9.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/wangjunjie
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wangjunjie
 
 -   title: 'PUMM: Preventing Use-After-Free Using Execution Unit Partitioning'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/carter-yagemann/PUMM/tree/91e58cd5d929e25d0b83fdfd0ec3c5517e2a32e7
     appendix_url: appendix-files/sec23summerae-final10.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/yagemann
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yagemann
 
 -   title: 'Isolated and Exhausted: Attacking Operating Systems via Site Isolation in the Browser'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://doi.org/10.5281/zenodo.7356538
     appendix_url: appendix-files/sec23summerae-final12.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/gierlings
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gierlings
 
 -   title: Security and Privacy Failures in Popular 2FA Apps
     badges: 'Badges: Available'
     appendix_url: appendix-files/sec23summerae-final13.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/gilsenan
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gilsenan
 
 -   title: 'NVLeak: Off-Chip Side-Channel Attacks via Non-Volatile Memory Systems'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/TheNetAdmin/NVLeak/tree/588567e6ec30f2df9f260e60385031c94e94c75e
     appendix_url: appendix-files/sec23summerae-final14.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/wangzixuan
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wangzixuan
 
 -   title: Linear Private Set Union from Multi-Query Reverse Private Membership Test
     badges: 'Badges: Available, Functional, Reproduced'
@@ -96,7 +96,7 @@ artifacts:
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/RUB-NDS/OOXML_Signature_Security/releases/tag/Artifact_Evaluation
     appendix_url: appendix-files/sec23summerae-final17.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/rohlmann
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/rohlmann
 
 -   title: Automated Security Analysis of Exposure Notification Systems
     badges: 'Badges: Available, Functional, Reproduced'
@@ -107,19 +107,19 @@ artifacts:
 -   title: 'Squint Hard Enough: Attacking Perceptual Hashing with Adversarial Machine Learning'
     badges: 'Badges: Functional, Reproduced'
     appendix_url: appendix-files/sec23summerae-final19.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/prokos
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/prokos
 
 -   title: 'One Server for the Price of Two: Simple and Fast Single-Server Private Information Retrieval'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/ahenzinger/simplepir/tree/438b4590aceedf76c7588b03125dfc0db39e361f
     appendix_url: appendix-files/sec23summerae-final20.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/henzinger
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/henzinger
 
 -   title: Decompiling x86 Deep Neural Network Executables
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/monkbai/DNN-decompiler/tree/b4f64783846b85cac4b0eb6c7a5595535cc858d3
     appendix_url: appendix-files/sec23summerae-final21.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/liuzhibo
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/liuzhibo
 
 -   title: 'PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems'
     badges: 'Badges: Available'
@@ -137,13 +137,13 @@ artifacts:
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/SoftSec-KAIST/Reassessor/tree/v1.0.0
     appendix_url: appendix-files/sec23summerae-final24.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/kimhyungseok
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kimhyungseok
 
 -   title: A comprehensive, formal and automated analysis of the EDHOC protocol
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://hub.docker.com/layers/protocolanalysis/lake-edhoc/draft-14/images/sha256-68203cf018eb659859b367c7830190a68bfd970b4bee6db5984dcfd1196e06a8?context=explore
     appendix_url: appendix-files/sec23summerae-final25.pdf
-    paper_url: https://www.usenix.orghttps://www.usenix.org/conference/usenixsecurity23/presentation/jacomme
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/jacomme
 
 ---
 
