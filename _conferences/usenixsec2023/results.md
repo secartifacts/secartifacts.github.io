@@ -171,7 +171,7 @@ artifacts:
     <tr>
       <td>
         {% if artifact.paper_url %}
-          <a href="https://doi.org/{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
+          <a href="{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
         {% else %}
           {{ artifact.title }}
         {% endif %}
@@ -195,7 +195,7 @@ artifacts:
         {% if artifact.award %}
           <b>{{ artifact.award }}</b><br>
         {% endif %} {% if artifact.artifact_url %}
-          <a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
+          <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
         {% endif %} {% if artifact.repository_url %}
           <a href="{{artifact.repository_url}}" target="_blank">Repository</a><br>
         {% endif %}
