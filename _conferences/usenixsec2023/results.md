@@ -1,5 +1,5 @@
 ---
-title: Results
+title: Results for Summer Cycle
 order: 70
 available_img: "acm_available_1.1.png"
 available_name: "Artifacts Available (v1.1)"
@@ -147,8 +147,13 @@ artifacts:
 
 ---
 
-Results are published after each artifact submission cycle.
+**Submissions**: 20 out of 83 (24% of accepted papers)
 
+**Evaluation Results**:
+
+* 19 Artifact Available
+* 18 Artifact Functional
+* 13 Results Reproduced
 
 <table>
   <thead>
