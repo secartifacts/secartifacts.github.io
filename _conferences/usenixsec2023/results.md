@@ -1,11 +1,11 @@
 ---
 title: Results for Summer Cycle
 order: 70
-available_img: "acm_available_1.1.png"
+available_img: "usenixbadges-available.png"
 available_name: "Artifacts Available (v1.1)"
-functional_img: "acm_functional_1.1.png"
+functional_img: "usenixbadges-functional.png"
 functional_name: "Artifacts Evaluated - Functional (v1.1)"
-reproduced_img: "acm_reproduced_1.1.png"
+reproduced_img: "usenixbadges-reproduced.png"
 reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
