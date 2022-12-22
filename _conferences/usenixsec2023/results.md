@@ -1,11 +1,11 @@
 ---
 title: Results for Summer Cycle
 order: 70
-available_img: "acm_available_1.1.png"
+available_img: "usenixbadges-available.png"
 available_name: "Artifacts Available (v1.1)"
-functional_img: "acm_functional_1.1.png"
+functional_img: "usenixbadges-functional.png"
 functional_name: "Artifacts Evaluated - Functional (v1.1)"
-reproduced_img: "acm_reproduced_1.1.png"
+reproduced_img: "usenixbadges-reproduced.png"
 reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
@@ -171,7 +171,7 @@ artifacts:
     <tr>
       <td>
         {% if artifact.paper_url %}
-          <a href="https://doi.org/{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
+          <a href="{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
         {% else %}
           {{ artifact.title }}
         {% endif %}
@@ -195,7 +195,7 @@ artifacts:
         {% if artifact.award %}
           <b>{{ artifact.award }}</b><br>
         {% endif %} {% if artifact.artifact_url %}
-          <a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
+          <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
         {% endif %} {% if artifact.repository_url %}
           <a href="{{artifact.repository_url}}" target="_blank">Repository</a><br>
         {% endif %}
