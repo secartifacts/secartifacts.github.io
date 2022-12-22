@@ -177,17 +177,17 @@ artifacts:
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "available" %}
+        {% if artifact.badges contains "Available" %}
           <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px">
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "functional" %}
+        {% if artifact.badges contains "Functional" %}
           <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px">
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "reproduced" %}
+        {% if artifact.badges contains "Reproduced" %}
           <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px">
         {% endif %}
       </td>
