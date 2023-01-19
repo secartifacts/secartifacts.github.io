@@ -71,6 +71,7 @@ artifacts:
 
 -   title: Security and Privacy Failures in Popular 2FA Apps
     badges: 'Badges: Available'
+    artifact_url: https://github.com/blues-lab/totp-app-analysis-public/releases/tag/usenix-sec23-ae
     appendix_url: appendix-files/sec23summerae-final13.pdf
     paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gilsenan
 
@@ -163,7 +164,6 @@ artifacts:
       <th>Funct.</th>
       <th>Repro.</th>
       <th>Available At</th>
-      <!--<th>Review Summary</th>-->
     </tr>
   </thead>
   <tbody>
@@ -198,11 +198,8 @@ artifacts:
           <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
         {% endif %} {% if artifact.repository_url %}
           <a href="{{artifact.repository_url}}" target="_blank">Repository</a><br>
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.summary %}
-          <a href="summaries/{{ artifact.summary }}.html">Summary</a>
+        {% endif %} {% if artifact.appendix_url %}
+          <a href="{{artifact.appendix_url}}" target="_blank">Appendix</a><br>
         {% endif %}
       </td>
     </tr>
