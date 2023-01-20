@@ -95,13 +95,18 @@ many other platforms. Type @ and let HotCRP autocomplete the name you want. You
 can also use the same @-mention mechanism to tag the AEC chairs (@Cristiano
 Giuffrida @Anjo Vahldiek-Oberwagner) and bring an issue to their attention.
 
-Avoid overloading authors with questions and comments, especially given that
-there are multiple evaluators per artifact. Use “Reviewer discussion” comments
-to synchronize with your fellow evaluators before communicating with authors as
-necessary. For instance, if you encounter an issue with the artifact, try first
-asking other evaluators if they have had the same issue, and if they have not,
-see how your environments differ as this information can be helpful to help
-authors fix bugs.
+Use “Reviewer discussion” comments to synchronize with your fellow evaluators
+and ensure the same issue was not raised by another review before.
+
+Authors submit their initial version of the artifact, artifact appendix and any
+other information needed to evaluate the artifact. You should carefully read
+these documents and make recommendations to the authors to improve the
+documentation of the artifact. Any errors you find or missing information should
+be documented and communicated as early as possible to the authors. They will
+then update the artifact or appendix. The badge decision is made based on the
+last submitted version of the artifact and appendix and should be independent of
+how many problems you ran into or changes were needed.
+
 
 ## Evaluation setups
 

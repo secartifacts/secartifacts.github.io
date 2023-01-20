@@ -26,6 +26,12 @@ flagged in detail at artifact submission time so the AEC can take appropriate
 precautions before installing and running these artifacts. Please contact the
 AEC chairs if you believe that your artifacts fall into this category.
 
+*Camera-Ready Submission Instructions*: After an artifact evaluation concluded,
+we will collect a camera-ready version of all artifacts receiving at least one
+badge. This includes information about the artifact location, the appendix,
+and similar supplemental material. The instructions will be shared via eMail
+when the badge decisions are announced.
+
 ## Packaging
 
 Your artifact package must include an obvious "read me" document containing
