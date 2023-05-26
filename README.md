@@ -48,5 +48,5 @@ via [jekyll's docker container](https://github.com/envygeeks/jekyll-docker). For
 the following command to start a jekyll server on [http://localhost:4000/](http://localhost:4000/).
 
 ``` sh
-docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
+docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll bash -c 'jekyll serve'
 ```
