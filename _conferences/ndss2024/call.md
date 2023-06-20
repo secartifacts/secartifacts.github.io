@@ -94,7 +94,3 @@ The following materials may be useful when preparing an artifact:
 
 ## Acknowledgements
 The AE process at NDSS 2024 was inspired by similar endeavors in other systems and security conferences. This call for artifacts builds on materials from the AE process of EuroSys '23 and USENIX Security '23.
-
-
-
-
