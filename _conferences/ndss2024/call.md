@@ -7,7 +7,7 @@ Before submitting your artifact, please check the information and submission gui
 
 ## Important Dates
 
-*All AEC deadlines are Anywhere on Earth (AoE).*
+*All AE-related deadlines are Anywhere on Earth (AoE).*
 
 ### Summer Deadline
 * Paper notification to authors: Wed, 21 Jun 2023
@@ -16,6 +16,8 @@ Before submitting your artifact, please check the information and submission gui
 * Kick-the-tires stage (answering AEC reviewer questions): Thu, 6 Jul to Fri, 14 Jul 2023
 * Artifact decisions: Tue, 5 Sep 2023
 * Camera-ready deadline for papers: Fri, 8 Sep 2023
+
+Submission page: [https://ndss24ae-summer.hotcrp.com/](https://ndss24ae-summer.hotcrp.com/)
 
 ### Fall Deadline
 * Paper notification to authors: Wed, 13 Sep 2023
@@ -62,7 +64,9 @@ When allowed by the characteristics of the artifact, authors are encouraged to p
 Along with badge descriptions, evaluator guides from AE efforts in related security and systems conferences can be very helpful for the authors to set their expectations on how well-prepared artifact instructions should look like. Several such resources are provided at the end of this page.
 
 ### Artifact appendix
-The artifact appendix must be a self-contained document that describes a roadmap for evaluators. Alongside the description of the hardware, software, and other configuration requirements, the artifact appendix should enumerate the list of major **claims** made by the paper that can be reproduced through the artifact. The artifact appendix will be published in conjunction with the paper. A template will be made available shortly.
+The artifact appendix must be a self-contained document that describes a roadmap for evaluators. Alongside the description of the hardware, software, and other configuration requirements, the artifact appendix should enumerate the list of major **claims** made by the paper that can be reproduced through the artifact. The artifact appendix will be published in conjunction with the paper.
+
+A template for the artifact appendix can be found here: [LaTeX Template](ndss_ae_appendix_template_v1.tex) (to be used in conjuction with the NDSS'24 template for research papers). Artifact appendices are limited in length to **2 pages**; contact the AE chair before submission to discuss well-motivated exceptions.
 
 Linking the paper's claims to the artifact is a necessary step that allows artifact evaluators to reproduce results. Authors must state their paper's key results and claims clearly. Also, claims should be concrete, especially if these claims may differ from the expectations set by the paper. The AEC will still evaluate artifacts relatively to their paper, but an explanation can help setting expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, authors are encouraged to be transparent with the AEC about difficulties that evaluators might encounter in using the artifact or its maturity relative to the paper's content.
 
@@ -90,7 +94,3 @@ The following materials may be useful when preparing an artifact:
 
 ## Acknowledgements
 The AE process at NDSS 2024 was inspired by similar endeavors in other systems and security conferences. This call for artifacts builds on materials from the AE process of EuroSys '23 and USENIX Security '23.
-
-
-
-
