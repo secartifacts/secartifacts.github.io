@@ -419,455 +419,451 @@ artifacts:
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/proteus-core/prospect/tree/usenix_artifact
     appendix_url: appendix-files/sec23winterae-final1.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper1-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/daniel
 
 -   title: 'FISHFUZZ: Catch Deeper Bugs by Throwing Larger Nets'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/HexHive/FishFuzz/commit/911637cdf7448b97eccf1c9664ef318aff884b63
     appendix_url: appendix-files/sec23winterae-final2.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper2-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zheng
 
 -   title: 'MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/sycuricon/MorFuzz/releases/tag/usenix23
     appendix_url: appendix-files/sec23winterae-final3.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper3-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/xu-jinyan
 
 -   title: 'TAP: Transparent and Privacy-Preserving Data Services'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/tap-group/transparent-data-service/tree/9e97cd42e12fb2941253b0960d4689bf944889a0
     appendix_url: appendix-files/sec23winterae-final4.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper4-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/reijsbergen
 
 -   title: 'SpectrEM: Exploiting Electromagnetic Emanations During Transient Execution'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/KULeuven-COSIC/SpectrEM/tree/87c91a9ae397c48d207bc2ddc8673b85b8caccf0
     appendix_url: appendix-files/sec23winterae-final5.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper5-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/de-meulemeester
 
 -   title: 'PET: Prevent Discovered Errors from Being Triggered in the Linux Kernel'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/purplewall1206/PET
     appendix_url: appendix-files/sec23winterae-final6.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper6-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zicheng
 
 -   title: 'HorusEye: A Realtime IoT Malicious Traffic Detection Framework using Programmable Switches'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/vicTorKd/HorusEye/releases/tag/v1.0.1
     appendix_url: appendix-files/sec23winterae-final7.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper7-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/dong-yutao
 
 -   title: 'We Really Need to Talk About Session Tickets: A Large-Scale Analysis of Cryptographic Dangers with TLS Session Tickets'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/tls-attacker/We-Really-Need-to-Talk-About-Session-Tickets/tree/886880ec702e14c52df076cfc876a4ad530ab67b
     appendix_url: appendix-files/sec23winterae-final8.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper8-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/hebrok
 
 -   title: 'Instructions Unclear: Undefined Behaviour in Cellular Network Specifications'
     badges: 'Badges: Available'
     artifact_url: https://zenodo.org/record/8013704
     appendix_url: appendix-files/sec23winterae-final9.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper9-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/klischies
 
 -   title: 'Spying through Your Voice Assistants: Realistic Voice Command Fingerprinting'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/dilawer11/va-fingerprinting/tree/0dd1ec3a65e843e366e81ffd29721593bc8043b1
     appendix_url: appendix-files/sec23winterae-final10.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper10-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/ahmed-dilawer
 
 -   title: 'Exploring the Unknown DTLS Universe: Analysis of the DTLS Server Ecosystem on the Internet'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/tls-attacker/Exploring-the-Unknown-DTLS-Universe/tree/563b9ca12920eed26b00f518fe7465b2b833024e
     appendix_url: appendix-files/sec23winterae-final11.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper11-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/erinola
 
 -   title: 'xNIDS: Explaining Deep Learning-based Network Intrusion Detection Systems for Active Intrusion Responses'
     badges: 'Badges: Available'
     artifact_url: https://github.com/CactiLab/code-xNIDS/releases/tag/v2023.1.0
     appendix_url: appendix-files/sec23winterae-final12.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper12-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wei-feng
 
 -   title: 'No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/RUB-SysSec/adversarial-papers/tree/01fc915612c7ca72481b50ab7700dde1e0fa6188
     appendix_url: appendix-files/sec23winterae-final13.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper13-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/eisenhofer
 
 -   title: 'ARGUS: A Framework for Staged Static Taint Analysis of GitHub Workflows and Actions'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/purs3lab/Argus_artifacts/commit/c8a208634bb87201ba8d4c534f46adf8b8634325
     appendix_url: appendix-files/sec23winterae-final14.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper14-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/muralee
 
 -   title: 'PoliGraph: Automated Privacy Policy Analysis using Knowledge Graphs'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/UCI-Networking-Group/PoliGraph/tree/USENIX-AE-v1
     appendix_url: appendix-files/sec23winterae-final15.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper15-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cui
 
 -   title: 'Is Your Wallet Snitching On You? An Analysis on the Privacy Implications of Web3'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/christoftorres/Web3-Privacy/commit/d5884c73dba5783ea3dc419433680596ea90e882
     appendix_url: appendix-files/sec23winterae-final16.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper16-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/torres
 
 -   title: 'Hoedur: Embedded Firmware Fuzzing using Multi-Stream Inputs'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/fuzzware-fuzzer/hoedur-experiments/releases/tag/sec23-ae-submission
     appendix_url: appendix-files/sec23winterae-final17.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper17-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/scharnowski
 
 -   title: 'SANDDRILLER: A Fully-Automated Approach for Testing Language-Based JavaScript Sandboxes'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/vdata1/SandDriller/releases/tag/1.0
     appendix_url: appendix-files/sec23winterae-final18.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper18-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/alhamdan
 
 -   title: 'Unique Identification of 50,000+ Virtual Reality Users from Head & Hand Motion Data'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://zenodo.org/record/7935034
     appendix_url: appendix-files/sec23winterae-final19.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper19-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/nair-identification
 
 -   title: 'Auditory Eyesight: Demystifying μs-Precision Keystroke Tracking Attacks on Unconstrained Keyboard Inputs'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/auditoryeye/auditoryeye_artifact/releases/tag/20230809
     appendix_url: appendix-files/sec23winterae-final20.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper20-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/tu
 
 -   title: 'Mitigating Security Risks in Linux with KLAUS -- A Method for Evaluating Patch Correctness'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/wupco/KLAUS
     appendix_url: appendix-files/sec23winterae-final21.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper21-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wu-yuhang
 
 -   title: 'A Verified Confidential Computing as a Service Framework for Privacy Preservation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/ya0guang/PoBF/tree/usenix-sec-ae
     appendix_url: appendix-files/sec23winterae-final23.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper23-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/chen-hongbo
 
 -   title: 'DAFL: Directed Grey-box Fuzzing guided by Data Dependency'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://zenodo.org/record/8219904
     appendix_url: appendix-files/sec23winterae-final24.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper24-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kim-tae-eun
 
 -   title: 'WaterBear: Asynchronous BFT with Information-Theoretic Security and Quantum Security'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/fififish/waterbear/releases/tag/usenixsec
     appendix_url: appendix-files/sec23winterae-final25.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper25-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-haibin
 
 -   title: 'Forming Faster Firmware Fuzzers'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://zenodo.org/record/8223055
     appendix_url: appendix-files/sec23winterae-final26.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper26-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/seidel
 
 -   title: 'BugHog'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/DistriNet/BugHog/tree/usenix23-artifact-stable
     appendix_url: appendix-files/sec23winterae-final28.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper28-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/franken
 
 -   title: 'ACFA: Secure Runtime Auditing & Guaranteed Device Healing via Active Control Flow Attestation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/RIT-CHAOS-SEC/ACFA/tree/9cf65504dc1b7dcdae0638f3cdaec57c21c10c07
     appendix_url: appendix-files/sec23winterae-final29.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper29-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/caulfield
 
 -   title: 'Remote Direct Memory Introspection'
     badges: 'Badges: Available'
     artifact_url: https://github.com/aladinggit/RDMI/tree/7b8b15cf9ac081534b6283fb5aa9d334f2600dbb
     appendix_url: appendix-files/sec23winterae-final30.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper30-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi
 
 -   title: 'BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/seclab-yonsei/bokasan/tree/usenix-ae
     appendix_url: appendix-files/sec23winterae-final31.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper31-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/shi-ji
 
 -   title: 'CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/waugustus/CarpetFuzz/tree/b1352edce60b2037549258b48af9d13756273c5f
     appendix_url: appendix-files/sec23winterae-final34.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper34-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wang-dawei
 
 -   title: 'ARI: Attestation of Real-time Mission Execution Integrity'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/WUSTL-CSPL/ARI
     appendix_url: appendix-files/sec23winterae-final36.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper36-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wang-jinwen
 
 -   title: 'Guarding Serverless Applications with Kalium'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/multifacet/kalium_artifact/tree/83110fcfd091d9f8bd164007b1570742e0ad107c
     appendix_url: appendix-files/sec23winterae-final37.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper37-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/jegan
 
 -   title: 'Uncontained: Uncovering Container Confusion in the Linux Kernel'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/vusec/uncontained/releases/tag/ae
     appendix_url: appendix-files/sec23winterae-final38.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper38-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/koschel
 
 -   title: 'HECO: Fully Homomorphic Encryption Compiler'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/MarbleHE/HECO/tree/artifact
     appendix_url: appendix-files/sec23winterae-final39.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper39-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/viand
 
 -   title: 'Pushed by Accident: A Mixed-Methods Study on Strategies of Handling Secret Information in Source Code Repositories'
     badges: 'Badges: Available'
     artifact_url: https://doi.org/10.25835/xfc2h3pg
     appendix_url: appendix-files/sec23winterae-final40.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper40-accepted_paper_pdf_format.pdf
-
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/krause
 
 -   title: 'Systematic Assessment of Fuzzers using Mutation Analysis'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/CISPA-SysSec/mua_fuzzer_bench/tree/b3cc3815f9dce9371eb5d461bb5beb888c032327
     appendix_url: appendix-files/sec23winterae-final41.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper41-accepted_paper_pdf_format.pdf
-
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gorz
 
 -   title: 'Powering Privacy: On the Energy Demand and Feasibility of Anonymity Networks on Smartphones'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/lambdapioneer/powering-privacy/tree/aec-final
     appendix_url: appendix-files/sec23winterae-final42.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper42-accepted_paper_pdf_format.pdf
-
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/hugenroth
 
 -   title: 'Inception: Exposing New Attack Surfaces with Training in Transient Execution'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/comsec-group/inception/tree/usenix-23-ae-final
     appendix_url: appendix-files/sec23winterae-final43.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper43-accepted_paper_pdf_format.pdf
-
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/trujillo
 
 -   title: 'FloatZone: Accelerating Memory Error Detection using the Floating Point Unit'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/vusec/floatzone/releases/tag/ae-final
     appendix_url: appendix-files/sec23winterae-final44.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper44-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gorter
 
 -   title: 'Cookie Crumbles: Breaking and Fixing Web Session Integrity'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://doi.org/10.5281/zenodo.8220368
     appendix_url: appendix-files/sec23winterae-final45.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper45-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/squarcina
 
 -   title: 'CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software'
     badges: 'Badges: Available'
     artifact_url: https://zenodo.org/record/8062035
     appendix_url: appendix-files/sec23winterae-final46.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper46-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-yuanyuan-cacheql
 
 -   title: 'Precise and Generalized Robustness Certification for Neural Networks'
     badges: 'Badges: Available'
     artifact_url: https://zenodo.org/record/8062051
     appendix_url: appendix-files/sec23winterae-final47.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper47-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yuan-yuanyuan-certification
 
 -   title: 'URET: Universal Robustness Evaluation Toolkit (for Evasion)'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/IBM/URET/tree/8bd1b4f4d78ac19f026e862b31ae933983c99551
     appendix_url: appendix-files/sec23winterae-final48.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper48-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/eykholt
 
 -   title: 'PrivateFL: Accurate, Differentially Private Federated Learning via Personalized Data Transformation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/BHui97/PrivateFL
     appendix_url: appendix-files/sec23winterae-final49.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper49-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yang-yuchen
 
 -   title: 'How Effective is Multiple-Vantage-Point Domain Control Validation?'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/inspire-group/routing-aware-dns/tree/23194fc824633122cbfb79206a62ac662389f63c
     appendix_url: appendix-files/sec23winterae-final50.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper50-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cimaszewski
 
 -   title: 'SQIRL: Grey-Box Detection of SQL Injection Vulnerabilities Using Reinforcement Learning'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/ICL-ml4csec/SQIRL/tree/966bf8642284ccb834450dae552eaa6dd34b84b0
     appendix_url: appendix-files/sec23winterae-final51.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper51-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/al-wahaibi
 
 -   title: 'Towards A Proactive ML Approach for Detecting Backdoor Poison Samples'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/Unispac/Fight-Poison-With-Poison/tree/f2f02c2
     appendix_url: appendix-files/sec23winterae-final52.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper52-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/qi
 
 -   title: 'TVA: A multi-party computation system for secure and expressive time series analytics'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/CASP-Systems-BU/tva/tree/stable
     appendix_url: appendix-files/sec23winterae-final53.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper53-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/faisal
 
 -   title: 'Collide+Power: Leaking Inaccessible Data with Software-based Power Side Channels'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/iaik/collidepower/tree/ae
     appendix_url: appendix-files/sec23winterae-final54.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper54-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kogler
 
 -   title: 'Greenhouse: Single-Service Rehosting of Linux-Based Firmware Binaries in User-Space Emulation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://doi.org/10.5281/zenodo.8217895
     appendix_url: appendix-files/sec23winterae-final55.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper55-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/tay
 
 -   title: 'McFIL: Model Counting Functionality-Inherent Leakage'
     badges: 'Badges: Available'
     artifact_url: https://github.com/maxzinkus/McFIL-Release/releases/tag/release
     appendix_url: appendix-files/sec23winterae-final56.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper56-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zinkus
 
 -   title: 'DeResistor: Toward Detection-Resistant Probing for Evasion of Internet Censorship'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/um-dsp/DeResistor
     appendix_url: appendix-files/sec23winterae-final57.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper57-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/amich
 
 -   title: 'Calpric: Inclusive and Fine-grain Labeling of Privacy Policies with Crowdsourcing and Active Learning'
     badges: 'Badges: Available'
     artifact_url: https://github.com/dlgroupuoft/Calpric/commit/3aeb59745b396285a3593ff22fe808a741bbf616
     appendix_url: appendix-files/sec23winterae-final59.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper59-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/qiu
 
 -   title: 'EnigMap: External-Memory Oblivious Map for Secure Enclaves'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/odslib/EnigMap/tree/usenix-artifacts
     appendix_url: appendix-files/sec23winterae-final60.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper60-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/tinoco
 
 -   title: 'Erebus: Access Control for Augmented Reality Systems'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/Ethos-lab/erebus-AR_access_control/tree/artifact-final-release-v2
     appendix_url: appendix-files/sec23winterae-final61.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper61-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kim-yoonsang
 
 -   title: 'Towards Targeted Obfuscation of Adversarial Unsafe Images using Reconstruction and Counterfactual Super Region Attribution Explainability'
     badges: 'Badges: Available'
     artifact_url: https://github.com/SecureAIAutonomyLab/uGuard/tree/dbd98a38611af486d992b36024f78a96f99d43cc
     appendix_url: appendix-files/sec23winterae-final62.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper62-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/bethany
 
 -   title: 'VulChecker: Graph-based Vulnerability Localization in Source Code'
     badges: 'Badges: Available, Functional'
     artifact_url: https://github.com/ymirsky/VulChecker
     appendix_url: appendix-files/sec23winterae-final64.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper64-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky
 
 -   title: 'Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/vusec/SpeculationAtFault-AE/tree/cf2fa27ff5145a2dedfa8d4302a16d6e32aa5581
     appendix_url: appendix-files/sec23winterae-final65.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper65-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/hofmann
 
 -   title: 'Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/AutomatedAnalysisOf/AEADProtocols/tree/V1
     appendix_url: appendix-files/sec23winterae-final66.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper66-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols
 
 -   title: 'Smart Learning to Find Dumb Contracts'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://hub.docker.com/u/dlva
     appendix_url: appendix-files/sec23winterae-final67.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper67-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/abdelaziz
 
 -   title: 'Cheesecloth: Zero-Knowledge Proofs of Real World Vulnerabilities'
     badges: 'Badges: Available'
     artifact_url: https://github.com/GaloisInc/cheesecloth/tree/usenix-2023-artifact
     appendix_url: appendix-files/sec23winterae-final69.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper69-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/cuellar
 
 -   title: 'The OK Is Not Enough: A Large Scale Study of Consent Dialogs in Smartphone Applications'
     badges: 'Badges: Available'
     artifact_url: https://github.com/the-ok-is-not-enough/.github/blob/32b904b4e21c45b345bc1b9cbfd84f6661177b6b/profile/README.md
     appendix_url: appendix-files/sec23winterae-final70.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper70-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/koch
 
 -   title: 'A Peek into the Metaverse: Detecting 3D Model Clones in Mobile Games'
     badges: 'Badges: Available'
     artifact_url: https://github.com/OSUSecLab/3DScan/releases/tag/ae
     appendix_url: appendix-files/sec23winterae-final72.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper72-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/zuo
 
 -   title: 'XCheck: Verifying Integrity of 3D Printed Patient-Specific Devices via Computing Tomography'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/WUSTL-CSPL/XCheck/commits/5ee4b4820671fc215795ccb09daa70670a29e4f3
     appendix_url: appendix-files/sec23winterae-final73.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper73-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yu-zhiyuan-xcheck
 
 -   title: 'SMACK: Semantically Meaningful Adversarial Audio Attack'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/WUSTL-CSPL/SMACK/commits/895f19b35350c5aded3362508c4a770f5e36342f
     appendix_url: appendix-files/sec23winterae-final74.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper74-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/yu-zhiyuan-smack
 
 -   title: 'One Size Does Not Fit All: Uncovering and Exploiting Cross Platform Discrepant APIs in WeChat'
     badges: 'Badges: Available'
     artifact_url: https://github.com/OSUSecLab/APIDiff/tree/f65137b3f8dc037021773134db40b1d384d542b7
     appendix_url: appendix-files/sec23winterae-final76.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper76-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/wang-chao
 
 -   title: 'BASECOMP: A Comparative Analysis for Integrity Protection in Cellular Baseband Software'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/kaist-hacking/BaseComp/tree/cd6d118950e7c41990dd9fff84ea7c6de586d574
     appendix_url: appendix-files/sec23winterae-final78.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper78-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/kim-eunsoo
 
 -   title: 'Not All Data are Created Equal: Data and Pointer Prioritization for Scalable Protection Against Data-Oriented Attacks'
     badges: 'Badges: Available'
     artifact_url: https://github.com/salmanyam/DPP/tree/53cbccb6e6eaab6eaabbb06ea21fd31dd83e6eff
     appendix_url: appendix-files/sec23winterae-final79.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper79-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/ahmed-salman
 
 -   title: 'Security Analysis of MongoDB Queryable Encryption'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://gitlab.com/mongodbqe/mongo/-/commit/4e9fc09377f26e1760fb510a0b998f777fd9e0f4
     appendix_url: appendix-files/sec23winterae-final80.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper80-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/gui
 
 -   title: 'Evading Provenance-Based ML Detectors with Adversarial System Actions'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/syssec-utd/provninja/releases/tag/USENIX_23
     appendix_url: appendix-files/sec23winterae-final81.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper81-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/mukherjee
 
 -   title: 'BotScreen: Trust Everybody, but Cut the Aimbots Yourself'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/SoftSec-KAIST/BotScreen/tree/8ad88322f6abbcff6de1974103b275940a839028
     appendix_url: appendix-files/sec23winterae-final82.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper82-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/choi
 
 -   title: 'GigaDORAM: Breaking the Billion Address Barrier'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/jacob14916/GigaDORAM-USENIX23-Artifact
     appendix_url: appendix-files/sec23winterae-final84.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper84-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/falk
 
 -   title: 'SAFER : Efficient and Error-Tolerant Binary Instrumentation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: http://seclab.cs.sunysb.edu/seclab/safer
     appendix_url: appendix-files/sec23winterae-final85.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper85-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/priyadarshan
 
 -   title: 'Curve Trees: Practical and Transparent Zero-Knowledge Accumulators'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/simonkamp/curve-trees/tree/4467be81737732a5b2794b5ad70459681b3bd19c
     appendix_url: appendix-files/sec23winterae-final88.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper88-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/campanelli
 
 -   title: 'Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/vanhoefm/vpnleaks
     appendix_url: appendix-files/sec23winterae-final90.pdf
-    paper_url: sec23winterae-accepted_paper_pdf_format/sec23winterae-paper90-accepted_paper_pdf_format.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/xue
 
 ---
 
