@@ -1,0 +1,157 @@
+<p>Artifacts must be packaged to ease evaluation and include an <a href="#artifact-appendix">artifact
+appendix</a>. Packaging is not only about evaluation but about
+future use of the artifact by other researchers who may want to build on top of
+it or use it as a baseline. In addition, consider how you plan to distribute
+your artifact.</p>
+
+<p>Please see our <a href="tips">tips</a> page for insights on how to build great research
+artifacts.</p>
+
+<p>Finally submit your artifact and its appendix via HotCRP to:</p>
+<ul>
+  <li><a href="https://sec24summerae.usenix.hotcrp.com/">Summer</a></li>
+  <li><a href="https://sec24fallae.usenix.hotcrp.com/">Fall</a></li>
+  <li><a href="https://sec24winterae.usenix.hotcrp.com/">Winter</a></li>
+</ul>
+
+<p>If you have any questions about how best to package your artifact, contact the
+AEC chairs.</p>
+
+<p><em>Destructive Artifacts</em>: Some artifacts may attempt to perform malicious or
+destructive operations by design. These cases should be boldly and explicitly
+flagged in detail at artifact submission time so the AEC can take appropriate
+precautions before installing and running these artifacts. Please contact the
+AEC chairs if you believe that your artifacts fall into this category.</p>
+
+<p><em>Camera-Ready Submission Instructions</em>: After an artifact evaluation concluded,
+we will collect a camera-ready version of all artifacts receiving at least one
+badge. This includes information about the artifact location, the appendix,
+and similar supplemental material. The instructions will be shared via eMail
+when the badge decisions are announced.</p>
+
+<h2 id="packaging">Packaging</h2>
+
+<p>Your artifact package must include an obvious “read me” document containing
+suitable instructions and documentation. A tool without a quick tutorial is
+generally very difficult to use. Similarly, a dataset is useless without some
+explanation on how to browse the data. Please see the <a href="badges">badges</a> page for
+more details on what the instructions should contain.</p>
+
+<p>Authors should consider one of the following methods to package the software
+components of their artifacts (although the AEC is open to other reasonable
+formats as well):</p>
+
+<ul>
+  <li>
+    <p><em>Source code:</em> If your artifact has few dependencies and can be installed
+easily on several operating systems, you may submit source code and build
+scripts. However, if your artifact has a long list of dependencies, please use
+one of the other formats below.</p>
+  </li>
+  <li>
+    <p><em>Container/virtual machine:</em> We recommend using a format that is easy for
+evaluators to work with, such as Docker images. In any case, the Dockerfile or
+script used to initialize the virtual machine should be available. Consider
+preparing the right toolchain and runtime environment.</p>
+  </li>
+  <li>
+    <p><em>Live instance on the web:</em> Ensure that it is available during the artifact
+evaluation process.</p>
+  </li>
+  <li>
+    <p><em>Internet-accessible hardware:</em> If your artifact requires special hardware
+(e.g., SGX or another trusted execution environment), or if your artifact is
+actually a piece of hardware, please make sure that evaluators can access the
+device. VPN/SSH-based access to the device might be an option (in that case,
+please provide the SSH private access key directly in your submission to
+reduce time to gain access to hardware).</p>
+  </li>
+</ul>
+
+<h2 id="artifact-storage">Artifact Storage</h2>
+
+<p>Great artifacts are easy to find and stored for a long time. The archived copy
+of the artifacts (necessary to qualify for the Artifacts Available badge) must
+be accessible via a stable reference or DOI. For this purpose, we recommend
+Zenodo, but other valid hosting options include institutional and third-party
+digital repositories (e.g., <a href="https://zenodo.org/">Zenodo</a>,
+<a href="https://figshare.com/">FigShare</a>, <a href="https://datadryad.org/stash/">Dryad</a>,
+<a href="https://archive.softwareheritage.org/">Software Heritage</a>,
+<a href="https://github.com/">GitHub</a>, or <a href="https://about.gitlab.com/">GitLab</a>. For
+repositories that can evolve over time (e.g., GitHub), a stable reference to the
+evaluated version (e.g., a URL pointing to a commit hash or tag) rather than the
+evolving version reference (e.g., a URL pointing to a mere repository) is
+required. Note that the stable reference provided at submission time is for the
+purpose of Artifact Evaluation. Since the artifact can potentially evolve during
+the evaluation to address feedback from the reviewers, another (potentially
+different) stable reference will be later collected for the final version of the
+artifact.</p>
+
+<h2 id="artifact-appendix">Artifact Appendix</h2>
+
+<p>The artifact appendix is a self-contained document which describes a roadmap for
+evaluators. This includes a description of the hardware, software, and
+configuration requirements, as well as the major claims made by the paper and
+how to reproduce each claim through your artifact. Linking the claims of the
+paper to the artifact is a necessary step that ultimately allows artifact
+evaluators to reproduce your results. It is of foremost importance that you
+state your paper’s key results and claims clearly. This is especially important
+if you think that these claims differ from the expectations set up by your
+paper. If possible, the appendix should also describe how to compare the results
+of a reproduced experiment to the ones found in the paper (e.g., by providing
+access to the underlying dataset of the results).</p>
+
+<p>The intention for the artifact appendix is to be published in conjunction with
+your artifact. A template for the artifact appendix can be found here: <a href="appendix/usesec23-ae-latex.zip">LaTeX
+Template</a> and <a href="appendix/usesec23-appendix.pdf">PDF Example</a>.</p>
+
+<p><strong>Artifact Appendices are recommended to be 3 pages max.</strong></p>
+
+<h3 id="usenixbadgessty--affix-usenix-artifact-evaluation-badges">usenixbadges.sty — affix USENIX Artifact Evaluation badges</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">usenixbadges</code> LaTeX style file affixes USENIX Artifact Evaluation badges to
+the front page of a USENIX-formatted paper (or standalone Appendix). You must
+use it to add badges to your final (camera-ready) artifact appendix. You may
+also want to use it to add the badges to a self-hosted USENIX Security paper as
+well (which we recommend having the artifact appendix appended at the
+end). Download the <a href="appendix/usenix23-badges.zip">usenixbadges</a> package and follow the
+instructions below.</p>
+
+<h4 id="installation">INSTALLATION</h4>
+
+<p>Put <code class="language-plaintext highlighter-rouge">usenixbadges.sty</code> and the <code class="language-plaintext highlighter-rouge">usenixbadges-*.pdf</code> graphics files in the
+directory that contains the LaTeX source for your paper.  (Really, you can put
+them anywhere in LaTeX’s search path, but the simplest thing is to put the files
+in the same directory as your paper’s LaTeX source files.)</p>
+
+<h4 id="usage">USAGE</h4>
+
+<p>In the preamble of your LaTeX document, insert a line like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  \usepackage[&lt;options&gt;]{usenixbadges}
+</code></pre></div></div>
+
+<p>In the options, list the badges that have been awarded to your paper. The
+possible badges are:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">available</code>  — affix the “Artifacts Available” badge</li>
+  <li><code class="language-plaintext highlighter-rouge">functional</code> — affix the “Artifacts Functional” badge</li>
+  <li><code class="language-plaintext highlighter-rouge">reproduced</code> — affix the “Results Reproduced” badge</li>
+</ul>
+
+<p>Example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  %% Affix the indicated badges to the paper.
+  \usepackage[available,functional]{usenixbadges}
+</code></pre></div></div>
+
+<p>Tips:</p>
+
+<p>In your LaTeX document, the <code class="language-plaintext highlighter-rouge">\usepackage[...]{usenixbadges}</code> directive must come
+after <code class="language-plaintext highlighter-rouge">\documentclass</code> and before <code class="language-plaintext highlighter-rouge">\begin{document}</code>.</p>
+
+<p>If your LaTeX document has many <code class="language-plaintext highlighter-rouge">\usepackage</code> directives, put
+<code class="language-plaintext highlighter-rouge">\usepackage[...]{usenixbadges}</code> near the end of those.  This may avoid problems
+relating to conflicting options for the <code class="language-plaintext highlighter-rouge">graphicx</code> package.</p>
+
