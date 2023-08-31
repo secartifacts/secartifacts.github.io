@@ -92,8 +92,7 @@ to “about: submission”.
 
 You can notify a fellow evaluator with an @-mention in a HotCRP comment, as on
 many other platforms. Type @ and let HotCRP autocomplete the name you want. You
-can also use the same @-mention mechanism to tag the AEC chairs (@Cristiano
-Giuffrida @Anjo Vahldiek-Oberwagner) and bring an issue to their attention.
+can also use the same @-mention mechanism to tag the AEC chairs and bring an issue to their attention.
 
 Use “Reviewer discussion” comments to synchronize with your fellow evaluators
 and ensure the same issue was not raised by another review before.
