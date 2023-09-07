@@ -1,7 +1,7 @@
 ---
 title: Call for Artifacts
 order: 10
-#redirect_to: https://www.usenix.org/conference/usenixsecurity24/call-for-artifacts
+redirect_to: https://www.usenix.org/conference/usenixsecurity24/call-for-artifacts
 ---
 
 All authors of accepted USENIX Security '24 papers (including shepherd-approved papers) are encouraged to submit an artifact for Artifact Evaluation (AE). Artifacts can be submitted in the same cycle as the accepted paper or in any of the following cycles for 2024. Each submitted artifact will be reviewed by the Artifact Evaluation Committee (AEC). Before submitting your artifact, please check the Artifact Evaluation Information below. Should you have any questions or concerns, you can
@@ -16,7 +16,7 @@ reach the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Final paper files due: Tuesday, October 10, 2023
 * Artifact submission deadline: Tuesday, October 24, 2023
 * AE bidding: Wednesday, October 25, to Friday, October 27, 2023
-* Author discussion period: Monday, October 30, to Friday, Nov 24, 2023
+* Author discussion period: Monday, October 30, to Wednesday, Nov 22, 2023
 * Reviews due: Tuesday, November 28, 2023
 * Artifact decisions announced: Tuesday, December 5, 2023
 * Final appendix files due: Tuesday, December 12, 2023
@@ -29,14 +29,14 @@ reach the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Artifact submission deadline: Tuesday, March 19, 2024
 * AE bidding: Wednesday, March 20, to Friday, March 22, 2024
 * Author discussion period: Monday, March 25, to Friday, April 19, 2024
-* Reviews due: Tuesday, April 23, 2024
+* Reviews due: Thursday, April 25, 2024
 * Artifact decisions announced: Tuesday, April 30, 2024
 * Final appendix files due: Tuesday, May 7, 2024
 
 ### Winter Deadline
 
 * Notification to authors: Wednesday, May 8, 2024, 11:59 pm AoE
-* Artifact registration deadline: Tuesday, June 11, 2024
+* Artifact registration deadline: Monday, June 10, 2024
 * Final paper files due: Thursday, June 13, 2024
 * Artifact submission deadline: Friday, June 21, 2024
 * AE bidding: Monday, June 24, to Wednesday, June 26, 2024
