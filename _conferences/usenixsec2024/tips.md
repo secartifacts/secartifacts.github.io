@@ -31,7 +31,7 @@ Here are some general tips to make life easier for both artifact authors and eva
 
 Unfortunately, artifacts sometimes miss badges because they were not tested on a
 clean setup, or not documented enough, or because running experiments is too
-error-prone due to complex manual steps. **This year, we provide checklists for authors and evaluators**
+error-prone due to complex manual steps. We provide these checklists for authors and evaluators
 to help prepare and evaluate artifacts, minimizing the
 risk of an artifact unnecessarily missing a badge.
 
