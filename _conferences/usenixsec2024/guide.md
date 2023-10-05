@@ -33,12 +33,12 @@ as confidential and also delete the artifact after the evaluation has finished
 Also keep in mind that artifact evaluation is a cooperative process. Artifacts
 that initially do not meet the requirements for badges can still get badges if
 the authors make necessary improvements in time, and evaluators should provide
-actionable feedback to enable this. Artifacts should only “miss” badges if there
-was not enough time to reasonably address the evaluators’ concerns, or if the
+actionable feedback to enable this. Artifacts should only "miss" badges if there
+was not enough time to reasonably address the evaluators' concerns, or if the
 authors were unresponsive or unreasonable. Note that authors will be able to
 update their artifacts with no restrictions in response to your comments (e.g.,
 to fix bugs). Authors can submit artifact/appendix updates through external
-repositories rather than HotCRP. We’ll collect the final appendix (and stable
+repositories rather than HotCRP. We'll collect the final appendix (and stable
 reference) via HotCRP again after finalizing decisions.
 
 The papers under evaluation have already been accepted by the technical program
@@ -54,7 +54,7 @@ chairs to distribute artifacts in a way that maximizes evaluator expertise and
 interest. Bidding maximizes your chances to evaluate artifacts in domains you
 know about and are interested in.
 
-The “kick the tires” period is when evaluators go through the artifacts to
+The "kick the tires" period is when evaluators go through the artifacts to
 ensure they will be able to properly evaluate them later. It is important to do
 this as soon as possible, so that authors have enough time to fix big issues if
 needed.
@@ -78,23 +78,23 @@ who you are so that you can be frank in your assessment. To enable this, all
 communication between authors and reviewers must be done through HotCRP, not by
 other means such as email.
 
-Please make sure that in your HotCRP profile, under “Preferences”, the “Send
-mail” box for “Reviews and comments on authored or reviewed submissions” is
+Please make sure that in your HotCRP profile, under "Preferences", the "Send
+mail" box for "Reviews and comments on authored or reviewed submissions" is
 checked, so that you are notified of comments on your assigned artifacts from
 authors and fellow reviewers.
 
 To add a comment on HotCRP, at the bottom of the artifact page, click on the
-“Add comment” button to show a form, type your comment, and select the right
-visibility for your comment. Discussion with authors must be “Author
-discussion”, while discussion with evaluators must be “Reviewer discussion”. For
-chairs-only comments, you can use “Administrators only”. Leave the second option
-to “about: submission”.
+"Add comment" button to show a form, type your comment, and select the right
+visibility for your comment. Discussion with authors must be "Author
+discussion", while discussion with evaluators must be "Reviewer discussion". For
+chairs-only comments, you can use "Administrators only". Leave the second option
+to "about: submission".
 
 You can notify a fellow evaluator with an @-mention in a HotCRP comment, as on
 many other platforms. Type @ and let HotCRP autocomplete the name you want. You
 can also use the same @-mention mechanism to tag the AEC chairs and bring an issue to their attention.
 
-Use “Reviewer discussion” comments to synchronize with your fellow evaluators
+Use "Reviewer discussion" comments to synchronize with your fellow evaluators
 and ensure the same issue was not raised by another review before.
 
 Authors submit their initial version of the artifact, artifact appendix and any
@@ -118,14 +118,14 @@ You can evaluate artifacts on various setups, in order of preference:
      virtual machines such as with VirtualBox
 * Any servers with beefy/special hardware you may have access to, for artifacts
   that could benefit from this
-* The artifact authors’ machines, accessed via SSH or such, for artifacts that
+* The artifact authors' machines, accessed via SSH or such, for artifacts that
   cannot run anywhere else due to hardware dependencies
 * Commercial clouds such as AWS or Azure, but only if absolutely necessary and
   the authors are willing to pay for it; in that case, please agree with the
   authors on a protocol in which you agree to spawn and tear down machines to
   minimize unnecessary costs.
 
-_Note on anonymization_: If you have to SSH to the authors’ machines, make sure
+_Note on anonymization_: If you have to SSH to the authors' machines, make sure
 your public SSH key does not identify you (remove the user@host part at the
 end). If you are concerned you could be identified through other means, such as
 because of your IP address (e.g., because you do not have access to a VPN),
@@ -135,19 +135,19 @@ contact the chairs.
 
 Once artifacts are submitted, you need to bid for the artifacts you want to
 review. You can enter your preferences by the bidding deadline by logging into
-HotCRP and clicking on “Review preferences”. You can use -20 to 20 as the range
+HotCRP and clicking on "Review preferences". You can use -20 to 20 as the range
 to rank the artifacts by preference and -100 to declare a conflict of interest
 (contact the AE chairs if unsure). When bidding, also pay attention to the
 hardware/software requirements of the artifact.
 
-Note: we will try to match artifacts to your preferences, but if you don’t bid
+Note: we will try to match artifacts to your preferences, but if you don't bid
 by the deadline, you may be assigned less-than-ideal artifact(s) for your
 profile.
 
 
 ## Initial "kick the tires" phase
 
-Once you have been assigned artifacts comes the initial “kick the tires” period.
+Once you have been assigned artifacts comes the initial "kick the tires" period.
 The goal of this period is to quickly determine whether you have everything you
 need for a full review: the artifact itself, any necessary hardware or other
 dependencies, and a plan on how you will evaluate the artifact. If that is not
@@ -205,13 +205,13 @@ the paper (which must be documented in the submitted artifact appendix). Merely
 reproducing similar output as the paper, such as performance metrics, is not
 enough, the artifact must actually do what it claims to do. You are not expected
 to understand every single line of code, but you should be confident that the
-artifact overall matches the paper’s description.
+artifact overall matches the paper's description.
 
 **Most of your time should be spent auditing artifacts, not debugging them**. If
 you run into issues such as missing dependencies, try to quickly work around
 them, such as by finding the right package containing the dependency for your
 operating system and letting the authors know they have to fix their
-instructions. However, it is the authors’ responsibility to make their artifacts
+instructions. However, it is the authors' responsibility to make their artifacts
 work, not yours. You do not need to spend hours trying to debug and fix complex
 issues; if you encounter a non-trivial error, first ask your fellow evaluators
 if they encountered it too or if they know how to fix it, then ask the authors
@@ -226,13 +226,13 @@ ask the authors to automate this, or even write a script yourself if you have
 the time that you can then share with the authors.
 
 Concerning the artifact appendix, please verify it follows the provided
-[template](https://secartifacts.github.io/usenixsec2023/instructions#artifact-appendix)
+[template](https://secartifacts.github.io/usenixsec2024/instructions#artifact-appendix)
 and its constraints (mandatory sections in particular). Do ask the authors for
 updates during the review process if the appendix does not follow the template
 or if important information is missing. Similarly, if authors apply for the
 Artifacts Available badge, please verify they provided a stable reference (URL)
 to the artifact at submission time (see
-[badge](https://secartifacts.github.io/usenixsec2023/badges) requirements for
+[badge](https://secartifacts.github.io/usenixsec2024/badges) requirements for
 details). If not, do ask for updates during the review process.
 
 Once you are finished evaluating an artifact, fill in the review form and submit
@@ -251,8 +251,8 @@ whenever possible. However, if authors are being unresponsive or unreasonable,
 feel free to post a comment stating a badge cannot be awarded unless the authors
 take the specified steps in time by the deadline.
 
-HotCRP allows you to rate your fellow evaluators’ reviews. If you think a review
-is well done, don’t hesitate to add a positive vote! If you think a review could
+HotCRP allows you to rate your fellow evaluators' reviews. If you think a review
+is well done, don't hesitate to add a positive vote! If you think a review could
 use improvement, you can leave a negative vote and a reviewer discussion comment
 explaining your thoughts.
 

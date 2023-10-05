@@ -12,21 +12,23 @@ your artifact.
 Please see our [tips](tips) page for insights on how to build great research
 artifacts.
 
-Finally submit your artifact and its appendix via a HotCRP system whose link will be made available soon.
+Finally submit your artifact and its appendix via HotCRP:
+- [Summer Deadline](https://sec24summerae.usenix.hotcrp.com/)
 
-If you have any questions about how best to package your artifact, contact the
-AEC chairs.
+If you have any questions about how best to package your artifact, contact [the
+AEC chairs](mailto:sec24aec@usenix.org).
 
 *Destructive Artifacts*: Some artifacts may attempt to perform malicious or
 destructive operations by design. These cases should be boldly and explicitly
 flagged in detail at artifact submission time so the AEC can take appropriate
-precautions before installing and running these artifacts. Please contact the
+precautions before installing and running these artifacts. Please check the
+relevant box in the submission form, and contact the
 AEC chairs if you believe that your artifacts fall into this category.
 
-*Camera-Ready Submission Instructions*: After an artifact evaluation concluded,
+*Camera-Ready Submission Instructions*: After the artifact evaluation is concluded,
 we will collect a camera-ready version of all artifacts receiving at least one
 badge. This includes information about the artifact location, the appendix,
-and similar supplemental material. The instructions will be shared via eMail
+and similar supplemental material. The instructions will be shared via email
 when the badge decisions are announced.
 
 ## Packaging
@@ -60,15 +62,15 @@ formats as well):
   device. VPN/SSH-based access to the device might be an option (in that case,
   please provide the SSH private access key directly in your submission to
   reduce time to gain access to hardware).
+  Use the "Artifact access type" item on the submission form to indicate whether you will make compute resources available.
 
 ## Artifact Storage
 
 Great artifacts are easy to find and stored for a long time. The archived copy
 of the artifacts (necessary to qualify for the Artifacts Available badge) must
 be accessible via a stable reference or DOI. For this purpose, we recommend
-Zenodo, but other valid hosting options include institutional and third-party
-digital repositories (e.g., [Zenodo](https://zenodo.org/),
-[FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/),
+[Zenodo](https://zenodo.org/), but other valid hosting options include institutional and third-party
+digital repositories (e.g., [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/),
 [Software Heritage](https://archive.softwareheritage.org/),
 [GitHub](https://github.com/), or [GitLab](https://about.gitlab.com/). For
 repositories that can evolve over time (e.g., GitHub), a stable reference to the
@@ -98,26 +100,26 @@ The intention for the artifact appendix is to be published in conjunction with
 your artifact. A template for the artifact appendix can be found here: [LaTeX
 Template](appendix/usesec24-ae-latex.zip) and [PDF Example](appendix/usesec24-appendix.pdf).
 
-**Artifact Appendices are recommended to be 3 pages max.**
+**Artifact Appendices are recommended to be at most 3 pages.**
 
-### usenixbadges.sty --- affix USENIX Artifact Evaluation badges
+### `usenixbadges.sty` --- affix USENIX Artifact Evaluation badges
 
 The `usenixbadges` LaTeX style file affixes USENIX Artifact Evaluation badges to
 the front page of a USENIX-formatted paper (or standalone Appendix). You must
 use it to add badges to your final (camera-ready) artifact appendix. You may
 also want to use it to add the badges to a self-hosted USENIX Security paper as
-well (which we recommend having the artifact appendix appended at the
+well (which we recommend has the artifact appendix appended at the
 end). Download the [usenixbadges](appendix/usenix24-badges.zip) package and follow the
 instructions below.
 
-#### INSTALLATION
+#### Installation
 
 Put `usenixbadges.sty` and the `usenixbadges-*.pdf` graphics files in the
 directory that contains the LaTeX source for your paper.  (Really, you can put
 them anywhere in LaTeX's search path, but the simplest thing is to put the files
 in the same directory as your paper's LaTeX source files.)
 
-#### USAGE
+#### Usage
 
 In the preamble of your LaTeX document, insert a line like this:
 
@@ -141,10 +143,10 @@ Example:
 
 Tips:
 
-In your LaTeX document, the `\usepackage[...]{usenixbadges}` directive must come
+* In your LaTeX document, the `\usepackage[...]{usenixbadges}` directive must come
 after `\documentclass` and before `\begin{document}`.
 
-If your LaTeX document has many `\usepackage` directives, put
+* If your LaTeX document has many `\usepackage` directives, put
 `\usepackage[...]{usenixbadges}` near the end of those.  This may avoid problems
 relating to conflicting options for the `graphicx` package.
 

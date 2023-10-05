@@ -12,8 +12,8 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 
 ## Artifact Evaluation Publication Chair
 
-To be decided
+* [Victor Le Pochat](https://lepoch.at/) (KU Leuven)
 
 ## Artifact Evaluation Committee
 
-To be decided
+To be added.

@@ -11,7 +11,7 @@ benchmarks, and so on.
 If you are interested in joining the artifact evaluation committee (AEC), please
 fill out the form below. We expect that the AEC will consist of experienced
 graduate students, postdocs, and researchers. The workload is no more than 1
-review (typically around 10-15 hours per submission cycle between Artifact
+review per cycle (typically around 10-15 hours per submission cycle between Artifact
 Submissions and Decisions). AEC members will serve for all three review cycles
 for USENIX Security 2024 (single-cycle exceptions are possible if communicated
 to the chairs at nomination time or well ahead of the submission cycle).
@@ -36,7 +36,6 @@ How to Apply
 ------------
 
 If you are interested in becoming a part of the AEC, please complete **[this
-online form](https://forms.gle/vg5shwVUyePVD7Pf6)**. Deadline: **September 28th,
-2023 **.
+online form](https://forms.gle/vg5shwVUyePVD7Pf6)**. 
 
 You can reach the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org) with any questions.
