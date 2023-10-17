@@ -27,12 +27,14 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Luca Baldesi, _University of California, Irvine_  
 * Hannaneh Barahouei Pasandi, _University of California, Berkeley_  
 * Yohan Beugin, _University of Wisconsin—Madison_  
-* Evangelos Bitsikas, _Northeastern University_  
+* Evangelos Bitsikas, _Northeastern University_
+* Jakob Bleier, _Technische Universität Wien_    
 * Clemens-Alexander Brust, _DLR Institute of Data Science_  
 * Jiahao Cao, _Tsinghua University_  
 * Yuanhaur Chang, _Washington University in St. Louis_  
 * Mohamed Hashim Changrampadi, _Chalmers University of Technology_  
-* Kevin Cheang, _Amazon Web Services_  
+* Kevin Cheang, _Amazon Web Services_
+* Chen Chen, _Texas A&M University_    
 * Wei Chen, _The Hong Kong University of Science and Technology_  
 * Xiaoqi Chen, _Princeton University_  
 * Yanzuo Chen, _The Hong Kong University of Science and Technology_  
@@ -52,7 +54,8 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Chuanpu Fu, _Tsinghua University_  
 * Alexander Gaidis, _Brown University_  
 * Lukas Gerlach, _CISPA Helmholtz Center for Information Security_  
-* Shlok Gilda, _University of Florida_  
+* Shlok Gilda, _University of Florida_
+* Ravi Prakash Giri, _Meta_  
 * Sindhu Reddy Kalathur Gopal, _University of Wyoming_  
 * Sanket Goutam, _Stony Brook University_  
 * Ziyi Guo, _Northwestern University_  
@@ -101,7 +104,8 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Eric Pauley, _University of Wisconsin—Madison_  
 * Deepak Pillai, _University of Adelaide_  
 * Imranur Rahman, _North Carolina State University_  
-* Mirza Masfiqur Rahman, _Purdue University_  
+* Mirza Masfiqur Rahman, _Purdue University_
+* Vidya Lakshmi Rajagopalan, _Stevens Institute of Technology_    
 * Prashant Rajput, _New York University Abu Dhabi_  
 * Jenni Reuben  
 * Ritik Roongta, _New York University_  
@@ -113,13 +117,15 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Benedict Schlüter, _ETH Zurich_  
 * Till Schlüter, _CISPA Helmholtz Center for Information Security_  
 * Christoph Sendner, _University of Würzburg_  
-* Amir Shahatit, _New York University_  
+* Amir Shahatit, _New York University_
+* Salvatore Signorello, _Telefonica Research_
 * Sachin Kumar Singh, _University of Utah_  
 * Johnny So, _Stony Brook University_  
 * Avinash Sudhodanan, _HUMAN Security_  
 * Yuqiang Sun, _Nanyang Technological University_  
 * Leon Trampert, _CISPA Helmholtz Center for Information Security_  
-* Billy Tsouvalas, _Stony Brook University_  
+* Billy Tsouvalas, _Stony Brook University_
+* Arturo Villacañas, _CISPA Helmholtz Center for Information Security_  
 * Kevin van Liebergen, _IMDEA Software Institute_  
 * Ryan Vrecenar, _Sandia National Laboratories_  
 * Jinwen Wang, _Washington University in St. Louis_  
@@ -129,9 +135,11 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Qi Xia, _The University of Texas at San Antonio_  
 * Jiacen Xu, _University of California, Irvine_  
 * Jinyan Xu, _Zhejiang University_  
-* Yibin Xu, _University of Copenhagen_  
+* Yibin Xu, _University of Copenhagen_
+* Jiongchi Yu, _Singapore Management University_   
 * Zheng Yu, _Northwestern University_  
-* Bowen Zhang, _The Hong Kong University of Science and Technology_  
+* Bowen Zhang, _The Hong Kong University of Science and Technology_
+* Kunsong Zhao, _The Hong Kong Polytechnic University_  
 * Jingyao Zhang, _University of California, Riverside_  
 * Menghao Zhang, _Tsinghua University_  
 * Mengya Zhang, _The Ohio State University_  
