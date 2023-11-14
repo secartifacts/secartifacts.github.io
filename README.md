@@ -9,14 +9,23 @@ This repository includes the sources for Jekyll to render the HTML pages.
 
 ## Contributing
 
+You can contribute to this website and repository via pull requests. 
 Please fork the [GitHub repository](https://github.com/secartifacts/secartifacts.github.io),
-make your changes, and submit them via a pull request.
-In the PR please describe your changes and any reasons for the changes.
+modify the respective files, and submit a pull request from your personal branch.
+In the pull request, please describe your changes and any reasons for the changes.
 Once reviewed it will be merged and available on the secartifacts website.
 
-You have two options to preview changes: configure your forked repository on GitHub to use your
-branch for GitHub Pages and view it at `your_username.github.io/secartifacts.github.io`,
-or install Jekyll and Bundler locally then run `bundle exec jekyll serve` at the root of the repository.
+
+We ask you to build the repository and preview your changes before submitting the pull request.
+You have three options to preview changes: 
+* configure your forked repository on GitHub to use your branch for GitHub Pages
+  and view it at `your_username.github.io/secartifacts.github.io`
+* install Jekyll and Bundler locally then run `bundle exec jekyll serve` at the root of the repository
+* build the repository via [jekyll's docker container](https://github.com/envygeeks/jekyll-docker), for example using
+  the following command to start a jekyll server on [http://localhost:4000/](http://localhost:4000/):
+  ``` sh
+  docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
+  ```
 
 ## Adding an additional conference
 
@@ -37,16 +46,3 @@ The folder name must be the exact conference name followed by the year such as `
 Pages are in Kramdown ([cheat sheet](https://kramdown.gettalong.org/quickref.html)).
 
 To change the order of items in the left sidebar, change the `order` property in the front matter.
-
-## Contribute to Secartifacts
-
-You can contribute to this website and repository via pull requests. Please fork the repository,
-modify the respective files, and submit a pull request with you personal branch.
-
-We ask you to build the repository before submitting the PR. The easiest way to build the repository is
-via [jekyll's docker container](https://github.com/envygeeks/jekyll-docker). For example using
-the following command to start a jekyll server on [http://localhost:4000/](http://localhost:4000/).
-
-``` sh
-docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll jekyll serve
-```
