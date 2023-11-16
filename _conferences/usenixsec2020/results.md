@@ -3,10 +3,10 @@ title: Results
 order: 20
 artifacts:
 
-  - title: "Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries"
+  - title: "Big Numbers - Big Troubles: Systematically Analyzing Nonce Leakage in (EC)DSA Implementations"
     badges: "Artifact Evaluated"
     artifact_url: "https://github.com/Fraunhofer-AISEC/DATA"
-    paper_url: "https://www.usenix.org/system/files/sec20-suya.pdf"
+    paper_url: "https://www.usenix.org/system/files/sec20-weiser.pdf"
 
   - title: "PHMon: A Programmable Hardware Monitor and Its Security Use Cases"
     badges: "Artifact Evaluated"
