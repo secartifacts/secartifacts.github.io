@@ -37,9 +37,9 @@ actionable feedback to enable this. Artifacts should only "miss" badges if there
 was not enough time to reasonably address the evaluators' concerns, or if the
 authors were unresponsive or unreasonable. Note that authors will be able to
 update their artifacts with no restrictions in response to your comments (e.g.,
-to fix bugs). Authors can submit artifact/appendix updates through external
-repositories rather than HotCRP. We'll collect the final appendix (and stable
-reference) via HotCRP again after finalizing decisions.
+to fix bugs). Authors can submit artifact/appendix updates through comments on
+HotCRP. We will collect the final camera-ready appendix (and stable
+reference) via a final submission to HotCRP after finalizing decisions.
 
 The papers under evaluation have already been accepted by the technical program
 committee, so you do not need to evaluate their scientific soundness. However,
@@ -104,22 +104,29 @@ documentation of the artifact. Any errors you find or missing information should
 be documented and communicated as early as possible to the authors. They will
 then update the artifact or appendix. The badge decision is made based on the
 last submitted version of the artifact and appendix and should be independent of
-how many problems you ran into or changes were needed.
+how many problems you ran into or whether changes were needed.
 
 
 ## Evaluation setups
 
-You can evaluate artifacts on various setups, in order of preference:
+You can evaluate artifacts on various setups.
+The authors will mark the available setup in the "Artifact access type" field
+of their submission, and provide additional instructions in the "Artifact access"
+field.
+The setups, in order of preference:
 
-* Your own machine, if the artifact supports it
-   * Even if the artifact requires a particular OS or multiple machines, you may
+* Your own machine ("Evaluator-owned" type), if the artifact supports it
+  * Even if the artifact requires a particular OS or multiple machines, you may
      be able to run it locally via Docker (e.g. see [this
      repo](https://github.com/SolalPirelli/docker-artifact-eval)) or using
      virtual machines such as with VirtualBox
-* Any servers with beefy/special hardware you may have access to, for artifacts
-  that could benefit from this
-* The artifact authors' machines, accessed via SSH or such, for artifacts that
+  * Also consider any servers with beefy/special hardware you may have access to, 
+    for artifacts that could benefit from this
+* The artifact authors' machines ("Author-owned" type), 
+  accessed via SSH or such, for artifacts that
   cannot run anywhere else due to hardware dependencies
+* Academic clouds such as Cloudlab or Chameleon ("Academic Cloud" type), 
+  which the authors should set up and give you credentials for
 * Commercial clouds such as AWS or Azure, but only if absolutely necessary and
   the authors are willing to pay for it; in that case, please agree with the
   authors on a protocol in which you agree to spawn and tear down machines to
@@ -147,7 +154,7 @@ profile.
 
 ## Initial "kick the tires" phase
 
-Once you have been assigned artifacts comes the initial "kick the tires" period.
+Once you have been assigned artifacts, the initial "kick the tires" period starts.
 The goal of this period is to quickly determine whether you have everything you
 need for a full review: the artifact itself, any necessary hardware or other
 dependencies, and a plan on how you will evaluate the artifact. If that is not
@@ -168,31 +175,29 @@ some artifacts may not be able to reproduce everything their paper contains.
 Before starting the evaluation, consider the following points and ideally share
 the evaluation plan with the authors:
 
-
-Before starting the evaluation, consider the following points and ideally share
-the evaluation plan with the authors:
-* Whether you have everything you need to do the evaluation, and if not, what is missing including:
-   * Access to the necessary hardware owned by you, by the authors
+* Whether you have everything you need to do the evaluation, and if not, what is missing, including:
+   * Access to the necessary hardware owned by you or by the authors
    * For artifacts requesting the "functional" badge, documentation and full source code as mentioned
      in [the checklist](tips#artifact-functional), and whether the code compiles
    * For artifacts requesting the "reproduced" badge, additionally the scripts to run the experiments and generate figures as mentioned
      in [the checklist](tips#results-reproduced)
 * A plan on how you will evaluate the artifact during the review period:
-s   * Time frames of when experiments will be run in case hardware is shared
+   * Time frames of when experiments will be run in case hardware is shared
 
 ## Reviewing artifacts
 
 For each artifact you are assigned to, you will produce one review explaining
 which badges you believe should be awarded and why or why not. You will work
 with the authors to produce your review, as this is a cooperative process.
-Authors are a resource you can use, exclusively through HotCRP, if you have
+Authors are a resource you can use, exclusively through HotCRP comments, if you have
 trouble with an artifact or if you need more details about specific portions of
 an artifact.
 
 There is an example review at the end of this guide.
 
-First, (re-)read the [page on badges](badges).The checklists are particularly
-important: artifacts that meet these requirements should get the corresponding
+First, (re-)read the [page on badges](badges). 
+The [checklists](tips#checklists) are particularly important and useful: 
+artifacts that meet these requirements should get the corresponding
 badges, while artifacts that do not should either justify why or not get the
 badges. If an artifact does not satisfy a checklist but the authors provide a
 good reason as to why they should get the badge anyway, use your judgment based
@@ -259,7 +264,7 @@ explaining your thoughts.
 ## Example review
 
 We provide here an example review for a fictitious artifact/paper.
-This review started by copy-pasting each point from the badge checklists, then modifying the text to suit the artifact and
+This review started by copy-pasting each point from the badge [checklists](tips#checklists), then modifying the text to suit the artifact and
 starting each point with one of ✔ (= yes), ❌ (= no), or ⚠ (= yes, but has issues). For the "Results Reproduced" badges,
 if results differ from the original in any way it's good to explain how, even if the badge should be awarded.
 Remember that on HotCRP you can use Markdown for headings, lists, tables, and so on.
@@ -274,7 +279,7 @@ I suggest awarding the badge.
 
 ### Artifact Functional
 
-- ❌ The artifact 's "read me" file is missing some information:
+- ❌ The artifact's "read me" file is missing some information:
   - ✔ It has a description
   - ✔ It has compilation and running instructions
   - ✔ It has usage instructions to run experiments

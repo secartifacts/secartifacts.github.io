@@ -24,7 +24,7 @@ Here are some general tips to make life easier for both artifact authors and eva
   Log potential issues, such as an optional but recommended library not being present.
 
 - **Measure resource use** using tools such as `mpstat`, `iostat`, `vmstat`, and `ifstat` to measure CPU, I/O, memory, and network use respectively on Linux,
-  or `/usr/bin/time -v` to measures the time and memory used by a command also on Linux.
+  or `/usr/bin/time -v` to measure the time and memory used by a command also on Linux.
   This lets users know what to expect.
 
 ## Checklists
