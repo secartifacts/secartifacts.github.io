@@ -10,6 +10,7 @@ artifacts:
 
   - title: "A better zip bomb"
     badges: "Artifact Evaluated"
+    artifact_url: "https://www.bamsoftware.com/hacks/zipbomb/"
     paper_url: "https://www.usenix.org/system/files/woot19-paper_fifield_0.pdf"
 
   - title: "Automatic Wireless Protocol Reverse Engineering"
