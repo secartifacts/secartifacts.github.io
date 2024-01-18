@@ -88,6 +88,12 @@ artifacts:
     paper_url: https://www.usenix.org/conference/usenixsecurity24/presentation/liu-fengrun
 
 -   cycle: sec24summerae
+    title: '“I chose to fight, be brave, and to deal with it”: Threat Experiences and Security Practices of Pakistani Content Creators'
+    badges: 'Badges: Available'
+    artifact_url: https://github.com/usrgroup/USENIX24-pakistancreators/tree/d2a29e7e506824b4cc23e7cf1fb5ee2c7958164c
+    appendix_url: appendix-files/sec24summerae-final23.pdf
+
+-   cycle: sec24summerae
     title: 'Machine Learning needs Better Randomness Standards: Randomised Smoothing and PRNG-based attacks'
     badges: 'Badges: Available'
     artifact_url: https://github.com/pranav-dahiya/numpy/tree/USENIX_final
@@ -97,8 +103,8 @@ artifacts:
 ---
 ### Summer cycle
 
-* Total: 12
-* Artifacts Available: 12
+* Total: 13
+* Artifacts Available: 13
 * Artifacts Functional: 10
 * Results Reproduced: 7
 
