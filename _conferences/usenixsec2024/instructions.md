@@ -13,7 +13,8 @@ Please see our [tips](tips) page for insights on how to build great research
 artifacts.
 
 Finally submit your artifact and its appendix via HotCRP:
-- [Summer Deadline](https://sec24summerae.usenix.hotcrp.com/)
+- [Summer cycle](https://sec24summerae.usenix.hotcrp.com/)
+- [Fall cycle](https://sec24fallae.usenix.hotcrp.com/)
 
 If you have any questions about how best to package your artifact, contact [the
 AEC chairs](mailto:sec24aec@usenix.org).
