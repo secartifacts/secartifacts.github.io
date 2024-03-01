@@ -9,7 +9,7 @@ issues:
       - title: "MCRank: Monte Carlo Key Rank Estimation for Side-Channel Security Evaluations"
         artifact_url: https://artifacts.iacr.org/tches/2023/a2/
       - title: "SoK: SCA-secure ECC in software – mission impossible?"
-        artifact_url: https://artifacts.iacr.org/tches/2023/a3/
+        artifact_url: https://artifacts.iacr.org/tches/2023/a4/
   - name: Issue 2
     artifacts:
       - title: On Protecting SPHINCS+ Against Fault Attacks
