@@ -83,20 +83,20 @@ We run an automated check on your HotCRP submission and artifact appendix PDF. T
 
 | Issue | Solution |
 |-------|----------|
-| Submission {submission_id} does not have a correct title - it is missing the `USENIX Security '24 Artifact Appendix` prefix | Add the `USENIX Security '24 Artifact Appendix` prefix to your paper title. |
-| Submission {submission_id} appears to use strange sectioning | Please verify that you use the sections as listed in the appendix template. |
-| Submission {submission_id} does not have a section {section} | Please verify that you include the sections as listed in the appendix template and as required for your requested badges. |
-| Submission {submission_id} does not have the correct version (expected {expected_version}) | Please update your appendix template to the latest version. | 
-| Submission {submission_id} has a commit GitHub link in the appendix | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You have included a `commit` link instead. |
-| Submission {submission_id} has a commit GitHub link as HotCRP stable URL | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You have included a `commit` link instead. |
-| Submission {submission_id} has a non-stable GitHub link (tree/tag) in the appendix | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You may have included a link to the root of the repository or a `commit` link instead. |
-| Submission {submission_id} has a non-stable GitHub link (to the main branch) in the appendix | Your `tree`/`tag` link points to the main branch. It should point to the tree or tag for a specific commit or version instead. |
-| Submission {submission_id} does not have a HotCRP stable URL | Please add a stable URL to your HotCRP submission. | 
-| Submission {submission_id} does not have a valid HotCRP stable URL | Your HotCRP stable URL is not a valid URL (starting with `http`). We automatically extract artifact URLs to list them on the [results](results) page, so we appreciate one specific URL that should be listed there. |
-| Submission {submission_id} does not contain the HotCRP stable URL in the appendix | We did not find your HotCRP stable URL in your appendix PDF. Please check that the URLs match and that the stable URL is included in the PDF as a `\url{}`. |
-| Submission {submission_id} has HotCRP format error | HotCRP reported a formatting issue. Please fix it. |
-| Submission {submission_id} has page numbers | Your camera-ready appendix should not contain page numbers. Please remove them. |
-| Submission {submission_id} does not have the {badge} badge embedded | You were awarded this badge, yet its image was not embedded in the camera-ready appendix. Please add it. |
-| Submission {submission_id} has the {badge} badge embedded but it was not awarded | You were not awarded this badge, yet its image was embedded in the camera-ready appendix. Please remove it. |
+| Submission `{submission_id}` does not have a correct title - it is missing the `USENIX Security '24 Artifact Appendix` prefix | Add the `USENIX Security '24 Artifact Appendix` prefix to your paper title. |
+| Submission `{submission_id}` appears to use strange sectioning | Please verify that you use the sections as listed in the appendix template. |
+| Submission `{submission_id}` does not have a section `{section}` | Please verify that you include the sections as listed in the appendix template and as required for your requested badges. |
+| Submission `{submission_id}` does not have the correct version (expected `{expected_version}`) | Please update your appendix template to the latest version. | 
+| Submission `{submission_id}` has a commit GitHub link in the appendix | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You have included a `commit` link instead. |
+| Submission `{submission_id}` has a commit GitHub link as HotCRP stable URL | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You have included a `commit` link instead. |
+| Submission `{submission_id}` has a non-stable GitHub link (tree/tag) in the appendix | Your artifact should be located at a *stable* URL, i.e., for GitHub one that points to a `tree` or `tag`. You may have included a link to the root of the repository or a `commit` link instead. |
+| Submission `{submission_id}` has a non-stable GitHub link (to the main branch) in the appendix | Your `tree`/`tag` link points to the main branch. It should point to the tree or tag for a specific commit or version instead. |
+| Submission `{submission_id}` does not have a HotCRP stable URL | Please add a stable URL to your HotCRP submission. | 
+| Submission `{submission_id}` does not have a valid HotCRP stable URL | Your HotCRP stable URL is not a valid URL (starting with `http`). We automatically extract artifact URLs to list them on the [results](results) page, so we appreciate one specific URL that should be listed there. |
+| Submission `{submission_id}` does not contain the HotCRP stable URL in the appendix | We did not find your HotCRP stable URL in your appendix PDF. Please check that the URLs match and that the stable URL is included in the PDF as a `\url{}`. |
+| Submission `{submission_id}` has HotCRP format error | HotCRP reported a formatting issue. Please fix it. |
+| Submission `{submission_id}` has page numbers | Your camera-ready appendix should not contain page numbers. Please remove them. |
+| Submission `{submission_id}` does not have the `{badge}` badge embedded | You were awarded this badge, yet its image was not embedded in the camera-ready appendix. Please add it. |
+| Submission `{submission_id}` has the `{badge}` badge embedded but it was not awarded | You were not awarded this badge, yet its image was embedded in the camera-ready appendix. Please remove it. |
 
 Note that the automated checks are not flawless, so the issue may be a false positive or is not actually applicable to your submission.
