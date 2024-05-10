@@ -1,11 +1,11 @@
 ---
 title: Results
 order: 70
-available_img: "usenixbadges-available.png"
+available_img: "usenixbadges-available.svg"
 available_name: "Artifacts Available (v1.1)"
-functional_img: "usenixbadges-functional.png"
+functional_img: "usenixbadges-functional.svg"
 functional_name: "Artifacts Evaluated - Functional (v1.1)"
-reproduced_img: "usenixbadges-reproduced.png"
+reproduced_img: "usenixbadges-reproduced.svg"
 reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
@@ -295,25 +295,23 @@ of Cross-privilege Spectre v2'
 
 
 ---
-### Summer cycle
-
-* Total: 13
-* Artifacts Available: 13
-* Artifacts Functional: 10
-* Results Reproduced: 7
+* Total: 40
+* Artifacts Available: 40
+* Artifacts Functional: 34
+* Results Reproduced: 30
 
 <table>
   <thead>
     <tr>
       <th>Paper</th>
-      <th>Avail.</th>
-      <th>Funct.</th>
-      <th>Repro.</th>
+      <th width="75px">Avail.</th>
+      <th width="75px">Funct.</th>
+      <th width="75px">Repro.</th>
       <th>Available At</th>
     </tr>
   </thead>
   <tbody>
-  {% assign sorted_artifacts = page.artifacts | where: "cycle", "sec24summerae" | sort: "title" %}
+  {% assign sorted_artifacts = page.artifacts | sort: "title" %}
   {% for artifact in sorted_artifacts %}
     <tr>
       <td>
@@ -323,19 +321,19 @@ of Cross-privilege Spectre v2'
           {{ artifact.title }}
         {% endif %}
       </td>
-      <td width="62px">
+      <td width="75px">
         {% if artifact.badges contains "Available" %}
-          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px">
+          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}">
         {% endif %}
       </td>
-      <td width="62px">
+      <td width="75px">
         {% if artifact.badges contains "Functional" %}
-          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px">
+          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}">
         {% endif %}
       </td>
-      <td width="62px">
+      <td width="75px">
         {% if artifact.badges contains "Reproduced" %}
-          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px">
+          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}">
         {% endif %}
       </td>
       <td width="120px">
@@ -350,6 +348,6 @@ of Cross-privilege Spectre v2'
         {% endif %}
       </td>
     </tr>
-    {% endfor %}
+  {% endfor %}
   </tbody>
 </table>
