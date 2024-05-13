@@ -565,7 +565,7 @@ artifacts:
     appendix_url: appendix-files/sec23winterae-final26.pdf
     paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/seidel
 
--   title: 'BugHog'
+-   title: "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs"
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://github.com/DistriNet/BugHog/tree/usenix23-artifact-stable
     appendix_url: appendix-files/sec23winterae-final28.pdf
@@ -847,7 +847,7 @@ artifacts:
     appendix_url: appendix-files/sec23winterae-final84.pdf
     paper_url: https://www.usenix.org/conference/usenixsecurity23/presentation/falk
 
--   title: 'SAFER : Efficient and Error-Tolerant Binary Instrumentation'
+-   title: 'SAFER: Efficient and Error-Tolerant Binary Instrumentation'
     badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: http://seclab.cs.sunysb.edu/seclab/safer
     appendix_url: appendix-files/sec23winterae-final85.pdf
