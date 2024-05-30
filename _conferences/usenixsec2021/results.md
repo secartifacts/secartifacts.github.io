@@ -14,6 +14,7 @@ artifacts:
 
   - title: "Adversarial Policy Training against Deep Reinforcement Learning"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/psuwuxian/rl_attack"
     paper_url: "https://www.usenix.org/system/files/sec21summer_wu-xian.pdf"
 
   - title: "Blind Backdoors in Deep Learning Models"
@@ -28,14 +29,17 @@ artifacts:
 
   - title: "CADE: Detecting and Explaining Concept Drift Samples for Security Applications"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/whyisyoung/CADE"
     paper_url: "https://www.usenix.org/system/files/sec21-yang-limin.pdf"
 
   - title: "Card Brand Mixup Attack: Billions of EMV Cards Pwned"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/EMVrace/EMVerify-PAN-routing"
     paper_url: "https://www.usenix.org/system/files/sec21-basin.pdf"
 
   - title: "Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/mc2-project/cerebro"
     paper_url: "https://www.usenix.org/system/files/sec21-zheng.pdf"
 
   - title: "Disrupting Continuity of Apple’s Wireless Ecosystem Security: New Tracking, DoS, and MitM Attacks on iOS and macOS Through Bluetooth Low Energy, AWDL, and Wi-Fi"
@@ -50,6 +54,7 @@ artifacts:
 
   - title: "Evaluating In-Workflow Messages for Improving Mental Models of End-to-End Encryption"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/SP2-MC2/e2ee"
     paper_url: "https://www.usenix.org/system/files/sec21-akgul.pdf"
 
   - title: "Fingerprinting in Style: Detecting Browser Extensions via Injected Style Sheets"
@@ -68,6 +73,7 @@ artifacts:
 
   - title: "Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/christoftorres/Frontrunner-Jones"
     paper_url: "https://www.usenix.org/system/files/sec21-torres.pdf"
 
   - title: "Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical"
@@ -77,6 +83,7 @@ artifacts:
 
   - title: "MBA-Blast: Unveiling and Simplifying Mixed Boolean-Arithmetic Obfuscation"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/softsec-unh/MBA-Blast"
     paper_url: "https://www.usenix.org/system/files/sec21-liu-binbin.pdf"
 
   - title: "MIRAGE: Mitigating Conflict-Based Cache Attacks with a Practical Fully-Associative Design"
@@ -119,14 +126,17 @@ artifacts:
 
   - title: "Saphire: Sandboxing PHP Applications with Tailored System Call Allowlists"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/BUseclab/saphire"
     paper_url: "https://www.usenix.org/system/files/sec21-bulekov.pdf"
 
   - title: "SEApp: Bringing Mandatory Access Control to Android Apps"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/matthewrossi/seapp"
     paper_url: "https://www.usenix.org/system/files/sec21-rossi.pdf"
 
   - title: "SELECTIVETAINT: Efficient Data Flow Tracking With Static Binary Rewriting"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/OSUSecLab/SelectiveTaint"
     paper_url: "https://www.usenix.org/system/files/sec21-chen-sanchuan.pdf"
 
   - title: "SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations"
@@ -149,10 +159,12 @@ artifacts:
 
   - title: "Why TLS is better without STARTTLS: A Security Analysis of STARTTLS in the Email Context"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/FHMS-ITS/EAST"
     paper_url: "https://www.usenix.org/system/files/sec21-poddebniak.pdf"
 
   - title: "YarIx: Scalable YARA-based Malware Intelligence"
     badges: "Artifact Evaluated"
+    artifact_url: "https://github.com/mbrengel/yarix"
     paper_url: "https://www.usenix.org/system/files/sec21-brengel.pdf"
 
 
