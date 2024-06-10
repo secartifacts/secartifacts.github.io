@@ -15,6 +15,7 @@ artifacts.
 Finally submit your artifact and its appendix via HotCRP:
 - [Summer cycle](https://sec24summerae.usenix.hotcrp.com/)
 - [Fall cycle](https://sec24fallae.usenix.hotcrp.com/)
+- [Winter cycle](https://sec24winterae.usenix.hotcrp.com/)
 
 If you have any questions about how best to package your artifact, contact [the
 AEC chairs](mailto:sec24aec@usenix.org).
