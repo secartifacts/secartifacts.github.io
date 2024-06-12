@@ -291,14 +291,26 @@ of Cross-privilege Spectre v2'
     appendix_url: appendix-files/sec24fallae-final35.pdf
     paper_url: https://www.usenix.org/conference/usenixsecurity24/presentation/luick
 
+-   cycle: sec24fallae
+    title: 'ENG25519: Faster TLS 1.3 handshake using optimized X25519 and Ed25519'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://github.com/Ji-Peng/eng25519_artifact/tree/usenix_security2024
+    appendix_url: appendix-files/sec24fallae-final7.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-jipeng
 
+-   cycle: sec24fallae
+    title: 'SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://github.com/sys-ris3/ML_Extraction_Sok/tree/0d19edab5b5bd4bad4562543f4c1457be3c30852
+    appendix_url: appendix-files/sec24fallae-final36.pdf
+    paper_url: https://www.usenix.org/conference/usenixsecurity24/presentation/nayan
 
 
 ---
-* Total: 40
-* Artifacts Available: 40
-* Artifacts Functional: 34
-* Results Reproduced: 30
+* Total: 42
+* Artifacts Available: 42
+* Artifacts Functional: 36
+* Results Reproduced: 32
 
 <table>
   <thead>
