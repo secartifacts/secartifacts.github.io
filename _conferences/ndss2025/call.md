@@ -29,13 +29,13 @@ Submission page: [https://ndss25ae-summer.hotcrp.com/](https://ndss25ae-summer.h
 * Camera-ready deadline for papers: Thu, 5 Dec 2024
 
 
-Submission page: TBA
+Submission page: [https://ndss25ae-fall.hotcrp.com/](https://ndss25ae-fall.hotcrp.com/)
 
 ## Evaluation process
 
 Authors are invited to submit artifacts soon after receiving the paper notification. At least one contact author must be reachable and respond to questions in a timely manner during the entire evaluation period to allow round trip communications between the AEC and the authors. Artifacts can be submitted only in the AE time frame associated with the paper submission round.
 
-In addition to accepted papers, papers that receive a major or minor revision decision are eligible for AE: at artifact submission time, their authors should justify the necessary changes that they intend to carry out on the initially submitted paper and how such changes relate to the submitted artifact. 
+In addition to accepted papers, papers that receive a major or minor revision decision are eligible for AE: at artifact submission time, their authors should justify the necessary changes that they intend to carry out on the initially submitted paper and how such changes relate to the submitted artifact.
 
 At submission time, authors choose which [*badges*](badges) they want to be evaluated for. Members of the AEC will evaluate each artifact using the artifact appendix and instructions as guides, as detailed later in this page. Evaluators will communicate anonymously with authors through HotCRP to resolve minor issues and ask clarifying questions.
 
