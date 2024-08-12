@@ -51,6 +51,7 @@ Contact the AEC chairs at [sec24aec@usenix.org](mailto:sec24aec@usenix.org).
 * Yuzhou Fang, _University of Southern California_  
 * Yusi Feng, _University of Chinese Academy of Sciences_  
 * Christof Ferreira Torres, _ETH Zurich_  
+* Gertjan Franken, _DistriNet, KU Leuven_
 * Chuanpu Fu, _Tsinghua University_  
 * Alexander Gaidis, _Brown University_  
 * Lukas Gerlach, _CISPA Helmholtz Center for Information Security_  
