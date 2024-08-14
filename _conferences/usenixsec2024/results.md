@@ -534,8 +534,8 @@ artifacts:
 -   cycle: sec24winterae
     title: 'Malla: Demystifying Real-world Large Language Model Integrated Malicious Services'
     badges: 'Badges: Available, Functional, Reproduced'
-    artifact_url: ''
-    appendix_url: ??? (submission sec24winterae:32)
+    artifact_url: https://github.com/idllresearch/malicious-gpt/tree/3666c8b9e5116b4a55c8f0dcd11f6242b7ca8053
+    appendix_url: appendix-files/sec24winterae-final32.pdf
     paper_url: https://www.usenix.org/conference/usenixsecurity24/presentation/lin-zilong
 
 -   cycle: sec24winterae
