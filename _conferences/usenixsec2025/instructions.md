@@ -86,9 +86,7 @@ formats as well):
 
 Great artifacts are easy to find and stored for a long time. The new Open Science policy of USENIX Security mandates sharing of artifacts on a platform that supports permanent access. For this purpose, we recommend
 [Zenodo](https://zenodo.org/). Other valid hosting options include institutional and third-party
-digital repositories (e.g., [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/),
-[Software Heritage](https://archive.softwareheritage.org/)). During artifact submission time, the authors are expected to submit stable references to hosted on such platforms. Please note that artifacts hosted on personal websites or software development repositories such as GitHub are not acceptable for submission.  Since the artifact can potentially evolve during
-the evaluation to address feedback from the reviewers, another (potentially
+digital repositories (e.g., [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/), [Software Heritage](https://archive.softwareheritage.org/)). During artifact submission time, the authors are expected to submit stable references to hosted on such platforms. Please note that artifacts hosted on personal websites or software development repositories such as GitHub are not acceptable for submission.  Since the artifact can potentially evolve during the evaluation to address feedback from the reviewers, another (potentially
 different) stable reference will be later collected for the final version of the
 artifact. We intend to utilize the versioning features supported by the above platforms for this purpose. 
 
@@ -106,7 +104,6 @@ paper. If possible, the appendix should also describe how to compare the results
 of a reproduced experiment to the ones found in the paper (e.g., by providing
 access to the underlying dataset of the results).
 
-The intention for the artifact appendix is to be published in conjunction with
-your artifact. A template for the artifact appendix and additional instructions for formatting it will be made available here later.
+The intention for the artifact appendix is to be published in conjunction with your artifact. A template for the artifact appendix and additional instructions for formatting it will be made available here later.
 
 **Artifact Appendices are recommended to be at most 3 pages.**
