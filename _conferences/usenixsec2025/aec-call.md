@@ -33,6 +33,6 @@ How to Apply
 ------------
 
 If you are interested in becoming a part of the AEC, please complete **[this
-online form](https://forms.gle/vg5shwVUyePVD7Pf6)**. 
+online form](https://forms.gle/Ytus1et7fPKUv7KU7)**. 
 
 You can reach the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org) with any questions.
