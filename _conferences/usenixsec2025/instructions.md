@@ -11,7 +11,7 @@ For each cycle, a single HotCRP instance will be used to manage the AE for both 
 
 **HotCRP links for artifact submission:**
 
-* Cycle-1: https://sec25cycle1ae.usenix.hotcrp.com/
+* Cycle-1: [https://sec25cycle1ae.usenix.hotcrp.com](https://sec25cycle1ae.usenix.hotcrp.com/)
 * Cycle-2 (link will be made available later)
 
 
@@ -23,7 +23,7 @@ The following describes what the authors are expected to do prior to each deadli
 **Phase-1 AE is mandatory for all papers that get accepted to USENIX Security '25**. In this phase, the AEC will assess and ensure that the artifacts are in compliance with the ["Artifacts Available"](badge) badge requirements. The authors need to submit a **permanent link to their artifacts** hosted on recommended platforms (e.g., [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/), [Software Heritage](https://archive.softwareheritage.org/)). The AEC will ensure that all the artifacts that were promised to be made available in the ["Open-Science" section](https://www.usenix.org/conference/usenixsecurity25/submission-policies-and-instructions#:~:text=of%20the%20paper%2C-,one%20additional%20page,-for%20discussing%20ethics) of the submitted paper were made available publicly and permanently. This evaluation will be completed _before the camera-ready versions of the main paper are due_.
 
 Upon successful completion of the AE -- availability verification, the authors have to include:
-- the permanent link to the artifacts repository in the camera-ready version of their paper;
+- the permanent link to their artifacts repository in the camera-ready version of their paper;
 - the "Artifacts Available" badge on the camera-ready version of their paper.
 
 
