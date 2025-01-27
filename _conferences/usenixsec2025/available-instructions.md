@@ -10,7 +10,7 @@ Upon successful completion of the AE -- availability verification, the authors h
 # `usenixbadges.sty` --- affix USENIX AE Available badge
 
 The `usenixbadges` LaTeX style file affixes USENIX Artifact Evaluation
-badges to the front page of your USENIX-formatted paper. You must use it to add the "Available" badge to your final (camera-ready) paper. Download the [usenixbadges](appendix/usenix25-ae-available.zip) package and follow the
+badges to the front page of your USENIX-formatted paper. You must use it to add the "Available" badge to your final (camera-ready) paper. Download the [usenixbadges](usenix25-ae-available.zip) package and follow the
 instructions below.
 
 ## Installation
