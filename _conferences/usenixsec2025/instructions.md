@@ -27,6 +27,7 @@ Upon successful completion of the AE -- availability verification, the authors h
 - the "Artifacts Available" badge on the camera-ready version of their paper.
 
 
+
 ## Phase-2: Artifacts Functional / Results Reproducible
 
 Once the AE process for the mandatory Phase-1 is completed and "Artifacts Available" badge decisions are made, the AE chairs will reopen the HotCRP submission site for Phase-2. **Phase-2 of the AE is optional** and is meant for authors who intend to receive one or both of the following additional badges for their artifacts: ["Artifacts Functional" and "Results Reproducible"](badges). The submission deadline for this phase is _after the camera-ready deadline of the main paper_ to allow the authors some additional time to revise their artifacts for the more stringent requirements of these two badges. However, **we highly recommend that all interested authors start preparing their artifacts for this phase as soon as they receive their paper acceptance notification to allow for sufficient time.**
