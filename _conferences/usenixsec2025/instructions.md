@@ -104,8 +104,7 @@ paper. If possible, the appendix should also describe how to compare the results
 of a reproduced experiment to the ones found in the paper (e.g., by providing
 access to the underlying dataset of the results).
 
-The intention for the artifact appendix is to be published in conjunction with your artifact. The intention for the artifact appendix is to be published in conjunction with
-your artifact on this website. A template for the artifact appendix can be found here: [LaTeX
+The intention for the artifact appendix is to be published in conjunction with your artifact on this website. A template for the artifact appendix can be found here: [LaTeX
 Template](appendix/usenix-security-25-ae-latex.zip) and [PDF Example](appendix/usenix-security-25-appendix.pdf).
 
 **Artifact Appendices are recommended to be at most 3 pages.**
