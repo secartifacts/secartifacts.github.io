@@ -4,7 +4,7 @@ order: 50
 available_img: "ndssbadges_available.png"
 available_name: "Artifacts Available"
 functional_img: "ndssbadges_functional.png"
-functional_name: "Artifacts Evaluated"
+functional_name: "Artifacts Functional"
 reproduced_img: "ndssbadges_reproduced.png"
 reproduced_name: "Artifacts Reproduced"
 
