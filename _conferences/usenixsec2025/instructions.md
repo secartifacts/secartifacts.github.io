@@ -32,8 +32,10 @@ Upon successful completion of the AE -- availability verification, the authors h
 
 Once the AE process for the mandatory Phase-1 is completed and "Artifacts Available" badge decisions are made, the AE chairs will reopen the HotCRP submission site for Phase-2. **Phase-2 of the AE is optional** and is meant for authors who intend to receive one or both of the following additional badges for their artifacts: ["Artifacts Functional" and "Results Reproducible"](badges). The submission deadline for this phase is _after the camera-ready deadline of the main paper_ to allow the authors some additional time to revise their artifacts for the more stringent requirements of these two badges. However, **we highly recommend that all interested authors start preparing their artifacts for this phase as soon as they receive their paper acceptance notification to allow for sufficient time.**
 
-Most of the duration of this phase involves a single-blinded discussion period between the authors and AEC members. During this, the AEC members will work with the authors to help them improve the quality of their artifacts and make them amenable to the badges that they apply for. The AE timeline was set up to ensure approximately four weeks of time are allotted for this important discussion period. Throughout this period, the authors are expected to be available and improve their artifacts as per the feedback from the AEC. To kickstart this evaluation, _authors can **initially** make the artifacts for this phase available on software development repositories (such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)) or Internet-accessible hardware owned/leased by the authors, containers/VMs, or any other reasonable format that enables evaluation_. **An important requirement for this phase is the submission of an [artifact-appendix](#artifact-appendix) document in HotCRP**. The HotCRP submission site will feature additional text fields to help in the AEC assignment process (such as the "artifact-access type" for evaluation), which the authors are expected to update prior to the deadline for Phase 2.
+Most of the duration of this phase involves a single-blinded discussion period between the authors and AEC members. During this, the AEC members will work with the authors to help them improve the quality of their artifacts and make them amenable to the badges that they apply for. The AE timeline was set up to ensure approximately four weeks of time are allotted for this important discussion period. Throughout this period, the authors are expected to be available and improve their artifacts as per the feedback from the AEC. To kickstart this evaluation, _authors can **initially** make the artifacts for this phase available on software development repositories (such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)) or Internet-accessible hardware owned/leased by the authors, containers/VMs, or any other reasonable format that enables evaluation_. 
 
+### Submission
+The submission and evaluation for this phase will take place on the [same HotCRP instance](https://sec25cycle1ae.usenix.hotcrp.com/) as for the availability verification. Please **do not create a new artifact submission** there but **update** the existing submission that you created for the availability verification (Phase-1), by clicking on your existing submission which will now feature new fields for you to update. All these fields will contain the string "(functionality / reproducibility)" to make it clear that it applies to the second phase of AE. **An important requirement for this phase is the submission of an [artifact-appendix](#artifact-appendix) PDF document in HotCRP**. Along with artifact appendix field, the HotCRP submission site also has **five additional text fields** in Phase-2 to help in the AEC assignment process (such as the "artifact-access type" for evaluation), which the authors are expected to update prior to the submission deadline for Phase-2. 
 
 After the discussion period, the AEC members will deliberate on the latest state of the artifacts and write reviews explaining their stance on each of the two badges. After this, the badge notifications will be sent, and the final reviews from the AEC will be released to the authors. The authors will then have about a week of time to consider and incorporate any final suggestions from the AEC's reviews to improve the artifacts as well as the artifact appendix. **The final artifact appendix should then be submitted by the authors and include a link to the evolved artifacts. At this stage, the artifacts should be hosted on recommended platforms that support _permanent storage_** (e.g., Zenodo, FigShare, Dryad, etc., but ***not* GitHub, GitLab, or personal websites**). **Compliance with these policies is mandatory for issuing the "Artifacts Functional" / "Results Reproducible" badges.**  We highly recommend the authors use the "version control" features available on all the recommended platforms such as [Zenodo](https://help.zenodo.org/docs/deposit/manage-versions/), [FigShare](https://help.figshare.com/article/can-i-edit-or-delete-my-research-after-it-has-been-made-public), [Dryad](https://blog.datadryad.org/2024/07/09/for-authors-keep-your-data-current-with-dryads-data-versioning-feature/) for this purpose. As Phase-2 begins only after the main camera-ready paper is due, the use of these versioning features allows future readers of the main paper with links to the initial version to still be able to access the final artifacts. At the same time, this website will also be updated to provide direct links to the final versions of artifacts as well as camera-ready versions of the artifact appendices.
 
@@ -102,6 +104,55 @@ paper. If possible, the appendix should also describe how to compare the results
 of a reproduced experiment to the ones found in the paper (e.g., by providing
 access to the underlying dataset of the results).
 
-The intention for the artifact appendix is to be published in conjunction with your artifact. A template for the artifact appendix and additional instructions for formatting it will be made available here later.
+The intention for the artifact appendix is to be published in conjunction with your artifact on this website. A template for the artifact appendix can be found here: [LaTeX
+Template](appendix/usenix-security-25-ae-latex.zip) and [PDF Example](appendix/usenix-security-25-appendix.pdf).
 
 **Artifact Appendices are recommended to be at most 3 pages.**
+
+## Badges for Artifact Appendix document 
+
+The `usenixbadges` LaTeX style file affixes USENIX Artifact Evaluation badges to
+the front page of a USENIX-formatted paper (or standalone Appendix). You must
+use it to add badges to your final (camera-ready) artifact appendix after Phase-2 AE evaluation. You may
+also want to use it to add the badges to a self-hosted USENIX Security paper as
+well (which we recommend has the artifact appendix appended at the
+end). Download the [usenixbadges](appendix/usenix-security-25-badges.zip) package and follow the
+instructions below.
+
+#### Installation
+
+Put `usenixbadges.sty` and the `usenixbadges-*.pdf` graphics files in the
+directory that contains the LaTeX source for your paper.  (Really, you can put
+them anywhere in LaTeX's search path, but the simplest thing is to put the files
+in the same directory as your paper's LaTeX source files.)
+
+#### Usage
+
+In the preamble of your LaTeX document, insert a line like this:
+
+```
+  \usepackage[<options>]{usenixbadges}
+```
+
+In the options, list the badges that have been awarded to your paper. The
+possible badges are:
+
+  * `available`  --- affix the "Artifacts Available" badge
+  * `functional` --- affix the "Artifacts Functional" badge
+  * `reproduced` --- affix the "Results Reproduced" badge
+
+Example:
+
+```
+  %% Affix the indicated badges to the paper.
+  \usepackage[available,functional]{usenixbadges}
+```
+
+Tips:
+
+* In your LaTeX document, the `\usepackage[...]{usenixbadges}` directive must come
+after `\documentclass` and before `\begin{document}`.
+
+* If your LaTeX document has many `\usepackage` directives, put
+`\usepackage[...]{usenixbadges}` near the end of those.  This may avoid problems
+relating to conflicting options for the `graphicx` package.
