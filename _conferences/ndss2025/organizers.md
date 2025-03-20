@@ -7,7 +7,7 @@ Artifact Evaluation Co-chairs: [Daniele Cono D'Elia](https://www.diag.uniroma1.i
 
 ### Artifact Evaluation Committee
 
-Four members received the Distinguished Evaluator Award :trophy: from the organizers.
+Four members received the Distinguished Evaluator Award 🏆 from the organizers.
 
 * Advije Rizvani (University of Liechtenstein)
 * Ahmed Lekssays (Qatar Computing Research Institute)
@@ -18,7 +18,7 @@ Four members received the Distinguished Evaluator Award :trophy: from the organi
 * Ayomide Akinsanya (Stevens Institute of Technology)
 * Cen Zhang (Nanyang Technological University)
 * CheolJun Park (Kyung Hee University (KHU))
-* Christoph Sendner (University of Würzburg) :trophy:
+* Christoph Sendner (University of Würzburg) 🏆
 * Cristian Assaiante (Sapienza University of Rome)
 * Dipsy Desai (University of Southern California)
 * Dongwei Xiao (The Hong Kong University of Science and Technology)
@@ -44,20 +44,20 @@ Four members received the Distinguished Evaluator Award :trophy: from the organi
 * Nico Heitmann (Paderborn University)
 * Naman Gupta (University of Wisconsin-Madison)
 * Niklas Niere (Paderborn University)
-* Paul Staat (Max Planck Institute for Security and Privacy) :trophy:
+* Paul Staat (Max Planck Institute for Security and Privacy) 🏆
 * Pedro Bernardo (TU Wien)
 * Prajwal Panzade (Old Dominion University)
 * Qifan Zhang (University of California, Irvine)
 * Rajrup Ghosh (University of Southern California)
 * Rishit Saiya (PwC)
 * Ryan Vrecenar (Sandia National Laboratories)
-* Salvatore Signorello (Telefonica Research Spain) :trophy:
+* Salvatore Signorello (Telefonica Research Spain) 🏆
 * Shaofeng Li (Peng Cheng Laboratory)
 * Shenghan Zheng (UC Riverside)
 * Steven Ngo (University of California, Irvine)
 * Tillson Galloway (Georgia Tech)
 * Tolga Atalay (Virginia Tech)
-* Torsten Krauß (University of Würzburg) :trophy:
+* Torsten Krauß (University of Würzburg) 🏆
 * Tristan Benoit (Universität der Bundeswehr München)
 * Vik Vanderlinden (DistriNet, KU Leuven)
 * Vinny Adjibi (Georgia Institute of Technology)
