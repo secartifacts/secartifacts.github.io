@@ -205,6 +205,7 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Torsten Krauß, _University of Würzburg_
 * Tuo Li, _Tsinghua University_
 * Tyler Tucker, _University of Florida_
+* Vaishnavi Raghavajosyula, _Max Planck Institute for Informatics_
 * Vidya Lakshmi Rajagopalan, _Stevens Institute of Technology_
 * Vijayanta Jain, _University of Maine_
 * Wanning Ding, _Syracuse University_
