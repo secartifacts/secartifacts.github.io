@@ -48,7 +48,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * David Balash, _University of Richmond_
 * Devon Tuma, _University of Minnesota_
 * Di Cao, _Swinburne University of Technology_
-* Di Tang, _Indiana University Bloomington_
 * Diksha Goel, _CSIRO's Data61_
 * Dongnan He, _Renmin University of China_
 * Dongwei Xiao, _Hong Kong University of Science and Technology_
@@ -119,7 +118,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Leonhard Balduf, _TU Darmstadt_
 * Linard Arquint, _ETH Zurich_
 * Lingzhi Wang, _Northwestern University_
-* Liron David, _Tel Aviv University_
 * Long Huang, _Louisiana State University_
 * Luca Baldesi, _University of California, Irvine_
 * Lukas Lamster, _Graz University of Technology_
@@ -175,8 +173,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Seyed Behnam andarzian, _Radboud University_
 * Seyed Mohammad Mehdi Mirnajafizadeh, _Wayne State University_
 * Shahroz Tariq, _CSIRO's Data61_
-* Shan Wang, _The Hong Kong Polytechnic University_
-* Shaofeng Li, _Southeast University_
 * Sharad Agarwal, _University College London_
 * Shenao Yan, _University of Connecticut_
 * Shenghan Zheng, _University of California_
@@ -251,7 +247,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Yupeng Yang, _Georgia Institute of Technology_
 * Yuxiang Yang, _Tsinghua University_
 * Zenong Zhang, _Google_
-* Zeyan Liu, _University of Louisville_
 * Zheng Yang, _Georgia Institute of Technology_
 * Zheng Yu, _Northwestern University_
 * Zhengjie Ji, _Virginia Tech_

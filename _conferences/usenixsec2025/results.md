@@ -1150,9 +1150,9 @@ artifacts:
     
 -   cycle: sec25cycle1
     title: 'Voluntary Investment, Mandatory Minimums, or Cyber Insurance: What minimizes losses?'
-    badges: 'Badges: Available'
+    badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://zenodo.org/records/14728686
-    appendix_url: 
+    appendix_url: appendix-files/sec25cycle1ae-final172.pdf
     paper_url:
     id: 172
     
