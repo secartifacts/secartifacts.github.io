@@ -14,7 +14,7 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 
 * [Tiago Heinrich](https://www.mpi-inf.mpg.de/tiago-heinrich), _Max-Planck-Institut für Informatik_
 
-## Artifact Evaluation Committee
+## Artifact Evaluation Committee (Full-term)
 
 * Abdullah Al Ishtiaq, _The Pennsylvania State University_
 * Abdulrahman Diaa, _University of Waterloo_
@@ -45,7 +45,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Chuanpu Fu, _Tsinghua University_
 * Cong Wu, _The University of Hong Kong_
 * Cristian Assaiante, _Sapienza University of Rome_
-* David Balash, _University of Richmond_
 * Devon Tuma, _University of Minnesota_
 * Di Cao, _Swinburne University of Technology_
 * Diksha Goel, _CSIRO's Data61_
@@ -60,7 +59,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Felix Weissberg, _TU Berlin_
 * Feng Wei, _University at Buffalo_
 * Gabriel Zaid, _Thales Group_
-* Ganxiang Yang, _Columbia University_
 * Gertjan Franken, _DistriNet, KU Leuven_
 * Grigoris Ntousakis, _Brown University_
 * Guangsheng Zhang, _University of Technology Sydney_
@@ -143,13 +141,11 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Muhammad Muzammil, _Stony Brook University_
 * Muhammad Abu Bakar Aziz, _Northeastern University_
 * Muhammad Hammad Mazhar, _University of Northern Colorado_
-* Nan Wang, _CSIRO's Data61_
 * Nils Bars, _CISPA Helmholtz Center for Information Security_
 * Nimish Mishra, _Indian Institute of Technology, Kharagpur_
 * Ningyu He, _The Hong Kong Polytechnic University_
 * Noah Mauthe, _CISPA Helmholtz Center for Information Security_
 * Pankaj Niroula, _William & Mary_
-* Pascal Cotret, _Lab-STICC / ENSTA Bretagne_
 * Pathum Chamikara Mahawaga Arachchige, _CSIRO's Data61_
 * Patrick Jattke, _ETH Zurich_
 * Paul L. R. OLIVIER
@@ -262,8 +258,12 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Zilong Lin, _Indiana University Bloomington_
 * Ziqing Yang, _CISPA Helmholtz Center for Information Security_
 * Zirui Huang, _Nanjing University_
-* Ziyang Li, _University of Pennsylvania_
 * Ziyi Guo, _Northwestern University_
 * Zizhuang Deng, _School of Cyber Science and Technology, Shandong Universty_
 * Zsolt Levente Kucsván, _University of Twente_
 
+## Artifact Evaluation Committee (Single review cycle)
+
+* David Balash, _University of Richmond_
+* Nan Wang, _CSIRO's Data61_
+* Pascal Cotret, _Lab-STICC / ENSTA Bretagne_

@@ -12,21 +12,32 @@ For each cycle, a single HotCRP instance will be used to manage the AE for both 
 **HotCRP links for artifact submission:**
 
 * Cycle-1: [https://sec25cycle1ae.usenix.hotcrp.com](https://sec25cycle1ae.usenix.hotcrp.com/)
-* Cycle-2 (link will be made available later)
-
+* Cycle-2 [https://sec25cycle2ae.usenix.hotcrp.com](https://sec25cycle2ae.usenix.hotcrp.com/)
 
 The following describes what the authors are expected to do prior to each deadline.
 
-
 ## Phase-1: Artifacts Available
 
-**Phase-1 AE is mandatory for all papers that get accepted to USENIX Security '25**. In this phase, the AEC will assess and ensure that the artifacts are in compliance with the ["Artifacts Available"](badge) badge requirements. The authors need to submit a **permanent link to their artifacts** hosted on recommended platforms (e.g., [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/), [Software Heritage](https://archive.softwareheritage.org/)). The AEC will ensure that all the artifacts that were promised to be made available in the ["Open-Science" section](https://www.usenix.org/conference/usenixsecurity25/submission-policies-and-instructions#:~:text=of%20the%20paper%2C-,one%20additional%20page,-for%20discussing%20ethics) of the submitted paper were made available publicly and permanently. This evaluation will be completed _before the camera-ready versions of the main paper are due_.
+**Phase-1 AE is mandatory for all papers that get accepted to USENIX Security '25**. Accepted papers that registered for any form of artifact evaluation (i.e., all papers that did not check the box “Artifact evaluation does not apply to this submission” when submitting their USENIX paper), but fail their availability verification, including because artifacts aren't submitted on time, will have their acceptance rescinded.
+
+In this phase, the AEC will assess and ensure that the artifacts are in compliance with the ["Artifacts Available"](https://secartifacts.github.io/usenixsec2025/badges) badge requirements. The authors need to submit a **permanent link to their artifacts** hosted on recommended platforms (e.g., [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/), [Software Heritage](https://archive.softwareheritage.org/), **but not GitHub, GitLab, or personal websites**). 
+
+The AEC will ensure that all the artifacts that were promised to be made available in the ["Open-Science" section](https://www.usenix.org/conference/usenixsecurity25/submission-policies-and-instructions#:~:text=of%20the%20paper%2C-,one%20additional%20page,-for%20discussing%20ethics) of the submitted paper were made available publicly and permanently. This evaluation will be completed _before the camera-ready versions of the main paper are due_.
 
 Upon successful completion of the AE -- availability verification, the authors have to include:
 - the permanent link to their artifacts repository in the camera-ready version of their paper;
 - the "Artifacts Available" badge on the camera-ready version of their paper.
 
+The artifacts that fail in their availability verification, including because artifacts aren't submitted on time or lack of compliance with the open science policy, will have their **acceptance rescinded**.
 
+### Permalink: Versioning and DOI
+
+Platforms such as Zenodo and FigShare offer a concept DOIs permanlink, which could redirect to a specific version of the artifact or the latest version ([FigShare versioning](https://info.figshare.com/user-guide/how-versioning-works/) and [Zenodo versioning](https://zenodo.org/help/versioning)). Dryad DOI will remain the same when updating the content ([Dryad version](https://blog.datadryad.org/2024/07/09/for-authors-keep-your-data-current-with-dryads-data-versioning-feature/)).
+
+Artifact submissions that are only considered for the Artifacts Available badge (Phase-1), are highly recommended to use the DOI for the specific version of the artifact. This ensures that researchers will have access to the version presented in the paper.
+
+Submissions that will be considered for Artifact Functional and Reproducible badges (Phase-2) may undergo changes that end up altering the artifact, for this reason, we recommend that such artifacts submit the concept DOI, that represents all the versions of the given artifact.
+This way the DOI will point to the latest version of the artifact, eliminating the need to update the link during Phase-2. Examples of [Zenodo DOI](https://secartifacts.github.io/usenixsec2025/appendix-files/sec25cycle1ae-final88.pdf ).
 
 ## Phase-2: Artifacts Functional / Results Reproducible
 
@@ -35,10 +46,11 @@ Once the AE process for the mandatory Phase-1 is completed and "Artifacts Availa
 Most of the duration of this phase involves a single-blinded discussion period between the authors and AEC members. During this, the AEC members will work with the authors to help them improve the quality of their artifacts and make them amenable to the badges that they apply for. The AE timeline was set up to ensure approximately four weeks of time are allotted for this important discussion period. Throughout this period, the authors are expected to be available and improve their artifacts as per the feedback from the AEC. To kickstart this evaluation, _authors can **initially** make the artifacts for this phase available on software development repositories (such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)) or Internet-accessible hardware owned/leased by the authors, containers/VMs, or any other reasonable format that enables evaluation_. 
 
 ### Submission
+
 The submission and evaluation for this phase will take place on the [same HotCRP instance](https://sec25cycle1ae.usenix.hotcrp.com/) as for the availability verification. Please **do not create a new artifact submission** there but **update** the existing submission that you created for the availability verification (Phase-1), by clicking on your existing submission which will now feature new fields for you to update. All these fields will contain the string "(functionality / reproducibility)" to make it clear that it applies to the second phase of AE. **An important requirement for this phase is the submission of an [artifact-appendix](#artifact-appendix) PDF document in HotCRP**. Along with artifact appendix field, the HotCRP submission site also has **five additional text fields** in Phase-2 to help in the AEC assignment process (such as the "artifact-access type" for evaluation), which the authors are expected to update prior to the submission deadline for Phase-2. 
 
 After the discussion period, the AEC members will deliberate on the latest state of the artifacts and write reviews explaining their stance on each of the two badges. After this, the badge notifications will be sent, and the final reviews from the AEC will be released to the authors. The authors will then have about a week of time to consider and incorporate any final suggestions from the AEC's reviews to improve the artifacts as well as the artifact appendix. **The final artifact appendix should then be submitted by the authors and include a link to the evolved artifacts. At this stage, the artifacts should be hosted on recommended platforms that support _permanent storage_** (e.g., Zenodo, FigShare, Dryad, etc., but ***not* GitHub, GitLab, or personal websites**). **Compliance with these policies is mandatory for issuing the "Artifacts Functional" / "Results Reproducible" badges.**  We highly recommend the authors use the "version control" features available on all the recommended platforms such as [Zenodo](https://help.zenodo.org/docs/deposit/manage-versions/), [FigShare](https://help.figshare.com/article/can-i-edit-or-delete-my-research-after-it-has-been-made-public), [Dryad](https://blog.datadryad.org/2024/07/09/for-authors-keep-your-data-current-with-dryads-data-versioning-feature/) for this purpose. As Phase-2 begins only after the main camera-ready paper is due, the use of these versioning features allows future readers of the main paper with links to the initial version to still be able to access the final artifacts. At the same time, this website will also be updated to provide direct links to the final versions of artifacts as well as camera-ready versions of the artifact appendices.
-
+ 
 
 ### Packaging
 
@@ -156,3 +168,4 @@ after `\documentclass` and before `\begin{document}`.
 * If your LaTeX document has many `\usepackage` directives, put
 `\usepackage[...]{usenixbadges}` near the end of those.  This may avoid problems
 relating to conflicting options for the `graphicx` package.
+
