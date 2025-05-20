@@ -59,7 +59,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Felix Weissberg, _TU Berlin_
 * Feng Wei, _University at Buffalo_
 * Gabriel Zaid, _Thales Group_
-* Ganxiang Yang, _Columbia University_
 * Gertjan Franken, _DistriNet, KU Leuven_
 * Grigoris Ntousakis, _Brown University_
 * Guangsheng Zhang, _University of Technology Sydney_
@@ -259,7 +258,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Zilong Lin, _Indiana University Bloomington_
 * Ziqing Yang, _CISPA Helmholtz Center for Information Security_
 * Zirui Huang, _Nanjing University_
-* Ziyang Li, _University of Pennsylvania_
 * Ziyi Guo, _Northwestern University_
 * Zizhuang Deng, _School of Cyber Science and Technology, Shandong Universty_
 * Zsolt Levente Kucsván, _University of Twente_
