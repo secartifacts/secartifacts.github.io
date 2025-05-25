@@ -10,34 +10,44 @@ Before submitting your artifact, please check the information and submission gui
 *All AE-related deadlines are Anywhere on Earth (AoE).*
 
 ### Summer Deadline
-* Paper notification to authors: Thu, 20 Jun 2024
-* Artifact registration deadline: Thu, 27 Jun 2024
-* Artifact submission deadline: Thu, 4 Jul 2024
-* Kick-the-tires stage (answering AEC preliminary questions): Mon, 8 Jul to Mon, 15 Jul 2024
-* Artifact decisions: Mon, 9 Sep 2024
-* Camera-ready deadline for papers: Thu, 12 Sep 2024
+* Paper notification to authors: Wed, 2 Jul 2025
+* Artefact registration deadline: Tue, 8 Jul 2025
+* Artefact submission deadline: Mon, 14 Jul 2025
+* Kick-the-tires stage (answering AEC preliminary questions): Fri, 18 Jul 2025 to Fri, 25 Jul 2025
+* Artifact decisions: Mon, 8 Sep 2025
+* Camera-ready deadline for papers: Wed, 10 Sep 2025
 
 
-Submission page: [https://ndss25ae-summer.hotcrp.com/](https://ndss25ae-summer.hotcrp.com/)
+Submission page: TBA.
 
 ### Fall Deadline
-* Paper notification to authors: Thu, 19 Sep 2024
-* Artifact registration deadline: Thu, 26 Sep 2024
-* Artifact submission deadline: Thu, 3 Oct 2024
-* Kick-the-tires stage (answering AEC preliminary questions): Mon, 7 Oct to Mon, 14 Oct 2024
-* Artifact decisions: Mon, 2 Dec 2024
-* Camera-ready deadline for papers: Thu, 5 Dec 2024
+* Paper notification to authors: Wed, 22 Oct 2025
+* Artifact registration deadline: Mon, 27 Oct 2025
+* Artifact submission deadline: Fri, 31 Oct 2025
+* Kick-the-tires stage (answering AEC preliminary questions): Tue, 4 Nov 2025 to Thu, 13 Nov 2025
+* Artifact decisions: Mon, 15 Dec 2025
+* Camera-ready deadline for papers: Wed, 17 Dec 2025
 
 
-Submission page: [https://ndss25ae-fall.hotcrp.com/](https://ndss25ae-fall.hotcrp.com/)
+Submission page: TBA.
 
-## Evaluation process
+## Paper Registration
+
+Accepted, minor, and major revision papers are eligible for an Artifact Evaluation. To properly register your paper for the registration deadline, the submission should at minimum include the following:
+
+- A concise description of the research and how the artifacts support it ("Abstract" field)
+- The paper as reviewed by the NDSS TPC
+- The list of hardware and software requirements
+
+The AEC operates on a tight timeline, and without the above information, they cannot start their work. You are allowed to enter provisional text and update it until the submission deadline, as long as the information provided at this stage is accurate and complete.
+
+## Full Submission and Evaluation
 
 Authors are invited to submit artifacts soon after receiving the paper notification. At least one contact author must be reachable and respond to questions in a timely manner during the entire evaluation period to allow round trip communications between the AEC and the authors. Artifacts can be submitted only in the AE time frame associated with the paper submission round.
 
 In addition to accepted papers, papers that receive a major or minor revision decision are eligible for AE: at artifact submission time, their authors should justify the necessary changes that they intend to carry out on the initially submitted paper and how such changes relate to the submitted artifact.
 
-At submission time, authors choose which [*badges*](badges) they want to be evaluated for. Members of the AEC will evaluate each artifact using the artifact appendix and instructions as guides, as detailed later in this page. Evaluators will communicate anonymously with authors through HotCRP to resolve minor issues and ask clarifying questions.
+At submission time, authors choose which badges they want to be evaluated for. The requirements that must be fulfilled for each badge are listed under [*badges*](badges). Members of the AEC will evaluate each artifact using the artifact appendix and instructions as guides, as detailed later on this page. Evaluators will communicate anonymously with authors through HotCRP to resolve minor issues and ask clarifying questions.
 
 Evaluation starts with a *kick-the-tires* period during which evaluators ensure they can access their assigned artifacts and perform basic operations such as building and running a minimal working example. Artifact evaluations include feedback about the artifact, giving authors the option to address any significant blocking issues for AE work using this feedback. Communication after the kick-the-tires stage end can address interpretation concerns for the produced results or minor syntactic issues in the submitted materials.
 
@@ -47,9 +57,9 @@ For prospective authors: The target should be to present and document your artif
 
 Artifacts can be, e.g., software, datasets, models, test suites, or mechanized proofs. Paper proofs are not accepted, as evaluators lack the time and often the expertise to carefully review them. Physical objects, such as specialized computer hardware, are also not accepted, due to the difficulty of making them available to evaluators.
 
-To ensure that the evaluation is practical for the AEC, the proposed experiments should take at most *1 day* and run on a *commodity desktop machine*. When the paper's research involves longer durations, the authors should design scaled-down experiments and properly justify how those can still significantly support the paper's analyses. A commodity desktop machine is defined as one with an x86-64 CPU with 8 cores and 16 GB of RAM running a recent Linux or Windows operating system and software obtainable free of charge. If this requirement cannot be met, the authors should make arrangements to provide (e.g., via SSH to their own infrastructure, or renting it from providers) anonymous access to the AEC. Hardware and software requirements must be stated when registering an artifact. If you intend to provide access to special hardware, you must reach out to the AE chair before the submission.
+To ensure that the evaluation is practical for the AEC, the proposed **experiments should take at most 1 day and run on a commodity desktop machine**. When the paper's research involves longer durations, the authors should design scaled-down experiments and properly justify how those can still significantly support the paper's analyses. A commodity desktop machine is defined as one with an x86-64 CPU with 8 cores and 16 GB of RAM running a recent Linux or Windows operating system and software obtainable free of charge. If this requirement cannot be met, the authors should make arrangements to provide (e.g., via SSH to their own infrastructure, or renting it from providers) anonymous access to the AEC. Hardware and software requirements must be stated when registering an artifact. If you intend to provide access to special hardware, you must reach out to the AE chairs before the submission.
 
-Artifact evaluation is single-blind. Each AEC member will independently test and review their assigned submissions. To maintain the anonymity of evaluators, artifact authors should not embed analytics or other tracking tools in any websites for their artifacts for the duration of the AE period. In cases where tracking is unavoidable, authors must notify the AE chair in advance so that AEC members can take adequate safeguards.
+Artifact evaluation is single-blind. Each AEC member will independently test and review their assigned submissions. To maintain the anonymity of evaluators, artifact authors should not embed analytics or other tracking tools in any websites for their artifacts for the duration of the AE period. In cases where tracking is unavoidable, authors must notify the AE chairs in advance so that AEC members can take adequate safeguards.
 
 Submitting an artifact for evaluation does not give the AEC permission to make its contents public or to retain any part of it after evaluation. Thus, authors are free to include proprietary models, data files, or code in artifacts. Participating in the AE process does not require the public release of artifacts, though it is highly encouraged.
 
@@ -69,9 +79,9 @@ Along with badge descriptions, evaluator guides from AE efforts in related secur
 ### Artifact appendix
 The artifact appendix must be a self-contained document that describes a roadmap for evaluators. Alongside the description of the hardware, software, and other configuration requirements, the artifact appendix should enumerate the list of major **claims** made by the paper that can be reproduced through the artifact. The artifact appendix will be published in conjunction with the paper.
 
-A template for the artifact appendix can be found here: [LaTeX Template](ndss_ae_appendix_template_v1.tex) (to be used in conjuction with the NDSS'24 template for research papers). Artifact appendices are limited in length to **2 pages**; contact the AE chair before submission to discuss well-motivated exceptions.
+A template for the artifact appendix can be found here: [LaTeX Template](ndss_ae_appendix_template_v1.tex) (to be used in conjunction with the NDSS template for research papers). Artifact appendices are limited in length to **2 pages**; contact the AE chairs before submission to discuss well-motivated exceptions.
 
-Linking the paper's claims to the artifact is a necessary step that allows artifact evaluators to reproduce results. Authors must state their paper's key results and claims clearly. Also, claims should be concrete, especially if these claims may differ from the expectations set by the paper. The AEC will still evaluate artifacts relatively to their paper, but an explanation can help setting expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, authors are encouraged to be transparent with the AEC about difficulties that evaluators might encounter in using the artifact or its maturity relative to the paper's content.
+Linking the paper's claims to the artifact is a necessary step that allows artifact evaluators to reproduce results. Authors must state their paper's key results and claims clearly. Also, claims should be concrete, especially if these claims may differ from the expectations set by the paper. The AEC will still evaluate artifacts relatively to their paper, but an explanation can help set expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, authors are encouraged to be transparent with the AEC about difficulties that evaluators might encounter in using the artifact or its maturity relative to the paper's content.
 
 ## Artifact packaging
 
@@ -85,7 +95,7 @@ Authors should consider one of the following methods to package the software com
 
 * Internet-accessible hardware: If an artifact requires special hardware (e.g., SGX) or is actually a piece of hardware, the evaluators must be able to access the device. SSH-based access to the device might be an option.
 
-Authors should reach out to the AE chair when other formats look more reasonable in their judgment.
+Authors should reach out to the AE chairs when other formats look more reasonable in their judgment. For example, if properly justified, a single-blind video call may be scheduled to demonstrate Functionality or Reproducibility for experiments involving specialized hardware (e.g., jailbroken phones, software-defined radios, etc.).
 
 ## Resources
 The following materials may be useful when preparing an artifact:
@@ -96,4 +106,4 @@ The following materials may be useful when preparing an artifact:
 - [Systems Research Artifacts](https://sysartifacts.github.io/), a website collecting AE results for systems conferences
 
 ## Acknowledgements
-The AE process at NDSS 2025 was inspired by similar endeavors in other systems and security conferences. This call for artifacts builds on materials from the AE process of EuroSys '23, USENIX Security '23, and NDSS '24.
+The AE process at NDSS 2026 was inspired by similar endeavors in other systems and security conferences. This call for artifacts builds on materials from the AE process of EuroSys '23, USENIX Security '23, and NDSS '24/25.
