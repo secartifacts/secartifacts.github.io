@@ -18,7 +18,7 @@ Before submitting your artifact, please check the information and submission gui
 * Camera-ready deadline for papers: Wed, 10 Sep 2025
 
 
-Submission page: TBA.
+Submission page: [https://ndss26ae-summer.hotcrp.com/](https://ndss26ae-summer.hotcrp.com/)
 
 ### Fall Deadline
 * Paper notification to authors: Wed, 22 Oct 2025
@@ -29,7 +29,7 @@ Submission page: TBA.
 * Camera-ready deadline for papers: Wed, 17 Dec 2025
 
 
-Submission page: TBA.
+Submission page: [https://ndss26ae-fall.hotcrp.com/](https://ndss26ae-fall.hotcrp.com/)
 
 ## Paper Registration
 
