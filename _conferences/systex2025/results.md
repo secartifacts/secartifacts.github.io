@@ -46,13 +46,13 @@ artifacts:
       </td>
       <td width="250px">
         {% if artifact.badges contains "Available" %}
-          <img src="{{ site.baseurl }}/images/systexbadges-available.svg" alt="Artifacts Evaluated: Available">
+          <img src="{{ site.baseurl }}/images/systex25badges-available.svg" alt="Artifacts Evaluated: Available">
         {% endif %}
         {% if artifact.badges contains "Functional" %}
-          <img src="{{ site.baseurl }}/images/systexbadges-functional.svg" alt="Artifacts Evaluated: Functional">
+          <img src="{{ site.baseurl }}/images/systex25badges-functional.svg" alt="Artifacts Evaluated: Functional">
         {% endif %}
         {% if artifact.badges contains "Reusable" %}
-          <img src="{{ site.baseurl }}/images/systexbadges-reusable.svg" alt="Artifacts Evaluated: Reusable">
+          <img src="{{ site.baseurl }}/images/systex25badges-reusable.svg" alt="Artifacts Evaluated: Reusable">
         {% endif %}
       </td>
       <td>
