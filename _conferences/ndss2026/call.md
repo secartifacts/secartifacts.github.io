@@ -11,8 +11,8 @@ Before submitting your artifact, please check the information and submission gui
 
 ### Summer Deadline
 * Paper notification to authors: Wed, 2 Jul 2025
-* Artefact registration deadline: Tue, 8 Jul 2025
-* Artefact submission deadline: Mon, 14 Jul 2025
+* Artefact registration deadline: ~~Tue, 8 Jul 2025~~ Thu, 10 Jul 2025
+* Artefact submission deadline: ~~Mon, 14 Jul 2025~~ Wed, 16 Jul 2025
 * Kick-the-tires stage (answering AEC preliminary questions): Fri, 18 Jul 2025 to Fri, 25 Jul 2025
 * Artifact decisions: Mon, 8 Sep 2025
 * Camera-ready deadline for papers: Wed, 10 Sep 2025
