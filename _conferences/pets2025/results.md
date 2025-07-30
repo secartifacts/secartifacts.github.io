@@ -20,6 +20,7 @@ Results automatically obtained from <a href="https://petsymposium.org/2025/paper
       <th>Available</th>
       <th>Functional</th>
       <th>Reproduced</th>
+      <th>Artifact URL</th>
     </tr>
   </thead>
   <tbody>
@@ -33,25 +34,24 @@ Results automatically obtained from <a href="https://petsymposium.org/2025/paper
         {% endif %}
       </td>
       <td>
-        {% if artifact.artifact_url %}
-          {% if artifact.badges contains "available" %}
-            <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Available</a>
-          {% endif %}
+        {% if artifact.badges contains "available" %}
+          <a class="pets-artifact-badge">Artifact: Available</a>
         {% endif %}
       </td>
       <td>
-        {% if artifact.artifact_url %}
-          {% if artifact.badges contains "functional" %}
-            <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Functional</a>
-          {% endif %}
+        {% if artifact.badges contains "functional" %}
+          <a class="pets-artifact-badge">Artifact: Functional</a>
         {% endif %}
       </td>
       <td>
-        {% if artifact.artifact_url %}
-          {% if artifact.badges contains "reproduced" %}
-            <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Reproduced</a>
-          {% endif %}
+        {% if artifact.badges contains "reproduced" %}
+          <a class="pets-artifact-badge">Artifact: Reproduced</a>
         {% endif %}
+      </td>
+      <td>
+      {% if artifact.artifact_url %}
+        <a href="{{artifact.artifact_url}}">Artifact</a>
+      {% endif %}
       </td>
     </tr>
   {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: Badges
 order: 20
+custom_css: pets-badges
 ---
 
 Each accepted artifact can be granted up to three badges. During the submission,
@@ -10,7 +11,7 @@ the reviewing effort. Our understanding of the individual badges is aligned with
 other conferences, e.g., [USENIX Security
 Symposium](https://secartifacts.github.io/usenixsec2023/badges)
 
-## Artifact Available
+## Artifact Available <a class="pets-artifact-badge">Artifact: Available</a>
 
 The "Artifact Available" badge indicates that the artifact is publicly available
 at a permanent location (not be behind any kind of paywall or restricted
@@ -26,7 +27,7 @@ reviewers check that the artifact is relevant to the paper. This badge does
 *not* mean that the reviewers have reproduced the results or checked that the
 code executes or that they have reproduced the results for full functionality.
 
-## Artifact Functional
+## Artifact Functional <a class="pets-artifact-badge">Artifact: Functional</a>
 
 For the "Artifact Functional" badge the artifact should satisfy these criteria:
 
@@ -89,7 +90,7 @@ present some examples:
   Authors should publish the raw results of the experiments, so that reviewers
   can verify the remaining stages as functional.
 
-## Artifact Reproduced
+## Artifact Reproduced <a class="pets-artifact-badge">Artifact: Reproduced</a>
 
 The "Artifact Reproduced" badge requires the core contributions of the paper to
 be reproduced by the reviewers. Authors must specify the commands to run the

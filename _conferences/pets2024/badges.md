@@ -1,13 +1,14 @@
 ---
 title: Badges
 order: 20
+custom_css: pets-badges
 ---
 
 For PETS 2024, each accepted artifact will be granted one of the following two
 badges. During the submission, the authors must select which badge they want
 their artifacts to be evaluated against.
 
-## Artifacts Available
+## Artifacts Available <a class="pets-artifact-badge">Artifact: Available</a>
 
 This "Available" badge indicates that the artifacts are publicly available at a
 permanent location with clear documentation on how it relates to the
@@ -18,7 +19,7 @@ hardware or software are encouraged to choose this option. Similarly, authors
 whose artifacts are "not reproducible" (e.g., outcomes of surveys) should also
 select this option.
 
-## Artifacts Reproduced
+## Artifacts Reproduced <a class="pets-artifact-badge">Artifact: Reproduced</a>
 
 The "Reproduced" badge indicates everything the "Available" badge does and, in
 addition, that the submitted artifacts reproduce the main findings of the paper.
