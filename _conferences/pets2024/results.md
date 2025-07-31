@@ -311,7 +311,7 @@ Results automatically obtained from <a href="https://petsymposium.org/2024/progr
   <thead>
     <tr>
       <th>Title</th>
-      <th>Artifact URL</th>
+      <th width="160px">Artifact URL</th>
     </tr>
   </thead>
   <tbody>
