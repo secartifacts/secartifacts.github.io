@@ -50,7 +50,7 @@ artifacts:
     badge: "artifact-available"
 
   - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0035.pdf"
-    title: "SGXonerate:Finding (and Partially Fixing) Privacy Flaws in TEE-based Smart Contract Platforms Without Breaking the TEE"
+    title: "SGXonerated: Finding (and Partially Fixing) Privacy Flaws in TEE-based Smart Contract Platforms Without Breaking the TEE"
     artifact_url: "https://github.com/initc3/SecretNetwork-Sandbox/"
     badge: "artifact-reproduced"
 
@@ -299,13 +299,54 @@ artifacts:
     artifact_url: "https://github.com/SWiSSSE-crypto/SWiSSSE/tree/c2c4d04b7fceacb34b1ab774a7c26cbdc866f6a1"
     badge: "artifact-reproduced"
 
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0123.pdf"
+    title: "Sloth: Key Stretching and Deniable Encryption using Secure Elements on Smartphones"
+    artifact_url: "https://github.com/lambdapioneer/sloth/tree/0bf22c5178808e75d1e3f2c01e090869b8c19f83"
+    badge: "artifact-reproduced"
 
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0144.pdf"
+    title: "https://petsymposium.org/popets/2024/popets-2024-0123.pdf"
+    artifact_url: "https://github.com/YuanXun2024/VFLGAN/tree/5e9d319e4ba6a514b3416c10ed8b99565d679329"
+    badge: "artifact-available"
 
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0113.pdf"
+    title: "Decision-based Data Distribution (D³): Enabling Users to Minimize Data Propagation in Privacy-sensitive Scenarios"
+    artifact_url: "https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4236"
+    badge: "artifact-available"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0119.pdf"
+    title: "Efficient Privacy-Preserving Machine Learning with Lightweight Trusted Hardware"
+    artifact_url: "https://github.com/HuangPZ/STAMP/tree/b7f9eab2b5d98da9883315075dd2a8066618a876"
+    badge: "artifact-available"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0137.pdf"
+    title: "AUTOLYCUS: Exploiting Explainable Artificial Intelligence (XAI) for Model Extraction Attacks against Interpretable Models"
+    artifact_url: "https://github.com/acoksuz/AUTOLYCUS/tree/402bd2e407a82b49ffa7a0aebd2921563b0c101b"
+    badge: "artifact-reproduced"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0061.pdf"
+    title: "Differentially Private Functional Encryption"
+    artifact_url: "https://github.com/JasZal/differentially_private_functional_encryption/tree/725607f7f67f59deeaab5ec5c2a793ffbceefddf"
+    badge: "artifact-reproduced"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0060.pdf"
+    title: "Internet Users' Willingness to Disclose Biometric Data for Continuous Online Account Protection: An Empirical Investigation"
+    artifact_url: "https://github.com/das-group/CAuthN-Study-Dataset/tree/e1429b98c6053293ae86a2cf19c940572ae8f785"
+    badge: "artifact-available"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0114.pdf"
+    title: "Summation-based Private Segmented Membership Test from Threshold-Fully Homomorphic Encryption"
+    artifact_url: "https://github.com/tjungND/caoe-cerberus-query/tree/654783f5629a28c9b3e9469fbc164fa3bbc862ab"
+    badge: "artifact-available"
+
+  - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0110.pdf"
+    title: "Revealing the True Cost of Locally Differentially Private Protocols: An Auditing Perspective"
+    artifact_url: "https://github.com/hharcolezi/ldp-audit/tree/5cd1c5d47c089c6ae55292e7ccb75b2677893c9a"
+    badge: "artifact-reproduced"
 ---
 
 
-Results automatically obtained from <a href="https://petsymposium.org/2024/program.php">PETS 2024 website</a>.
-
+Results obtained from <a href="https://petsymposium.org/popets/2024/">PETS 2024 proceedings</a>.
 
 <table>
   <thead>

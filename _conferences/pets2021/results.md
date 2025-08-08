@@ -106,7 +106,7 @@ artifacts:
 
 ---
 
-Results automatically obtained from <a href="https://petsymposium.org/2021/program.php">PETS 2021 website</a>.
+Results obtained from <a href="https://petsymposium.org/popets/2021/">PETS 2021 proceedings</a>.
 
 <table>
   <thead>

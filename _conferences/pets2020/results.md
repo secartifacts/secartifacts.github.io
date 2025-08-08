@@ -93,7 +93,7 @@ artifacts:
 
 ---
 
-Results automatically obtained from <a href="https://petsymposium.org/2020/program.php">PETS 2020 website</a>.
+Results obtained from <a href="https://petsymposium.org/popets/2020/">PETS 2020 proceedings</a>.
 
 <table>
   <thead>

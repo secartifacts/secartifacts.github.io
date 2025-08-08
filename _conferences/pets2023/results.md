@@ -118,7 +118,7 @@ artifacts:
 
 
   - paper_url: "https://petsymposium.org/2023/files/papers/issue4/popets-2023-0095.pdf"
-    title: "Robust Fingerprint of Location Trajectories Under Differential Privacy"
+    title: "Robust Fingerprint of Privacy-Preserving Location Trajectories"
     artifact_url: "https://github.com/spid-lab/Robust-Fingerprint-of-Location-Trajectories-Under-Differential-Privacy"
 
 
@@ -253,7 +253,7 @@ artifacts:
 
 ---
 
-Results automatically obtained from <a href="https://petsymposium.org/2023/program.php">PETS 2023 website</a>.
+Results obtained from <a href="https://petsymposium.org/popets/2023/">PETS 2023 proceedings</a>.
 
 <table>
   <thead>

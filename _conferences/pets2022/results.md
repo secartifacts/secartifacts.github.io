@@ -198,7 +198,7 @@ artifacts:
 
 ---
 
-Results automatically obtained from <a href="https://petsymposium.org/2022/program.php">PETS 2022 website</a>.
+Results obtained from <a href="https://petsymposium.org/popets/2022/">PETS 2022 proceedings</a>.
 
 <table>
   <thead>
