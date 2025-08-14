@@ -9,7 +9,6 @@ reproduced_img: "usenixbadges-reproduced.svg"
 reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
-
 -   cycle: sec25cycle1
     title: 'PICACHV: Formally Verified Data Use Policy Enforcement for Secure Data Analytics'
     badges: 'Badges: Available, Functional, Reproduced'
@@ -41,7 +40,6 @@ artifacts:
     appendix_url:
     paper_url:
     id: 15
-
 -   cycle: sec25cycle1
     title: 'Efficient 2PC for Constant Round Secure Equality Testing and Comparisons'
     badges: 'Badges: Available'
@@ -49,7 +47,7 @@ artifacts:
     appendix_url:
     paper_url:
     id: 16
-
+    
 -   cycle: sec25cycle1
     title: 'A Mixed-Methods Study of Open-Source Software Maintainers On Vulnerability Management and Platform Security Features'
     badges: 'Badges: Available'
@@ -145,7 +143,6 @@ artifacts:
     appendix_url: appendix-files/sec25cycle1ae-final31.pdf
     paper_url:
     id: 31
-    
 
 -   cycle: sec25cycle1
     title: 'How Researchers De-identify Data in Practice'
@@ -1695,9 +1692,1438 @@ artifacts:
     appendix_url: 
     paper_url:
     id: 244
-    
----
 
+-   cycle: sec25cycle1-embargo
+    title: 'Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.14636810
+    appendix_url: appendix-files/sec25cycle1ae-final62.pdf
+    paper_url:
+    id: 62
+    
+-   cycle: sec25cycle1-embargo
+    title: 'PatchAgent: A Practical Program Repair Agent Mimicking Human Expertise'
+    badges: 'Badges: Available'
+    artifact_url: https://osf.io/8k2ac
+    appendix_url: 
+    paper_url:
+    id: 243
+    
+-   cycle: sec25cycle2
+    title: 'Towards Practical, End-to-End Formally Verified X.509 Certificate Validators with Verdict'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15468400
+    appendix_url: appendix-files/sec25cycle2ae-final1.pdf
+    paper_url:
+    id: 1
+
+-   cycle: sec25cycle2
+    title: 'Narrowbeer: A Practical Replay Attack Against the Widevine DRM'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/16751313
+    appendix_url: appendix-files/sec25cycle2ae-final2.pdf
+    paper_url:
+    id: 2
+
+-   cycle: sec25cycle2
+    title: 'STEK Sharing is Not Caring: Bypassing TLS Authentication in Web Servers using Session Tickets'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15474656
+    appendix_url: appendix-files/sec25cycle2ae-final3.pdf
+    paper_url:
+    id: 3
+    
+-   cycle: sec25cycle2
+    title: 'CollisionRepair: First-Aid and Automated Patching for Storage Collision Vulnerabilities in Smart Contracts'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.6084/m9.figshare.29150726
+    appendix_url: appendix-files/sec25cycle2ae-final4.pdf
+    paper_url:
+    id: 4
+
+-   cycle: sec25cycle2
+    title: 'AutoLabel: Automated Fine-Grained Log Labeling for Cyber Attack Dataset Generation'
+    badges: 'Badges: Available'
+    artifact_urls: 
+    - https://doi.org/10.5281/zenodo.15540310
+    - https://doi.org/10.5281/zenodo.15528780
+    - https://doi.org/10.5281/zenodo.15532579
+    - https://doi.org/10.5281/zenodo.15568798
+    paper_url: 
+    id: 5
+
+-   cycle: sec25cycle2
+    title: 'Sharpness-Aware Initialization: Improving Differentially Private Machine Learning from First Principles'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15490109
+    paper_url:
+    id: 7
+
+-   cycle: sec25cycle2
+    title: 'Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15569395
+    appendix_url: appendix-files/sec25cycle2ae-final9.pdf
+    paper_url:
+    id: 9
+    
+-   cycle: sec25cycle2
+    title: 'Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15543846
+    appendix_url: appendix-files/sec25cycle2ae-final10.pdf
+    paper_url:
+    id: 10
+    
+-   cycle: sec25cycle2
+    title: 'GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15586856 
+    appendix_url: appendix-files/sec25cycle2ae-final11.pdf
+    paper_url:
+    id: 11
+    
+-   cycle: sec25cycle2
+    title: 'SoK: So, You Think You Know All About Secure Randomized Caches?'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15529618
+    appendix_url: appendix-files/sec25cycle2ae-final12.pdf
+    paper_url:
+    id: 12
+    
+-   cycle: sec25cycle2
+    title: 'Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15590097
+    paper_url:
+    id: 14
+    
+-   cycle: sec25cycle2
+    title: 'How Transparent is Usable Privacy and Security Research? A Meta-Study on Current Research Transparency Practices'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15532982 
+    appendix_url: appendix-files/sec25cycle2ae-final15.pdf
+    paper_url:
+    id: 15
+    
+-   cycle: sec25cycle2
+    title: 'TDXploit: Novel Techniques for Single-Stepping and Cache Attacks on Intel TDX'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15536637?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImM3MDZiNjY3LTk2MGEtNGQyMi04OTNiLTM2OTllNTU3YTNlNyIsImRhdGEiOnt9LCJyYW5kb20iOiIzNjdkOTZlNDc1ZmZiODBjNGFmZjRlYzIxMTcxNGRhMiJ9.jw2HJW9lUT03Mk-6SJCyJD6FLVQcEZ9xlfjbTpBl6pv1v9AaD1rpX_ebbuYx4fUxGAEo4YEU8QyAM72c5B1J8g
+    paper_url:
+    id: 16
+    
+-   cycle: sec25cycle2
+    title: 'Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15580922 
+    appendix_url: appendix-files/sec25cycle2ae-final17.pdf
+    paper_url:
+    id: 17
+    
+-   cycle: sec25cycle2
+    title: 'HubBub: Contention-Based Side-channel Attacks on USB Hubs'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15581471
+    paper_url:
+    id: 18
+    
+-   cycle: sec25cycle2
+    title: 'Towards Internet-Based State Learning of TLS State Machines'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15520932 
+    appendix_url: appendix-files/sec25cycle2ae-final19.pdf
+    paper_url:
+    id: 19
+    
+-   cycle: sec25cycle2
+    title: 'I have no idea how to make it safer: Studying Security and Privacy Mindsets of Browser Extension Developers'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15550089
+    appendix_url: appendix-files/sec25cycle2ae-final20.pdf
+    paper_url:
+    id: 20
+    
+-   cycle: sec25cycle2
+    title: 'SEAF: Secure Evaluation on Activation Functions with Dynamic Precision for Secure Two-Party Inference'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15541361
+    paper_url:
+    id: 21
+    
+-   cycle: sec25cycle2
+    title: 'Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15523434
+    appendix_url: appendix-files/sec25cycle2ae-final23.pdf
+    paper_url:
+    id: 23
+    
+-   cycle: sec25cycle2
+    title: 'Shimmer: a Provably Secure Steganography Based on Entropy Collecting Mechanism'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15582959
+    paper_url:
+    id: 24
+    
+-   cycle: sec25cycle2
+    title: 'From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15523769
+    appendix_url: appendix-files/sec25cycle2ae-final25.pdf
+    paper_url:
+    id: 25
+    
+-   cycle: sec25cycle2
+    title: 'Sometimes Simpler is Better: A Comprehensive Analysis of State-of-the-Art Provenance-Based Intrusion Detection Systems'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://zenodo.org/records/15603122
+    appendix_url: appendix-files/sec25cycle2ae-final26.pdf
+    paper_url:
+    id: 26
+
+-   cycle: sec25cycle2
+    title: 'AirTag-Facilitated Stalking Protection: Evaluating Unwanted Tracking Notifications and Tracker Locating Features'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15527227
+    paper_url:
+    id: 27
+    
+-   cycle: sec25cycle2
+    title: 'My ZIP isn’t your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15526863
+    appendix_url: appendix-files/sec25cycle2ae-final28.pdf
+    paper_url:
+    id: 28
+    
+-   cycle: sec25cycle2
+    title: 'FastLloyd: Federated, Accurate, Secure, and Tunable kk-Means Clustering with Differential Privacy'
+    badges: 'Badges: Available'
+    artifact_urls:
+    - https://doi.org/10.5281/zenodo.15530592
+    - https://doi.org/10.5281/zenodo.15530617 
+    paper_url:
+    id: 29
+    
+-   cycle: sec25cycle2
+    title: 'TapTrap: Animation-Driven Tapjacking on Android'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15519676
+    appendix_url: appendix-files/sec25cycle2ae-final30.pdf
+    paper_url:
+    id: 30
+
+-   cycle: sec25cycle2
+    title: 'From Constraints to Cracks: Constraint Semantic Inconsistencies as Vulnerability Beacons for Embedded Systems'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15605329
+    appendix_url: appendix-files/sec25cycle2ae-final32.pdf
+    paper_url:
+    id: 32
+    
+-   cycle: sec25cycle2
+    title: 'Boosting Gradient Leakage Attacks: Data Reconstruction in Realistic FL Settings'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15532456
+    paper_url:
+    id: 33
+    
+-   cycle: sec25cycle2
+    title: 'S/MINE: Collecting and Analyzing S/MIME Certificates at Scale'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15533203
+    appendix_url: appendix-files/sec25cycle2ae-final34.pdf
+    paper_url:
+    id: 34
+    
+-   cycle: sec25cycle2
+    title: 'PRSA: Prompt Stealing Attacks against Real-World Prompt Services'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15551650
+    paper_url:
+    id: 35
+    
+-   cycle: sec25cycle2
+    title: 'Effective PII Extraction from LLMs through Augmented Few-Shot Learning'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15544879
+    paper_url:
+    id: 37
+    
+-   cycle: sec25cycle2
+    title: '“Helps me Take the Post With a Grain of Salt:” Soft Moderation Effects on Accuracy Perceptions and Sharing Intentions of Inauthentic Political Content on X'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.17605/OSF.IO/PJ895
+    appendix_url: appendix-files/sec25cycle2ae-final38.pdf
+    paper_url:
+    id: 38
+    
+-   cycle: sec25cycle2
+    title: 'Levenshtein-trinary: Efficient FHE-based Edit Distance Computation with Single Bootstrap per Cell'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://zenodo.org/records/15871491
+    appendix_url: appendix-files/sec25cycle2ae-final41.pdf
+    paper_url:
+    id: 41
+    
+-   cycle: sec25cycle2
+    title: 'Context Matters: Qualitative Insights into Developers Approaches and Challenges with Software Composition Analysis'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15537121?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImRlMDZjMDQ1LWQ1N2EtNDlkNy05NWJjLTQ2NWM2YWMxNWUwNCIsImRhdGEiOnt9LCJyYW5kb20iOiIxZWM1ZDM2ZWI5MzY0YTY5Y2RkN2NmODAwNGFhNjYzZSJ9.1OfXlerFZXjOwuEM4gvZFaA-nzGthryJhW16h5Nb_LXJ2ycspaqMYOHECrD9SY7_aFT_reQMKDA-jRxZD99Kbw
+    paper_url:
+    id: 42
+    
+-   cycle: sec25cycle2
+    title: 'Haunted by Legacy: Discovering and Exploiting Vulnerable Tunnelling Hosts'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15706733
+    appendix_url: appendix-files/sec25cycle2ae-final45.pdf
+    paper_url:
+    id: 45
+    
+-   cycle: sec25cycle2
+    title: 'Refiner: Data Refining against Gradient Leakage Attacks in Federated Learning'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15544639
+    paper_url:
+    id: 46
+    
+-   cycle: sec25cycle2
+    title: 'VULCANBOOST: Boosting ReDoS Fixes through Symbolic Representation and Feature Normalization'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15550470
+    paper_url:
+    id: 47
+    
+-   cycle: sec25cycle2
+    title: 'FABLE: Batched Evaluation on Confidential Lookup Tables in 2PC'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15586635
+    appendix_url: appendix-files/sec25cycle2ae-final49.pdf
+    paper_url:
+    id: 49
+    
+-   cycle: sec25cycle2
+    title: 'Does Finality Gadget Finalize Your Block? A Case Study of Binance Consensus'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15852608
+    appendix_url: appendix-files/sec25cycle2ae-final50.pdf
+    paper_url:
+    id: 50
+    
+-   cycle: sec25cycle2
+    title: 'On the Atomicity and Efficiency Blockchain Payment Channels'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15559636
+    paper_url:
+    id: 51
+    
+-   cycle: sec25cycle2
+    title: 'Navigating Cookie Consent Violations Across the Globe'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15566976
+    paper_url:
+    id: 52
+    
+-   cycle: sec25cycle2
+    title: 'A Tale of Two Worlds, a Formal Story of WireGuard Hybridization'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15551056
+    appendix_url: appendix-files/sec25cycle2ae-final53.pdf
+    paper_url:
+    id: 53
+    
+-   cycle: sec25cycle2
+    title: 'Game of Arrows: On the (In-)Security of Weight Obfuscation for On-Device TEE-Shielded LLM Partition Algorithms'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15695418
+    appendix_url: appendix-files/sec25cycle2ae-final54.pdf
+    paper_url:
+    id: 54
+    
+-   cycle: sec25cycle2
+    title: 'BLuEMan: A Stateful Simulation-based Fuzzing Framework for Open-Source RTOS Bluetooth Low Energy Protocol Stacks'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15601101
+    appendix_url: appendix-files/sec25cycle2ae-final55.pdf
+    paper_url:
+    id: 55
+    
+-   cycle: sec25cycle2
+    title: 'Kintsugi: Secure Hotpatching for Code-Shadowing Real-Time Embedded Systems'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15592036
+    appendix_url: appendix-files/sec25cycle2ae-final56.pdf
+    paper_url:
+    id: 56
+    
+-   cycle: sec25cycle2
+    title: 'ECC.fail: Mounting Rowhammer Attacks on DDR4 Servers with ECC Memory'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15579424
+    paper_url:
+    id: 57
+
+-   cycle: sec25cycle2
+    title: 'Scalable Collaborative zk-SNARK and Its Application to Fully Distributed Proof Delegation'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.16722573
+    appendix_url: appendix-files/sec25cycle2ae-final58.pdf
+    paper_url:
+    id: 58
+    
+-   cycle: sec25cycle2
+    title: 'IDFuzz: Intelligent Directed Grey-box Fuzzing'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/doi/10.5281/zenodo.13753906
+    paper_url:
+    id: 59
+    
+-   cycle: sec25cycle2
+    title: 'LLFuzz: An Over-the-Air Dynamic Testing Framework for Cellular Baseband Lower Layers'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15568948
+    paper_url:
+    id: 60
+    
+-   cycle: sec25cycle2-embargo
+    title: 'GPUHammer: Rowhammer Attacks on GPU Memories are Practical'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15612689
+    appendix_url: appendix-files/sec25cycle2ae-final61.pdf
+    paper_url:
+    id: 61
+    
+-   cycle: sec25cycle2
+    title: 'How to Compare Two-Party Secure Messaging Protocols: A Quest for A More Efficient and Secure Post-Quantum Protocol'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15571277
+    appendix_url: appendix-files/sec25cycle2ae-final62.pdf
+    paper_url:
+    id: 62
+    
+-   cycle: sec25cycle2
+    title: 'Comprehensive Deniability Analysis of Signal Handshake Protocols: X3DH, PQXDH to Fully Post-Quantum with Deniable Ring Signatures'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15571694
+    appendix_url: appendix-files/sec25cycle2ae-final63.pdf
+    paper_url:
+    id: 63
+    
+-   cycle: sec25cycle2
+    title: 'Shortcut Measurement Codes'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15522800
+    appendix_url: appendix-files/sec25cycle2ae-final64.pdf
+    paper_url:
+    id: 64
+    
+-   cycle: sec25cycle2
+    title: 'Self-interpreting Adversarial Images'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://figshare.com/articles/software/Self-interpreting_Adversarial_Images/29219051?file=56929889
+    appendix_url: appendix-files/sec25cycle2ae-final65.pdf
+    paper_url:
+    id: 65
+    
+-   cycle: sec25cycle2
+    title: 'Evaluating Privacy Policies under Modern Privacy Laws At Scale: An LLM-Based Automated Approach'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15594020
+    paper_url:
+    id: 66
+    
+-   cycle: sec25cycle2
+    title: 'SLOTHE : Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15600623
+    paper_url:
+    id: 67
+    
+-   cycle: sec25cycle2
+    title: 'USD: NSFW Content Detection for Text-to-Image Models via Scene Graph'
+    badges: 'Badges: Available'
+    artifact_url: https://figshare.com/articles/software/Unsafe_Scene_Detection/28260395
+    paper_url:
+    id: 68
+    
+-   cycle: sec25cycle2
+    title: 'CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15580292 
+    appendix_url: appendix-files/sec25cycle2ae-final70.pdf
+    paper_url:
+    id: 70
+    
+-   cycle: sec25cycle2
+    title: 'Exploring and Exploiting the Resource Isolation Attack Surface of WebAssembly Containers'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.16594863
+    appendix_url: appendix-files/sec25cycle2ae-final71.pdf
+    paper_url:
+    id: 71
+    
+-   cycle: sec25cycle2
+    title: 'EKC: A Portable and Extensible Kernel Compartment for De-Privileging Commodity OS'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15534623
+    appendix_url: appendix-files/sec25cycle2ae-final72.pdf
+    paper_url:
+    id: 72
+    
+-   cycle: sec25cycle2
+    title: 'Regulating Smart Device Support Periods: User Expectations and the European Cyber Resilience Act'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.4121/71c038e7-e991-4dcd-9729-47dd0d9250c6
+    paper_url:
+    id: 73
+    
+-   cycle: sec25cycle2
+    title: 'General-Purpose ff-DP Estimation and Auditing in a Black-Box Setting'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15599462
+    appendix_url: appendix-files/sec25cycle2ae-final74.pdf
+    paper_url:
+    id: 74
+    
+-   cycle: sec25cycle2
+    title: 'Beyond Exploit Scanning: A Functional Change-Driven Approach to Remote Software Version Identification'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15576928
+    appendix_url: appendix-files/sec25cycle2ae-final75.pdf
+    paper_url:
+    id: 75
+    
+-   cycle: sec25cycle2
+    title: 'TEEcorrelate: An Information-Preserving Defense against Performance Counter Attacks on TEEs'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15699920
+    appendix_url: appendix-files/sec25cycle2ae-final76.pdf
+    paper_url:
+    id: 76
+    
+-   cycle: sec25cycle2
+    title: 'Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs’ Ethical Boundaries'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15578502
+    paper_url:
+    id: 77
+    
+-   cycle: sec25cycle2
+    title: 'NASS: Fuzzing All Native Android System Services with Interface Awareness and Coverage'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15577630
+    appendix_url: appendix-files/sec25cycle2ae-final78.pdf
+    paper_url:
+    id: 78
+    
+-   cycle: sec25cycle2
+    title: 'Understanding How Users Prepare for and React to Smartphone Theft'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15576155
+    paper_url:
+    id: 79
+    
+-   cycle: sec25cycle2
+    title: 'Treebeard: A Scalable and Fault Tolerant ORAM Datastore'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://figshare.com/articles/software/treebeard_zip/29230676?file=55094552
+    appendix_url: appendix-files/sec25cycle2ae-final81.pdf
+    paper_url:
+    id: 81
+    
+-   cycle: sec25cycle2
+    title: 'Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.16748364
+    appendix_url: appendix-files/sec25cycle2ae-final82.pdf
+    paper_url:
+    id: 82
+    
+-   cycle: sec25cycle2
+    title: 'TETD: Trusted Execution in Trust Domains'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.6084/m9.figshare.29262146.v1
+    paper_url:
+    id: 83
+    
+-   cycle: sec25cycle2
+    title: 'ZIPPER: Static Taint Analysis for PHP Applications with Precision and Efficiency'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15582110
+    paper_url:
+    id: 84
+    
+-   cycle: sec25cycle2
+    title: 'LEO-Range: Physical Layer Design for Secure Ranging with Low Earth Orbiting Satellites'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15582836
+    paper_url:
+    id: 85
+    
+-   cycle: sec25cycle2
+    title: 'Exploiting Inaccurate Branch History in Side-Channel Attacks'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15612187
+    appendix_url: appendix-files/sec25cycle2ae-final86.pdf
+    paper_url:
+    id: 86
+    
+-   cycle: sec25cycle2
+    title: 'Blockchain Address Poisoning'
+    badges: 'Badges: Available'
+    artifact_url: https://kilthub.cmu.edu/articles/dataset/Blockchain_Address_Poisoning_Companion_Dataset_/29212703/1
+    paper_url:
+    id: 87
+    
+-   cycle: sec25cycle2
+    title: 'Free Record-Level Privacy Risk Evaluation Through Artifact-Based Methods'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15601571
+    paper_url:
+    id: 88
+    
+-   cycle: sec25cycle2
+    title: 'Hercules Droidot and the murder on the JNI Express'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15586319
+    appendix_url: appendix-files/sec25cycle2ae-final89.pdf
+    paper_url:
+    id: 89
+    
+-   cycle: sec25cycle2
+    title: 'Mitigating Injection Attacks against Encrypted Applications via View-Based Partitioning'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15586638
+    paper_url:
+    id: 91
+    
+-   cycle: sec25cycle2
+    title: 'Vulnerability of Text-Matching in ML/AI Conference Reviewer Assignments to Collusions'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15588237 
+    appendix_url: appendix-files/sec25cycle2ae-final92.pdf
+    paper_url:
+    id: 92
+    
+-   cycle: sec25cycle2
+    title: 'PolySys: an Algebraic Leakage Attack Engine'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15610353
+    paper_url:
+    id: 93
+    
+-   cycle: sec25cycle2
+    title: 'VAPD: An Anomaly Detection Model for PDF Malware Forensics with Adversarial Robustness'
+    badges: 'Badges: Available, Functional'
+    artifact_urls:
+    - https://zenodo.org/records/15603773
+    - https://zenodo.org/records/16732430 
+    appendix_url: appendix-files/sec25cycle2ae-final94.pdf
+    paper_url:
+    id: 94
+    
+-   cycle: sec25cycle2
+    title: 'MalGuard: Towards Real-Time, Accurate, and Actionable Detection of Malicious Packages in PyPI Ecosystem'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15545824
+    paper_url:
+    id: 95
+    
+-   cycle: sec25cycle2
+    title: 'Ares: Comprehensive Path Hijacking Detection via Routing Tree'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15589806
+    appendix_url: appendix-files/sec25cycle2ae-final96.pdf
+    paper_url:
+    id: 96
+    
+-   cycle: sec25cycle2
+    title: 'TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15591819
+    appendix_url: appendix-files/sec25cycle2ae-final98.pdf
+    paper_url:
+    id: 98
+    
+-   cycle: sec25cycle2
+    title: 'Lets Move2EVM'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15591737
+    appendix_url: appendix-files/sec25cycle2ae-final100.pdf
+    paper_url:
+    id: 100
+    
+-   cycle: sec25cycle2
+    title: 'REVDECODE: Enhancing Binary Function Matching with Context-Aware Graph Representations and Relevance Decoding'
+    badges: 'Badges: Available'
+    artifact_urls:
+    - https://zenodo.org/records/15588740?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1MDI0NiwiZXhwIjoxNzY3MTM5MTk5fQ.eyJpZCI6IjRjOTc1YzIxLWMzYWUtNDg2Yi05ODc4LWEwMzU5OGJhZDg3NCIsImRhdGEiOnt9LCJyYW5kb20iOiJiZTYwZmM1NGViZTk0NDQ0MWZhMDIwY2MzZWQxNjI5MSJ9.mUlhqytiXRiCWXenmvLt0TV0g0X2C3KqfIOhcUv2_StXusX-HCJnqzRMclTpCGvMr6TI_JmuVOAQ78eccjZWHg
+    - https://zenodo.org/records/15579566?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1MjEyOSwiZXhwIjoxNzY3MTM5MTk5fQ.eyJpZCI6ImNkOGVkZTQ3LTczNzgtNGIxNi1hMjE3LTc2YWZjZWNjMDY2MiIsImRhdGEiOnt9LCJyYW5kb20iOiI0MmRhZGRhYzM2YWI3YjdlMjNmMjdlZjdlZTc2MjMwZiJ9.GLiLT2YnxuqaOBxDFxH-HDjzvQ_CSOmHigZJJ_Bq1lI5rTxKaKY69QNIF9dfUb9F8hclEyhEdXA1vFB9ORAJqg
+    - https://zenodo.org/records/15581150?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1MTc3NCwiZXhwIjoxNzY3MTM5MTk5fQ.eyJpZCI6Ijk5N2U3YWM4LWM2OTMtNDM1Mi05ODBjLTFkZDRmMzIwYWZhZSIsImRhdGEiOnt9LCJyYW5kb20iOiIxZDc2Y2NhZWEzNzBkOTgzOWE3YWRhMmZjY2I2ZGMzMSJ9.S-KodhpXPyBv0vT5nZrHsub0bLpy7Mze4YgF9hgFXoUElcghZir-4sUAzzhPyf3tEqM9AQu2tAA0RU-m19G-hQ
+    - https://zenodo.org/records/15580030?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc0OTA1NzI4NSwiZXhwIjoxNzY3MTM5MTk5fQ.eyJpZCI6IjNhMDQ2NzdiLTRmNzgtNDM0YS05NjUwLTEwZGI4NGIxZTZiNiIsImRhdGEiOnt9LCJyYW5kb20iOiI1NjhiNGQ3MTI1OWQ5YjdiYWJiZWVjNTA3Njc3MzFkZCJ9.8v5GWr49Z3HW9HMNrRA0cfnAk784tRZTUOXI440EBLm6d5bFfMB0-IUimTIy3slgBk8fUjjZEo8w-q0r7E3tsA 
+    paper_url:
+    id: 101
+    
+-   cycle: sec25cycle2
+    title: 'Found in Translation: A Generative Language Modeling Approach to Memory Access Pattern Attacks'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15602651
+    appendix_url: appendix-files/sec25cycle2ae-final102.pdf
+    paper_url:
+    id: 102
+    
+-   cycle: sec25cycle2
+    title: 'eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15587623
+    paper_url:
+    id: 103
+    
+-   cycle: sec25cycle2
+    title: 'Unlocking the Power of Differentially Private Zeroth-order Optimization for Fine-tuning LLMs'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15594622
+    appendix_url: appendix-files/sec25cycle2ae-final105.pdf
+    paper_url:
+    id: 105
+    
+-   cycle: sec25cycle2
+    title: 'Parallelizing Universal Atomic Swaps for Multi-Chain Cryptocurrency Exchanges'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15594022
+    paper_url:
+    id: 108
+    
+-   cycle: sec25cycle2
+    title: 'Activation Approximations Can Incur Safety Vulnerabilities in Aligned LLMs: Comprehensive Analysis and Defense'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15595739
+    paper_url:
+    id: 109
+    
+-   cycle: sec25cycle2
+    title: 'Replication Package of ELFuzz'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.16741080
+    appendix_url: appendix-files/sec25cycle2ae-final110.pdf
+    paper_url:
+    id: 110
+    
+-   cycle: sec25cycle2
+    title: 'Exploring User Security and Privacy Attitudes and Concerns Toward the Use of General-Purpose LLM Chatbots for Mental Health'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15596322
+    paper_url:
+    id: 111
+    
+-   cycle: sec25cycle2
+    title: 'A First Look at Governments Enterprise Security Guidance'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15612457
+    appendix_url: appendix-files/sec25cycle2ae-final112.pdf
+    paper_url:
+    id: 112
+    
+-   cycle: sec25cycle2
+    title: 'IRBlock: A Large-Scale Measurement Study of the Great Firewall of Iran'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15572895
+    paper_url:
+    id: 113
+    
+-   cycle: sec25cycle2
+    title: 'TracLLM: A Generic Framework for Attributing Long Context LLMs'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15377790
+    paper_url:
+    id: 114
+    
+-   cycle: sec25cycle2
+    title: 'LEMIX: Enabling Testing of Embedded Applications as Linux Applications'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15611391
+    paper_url:
+    id: 115
+    
+-   cycle: sec25cycle2
+    title: 'OwlC: Compiling Security Protocols to Verified, Secure, High-Performance Libraries'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15605318 
+    appendix_url: appendix-files/sec25cycle2ae-final116.pdf
+    paper_url:
+    id: 116
+    
+-   cycle: sec25cycle2
+    title: 'Automated Soundness and Completeness Vetting of Polygon zkEVM'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15609121
+    paper_url:
+    id: 117
+    
+-   cycle: sec25cycle2
+    title: 'Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.16740884
+    appendix_url: appendix-files/sec25cycle2ae-final118.pdf
+    paper_url:
+    id: 118
+    
+-   cycle: sec25cycle2
+    title: 'AUTOVR: Automated UI Exploration for Detecting Sensitive Data Flow Exposures in Virtual Reality Apps'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15832783
+    appendix_url: appendix-files/sec25cycle2ae-final119.pdf
+    paper_url:
+    id: 119
+    
+-   cycle: sec25cycle2
+    title: 'Approve Once, Regret Forever: On the Exploitation of Ethereum’s Approve-TransferFrom Ecosystem'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15599087
+    paper_url:
+    id: 120
+    
+-   cycle: sec25cycle2
+    title: 'Confusing Value with Enumeration: Studying the Use of CVEs in Academia'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15611161
+    paper_url:
+    id: 121
+    
+-   cycle: sec25cycle2
+    title: 'Pig in a Poke: Automatically Detecting and Exploiting Link Following Vulnerabilities in Windows File Operations'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15479538
+    paper_url:
+    id: 122
+    
+-   cycle: sec25cycle2
+    title: 'Depth Gives a False Sense of Privacy: LLM Internal States Inversion'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15600564
+    paper_url:
+    id: 123
+    
+-   cycle: sec25cycle2
+    title: 'GDMA: Fully Automated DMA Rehosting via Iterative Type Overlays'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15600641
+    appendix_url: appendix-files/sec25cycle2ae-final124.pdf
+    paper_url:
+    id: 124
+    
+-   cycle: sec25cycle2
+    title: 'SCASE: Automated Secret Recovery via Side-Channel-Assisted Symbolic Execution'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609410
+    appendix_url: appendix-files/sec25cycle2ae-final125.pdf
+    paper_url:
+    id: 125
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Automated TTP Extraction from CTI Reports – Are We There Yet?'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15608555
+    appendix_url: appendix-files/sec25cycle2ae-final126.pdf
+    paper_url:
+    id: 126
+    
+-   cycle: sec25cycle2
+    title: 'Towards a Re-evaluation of Data Forging Attacks in Practice'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15601518
+    paper_url:
+    id: 127
+    
+-   cycle: sec25cycle2
+    title: 'Prompt Obfuscation for Large Language Models'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15601914
+    appendix_url: appendix-files/sec25cycle2ae-final128.pdf
+    paper_url:
+    id: 128
+    
+-   cycle: sec25cycle2
+    title: 'Approximation Enforced Execution of Untrusted Linux Kernel Extensions'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609051
+    appendix_url: appendix-files/sec25cycle2ae-final130.pdf
+    paper_url:
+    id: 130
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Data Reconstruction Attacks Against Machine Learning Models: Definition, Metrics, and Benchmark'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15603060
+    paper_url:
+    id: 131
+    
+-   cycle: sec25cycle2
+    title: 'Exposing and Circumventing SNI-based QUIC Censorship of the Great Firewall of China'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15606165
+    appendix_url: appendix-files/sec25cycle2ae-final132.pdf
+    paper_url:
+    id: 132
+    
+-   cycle: sec25cycle2
+    title: 'Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15530229
+    appendix_url: appendix-files/sec25cycle2ae-final133.pdf
+    paper_url:
+    id: 133
+    
+-   cycle: sec25cycle2
+    title: 'Cloak, Honey, Trap: Proactive Defenses Against LLM Agents'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15601740
+    paper_url:
+    id: 134
+    
+-   cycle: sec25cycle2
+    title: 'Preventing Automated Monitoring on Voice Data'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15603263
+    appendix_url: appendix-files/sec25cycle2ae-final135.pdf
+    paper_url:
+    id: 135
+    
+-   cycle: sec25cycle2
+    title: 'Scoop: Mitigation of Recapture Attacks on Provenance-Based Media Authentication'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15611905
+    appendix_url: appendix-files/sec25cycle2ae-final136.pdf
+    paper_url:
+    id: 136
+    
+-   cycle: sec25cycle2
+    title: 'Scanned and Scammed: Insecurity by ObsQRity? Measuring User Susceptibility and Awareness of QR Code-Based Attacks'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15603931
+    paper_url:
+    id: 137
+    
+-   cycle: sec25cycle2
+    title: 'TRex: Practical Type Reconstruction for Binary Code'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15611994
+    appendix_url: appendix-files/sec25cycle2ae-final138.pdf
+    paper_url:
+    id: 138
+    
+-   cycle: sec25cycle2
+    title: 'EchoLLM: LLM-Augmented Acoustic Eavesdropping Attack on Bone Conduction Headphones with mmWave Radar'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15605391
+    paper_url:
+    id: 139
+    
+-   cycle: sec25cycle2
+    title: 'Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15590214
+    paper_url:
+    id: 140
+    
+-   cycle: sec25cycle2
+    title: 'Vest: Verified, Secure, High-Performance Parsing and Serialization for Rust'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15611103
+    appendix_url: appendix-files/sec25cycle2ae-final141.pdf
+    paper_url:
+    id: 141
+    
+-   cycle: sec25cycle2
+    title: 'Hybrid Language Processor Fuzzing via LLM-Based Constraint Solving'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15606061
+    paper_url:
+    id: 142
+    
+-   cycle: sec25cycle2
+    title: 'Aion: Robust and Efficient Multi-Round Single-Mask Secure Aggregation Against Malicious Participants'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15605465
+    appendix_url: appendix-files/sec25cycle2ae-final143.pdf
+    paper_url:
+    id: 143
+    
+-   cycle: sec25cycle2
+    title: 'SNI5GECT: A Practical Approach to Inject aNRchy into 5G NR'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15601773
+    appendix_url: appendix-files/sec25cycle2ae-final144.pdf
+    paper_url:
+    id: 144
+    
+-   cycle: sec25cycle2
+    title: 'XSSky: Detecting XSS Vulnerabilities through Local Path-Persistent Fuzzing'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15580726
+    paper_url:
+    id: 145
+    
+-   cycle: sec25cycle2
+    title: 'Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15606363
+    paper_url:
+    id: 146
+    
+-   cycle: sec25cycle2
+    title: '“It’s not my responsibility to write them”: An Empirical Study of Software Product Managers and Security Requirements'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.6084/m9.figshare.29234525
+    paper_url:
+    id: 147
+    
+-   cycle: sec25cycle2
+    title: 'Transparent Attested DNS for Confidential Computing Services'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15611255
+    appendix_url: appendix-files/sec25cycle2ae-final148.pdf
+    paper_url:
+    id: 148
+    
+-   cycle: sec25cycle2
+    title: 'Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://zenodo.org/records/15607879
+    appendix_url: appendix-files/sec25cycle2ae-final149.pdf
+    paper_url:
+    id: 149
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Machine Learning for Misinformation Detection'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15613696
+    appendix_url: appendix-files/sec25cycle2ae-final150.pdf
+    paper_url:
+    id: 150
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Automated Vulnerability Repair: Methods, Tools, and Assessments'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15609776
+    paper_url:
+    id: 151
+    
+-   cycle: sec25cycle2
+    title: 'Hobbit: Space-Efficient zkSNARK with Optimal Prover Time'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15608317
+    paper_url:
+    id: 153
+    
+-   cycle: sec25cycle2
+    title: 'RollingEvidence: Autoregressive Video Evidence via Rolling Shutter Effect'
+    badges: 'Badges: Available'
+    artifact_urls:
+    - https://doi.org/10.5281/zenodo.15609870
+    - https://doi.org/10.5281/zenodo.15612137
+    - https://doi.org/10.5281/zenodo.15545615
+    - https://doi.org/10.5281/zenodo.15545623
+    - https://doi.org/10.5281/zenodo.15545629
+    - https://doi.org/10.5281/zenodo.15545638
+    - https://doi.org/10.5281/zenodo.15545642
+    - https://doi.org/10.5281/zenodo.15545648
+    - https://doi.org/10.5281/zenodo.15545656
+    - https://doi.org/10.5281/zenodo.15553243
+    - https://doi.org/10.5281/zenodo.15549646
+    paper_url:
+    id: 155
+    
+-   cycle: sec25cycle2
+    title: 'Tady: A Neural Disassembler without Structural Constraint Violations'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15541311
+    appendix_url: appendix-files/sec25cycle2ae-final156.pdf
+    paper_url:
+    id: 156
+    
+-   cycle: sec25cycle2
+    title: 'Password Guessing Using Large Language Models'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15612295
+    paper_url:
+    id: 157
+    
+-   cycle: sec25cycle2
+    title: 'Cross-Modal Prompt Inversion: Unifying Threats to Text and Image Generative AI Models'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15603408
+    paper_url:
+    id: 158
+    
+-   cycle: sec25cycle2
+    title: 'Lancet: A Formalization Framework for Crash and Exploit Pathology'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15611790
+    appendix_url: appendix-files/sec25cycle2ae-final159.pdf
+    paper_url:
+    id: 159
+    
+-   cycle: sec25cycle2
+    title: 'EmbedX: Embedding-Based Cross-Trigger Backdoor Attack Against Large Language Models'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609883
+    appendix_url: appendix-files/sec25cycle2ae-final160.pdf
+    paper_url:
+    id: 160
+    
+-   cycle: sec25cycle2
+    title: 'PrivaCI in VR: Exploring Perceptions and Acceptability of Data Sharing in Virtual Reality Through Contextual Integrity'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15608186
+    paper_url:
+    id: 161
+    
+-   cycle: sec25cycle2
+    title: 'Malicious LLM-Based Conversational AI Makes Users Reveal Personal Information'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15610905 
+    paper_url:
+    id: 162
+    
+-   cycle: sec25cycle2
+    title: 'Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609595
+    appendix_url: appendix-files/sec25cycle2ae-final163.pdf
+    paper_url:
+    id: 163
+    
+-   cycle: sec25cycle2
+    title: 'Censorship Evasion with Unidentified Protocol Generation'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15491977
+    paper_url:
+    id: 165
+    
+-   cycle: sec25cycle2-embargo
+    title: 'Relocate-Vote: Using Sparsity Information to Exploit Ciphertext Side-Channels'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609905
+    appendix_url: appendix-files/sec25cycle2ae-final166.pdf
+    paper_url:
+    id: 166
+    
+-   cycle: sec25cycle2
+    title: 'DNS FLaRE: A Flush-Reload Attack on DNS Forwarders'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15519987?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjVmMDk5NGM0LTc0ZTgtNDcxOC04MjY5LTMyZmIwNTdmYjI1MSIsImRhdGEiOnt9LCJyYW5kb20iOiIwZjRhNzc0NDc0ZmRhMjk1YWE3MzI5Yjk4NzBiOGQzZCJ9.X6Gtdi7uup0fWa4dX-zsuAoRgMnOtmRL7g8Lvzi6uCv65Pw_bIoVSf-Fm0F_41u2C2JQGhZuo-Lycx8k2zxc9Q
+    paper_url:
+    id: 167
+    
+-   cycle: sec25cycle2
+    title: 'The Ransomware Decade: The Creation of a Fine-Grained Dataset and a Longitudinal Study'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15571866
+    paper_url:
+    id: 168
+    
+-   cycle: sec25cycle2
+    title: 'Logs In, Patches Out: Automated Vulnerability Repair via Tree-of-Thought LLM Analysis'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15614211
+    appendix_url: appendix-files/sec25cycle2ae-final169.pdf
+    paper_url:
+    id: 169
+    
+-   cycle: sec25cycle2
+    title: 'No Way to Sign Out? Unpacking Non-Compliance with Google Play’s App Account Deletion Requirements'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15610829
+    appendix_url: appendix-files/sec25cycle2ae-final170.pdf
+    paper_url:
+    id: 170
+    
+-   cycle: sec25cycle2
+    title: 'TAPAS: An Efficient Online APT Detection with Task-guided Process Provenance Graph Segmentation and Analysis'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15610687
+    paper_url:
+    id: 171
+    
+-   cycle: sec25cycle2
+    title: 'I Cannot Write This Because It Violates Our Content Policy: Understanding Content Moderation Policies and User Experiences in Generative AI Products'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.6084/m9.figshare.29257187.v1
+    paper_url:
+    id: 172
+    
+-   cycle: sec25cycle2
+    title: 'McSee: Evaluating Advanced Rowhammer Attacks and Defenses via Automated DRAM Traffic Analysis'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15610915
+    appendix_url: appendix-files/sec25cycle2ae-final173.pdf
+    paper_url:
+    id: 173
+    
+-   cycle: sec25cycle2
+    title: 'Rectifying Privacy and Efficacy Measurements in Machine Unlearning: A New Inference Attack Perspective'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15610191
+    paper_url:
+    id: 174
+    
+-   cycle: sec25cycle2
+    title: 'A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15595719
+    appendix_url: appendix-files/sec25cycle2ae-final175.pdf
+    paper_url:
+    id: 175
+    
+-   cycle: sec25cycle2
+    title: 'Please don’t send that bot anything: Mixed-methods Study of Personal Impersonation Attacks to Steal Digital Payments on Social Media'
+    badges: 'Badges: Available'
+    artifact_urls:
+    - https://doi.org/10.5281/zenodo.15611471 
+    - https://doi.org/10.5281/zenodo.15611502 
+    paper_url:
+    id: 176 
+    
+-   cycle: sec25cycle2
+    title: 'Automated Discovery of Semantic Attacks in Multi-Robot Navigation Systems'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.6084/m9.figshare.29260229
+    paper_url:
+    id: 177
+    
+-   cycle: sec25cycle2
+    title: 'Doubly Dangerous: Evading Phishing Reporting Systems by Leveraging Email Tracking Techniques'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_urls:
+    - https://doi.org/10.5281/zenodo.15612284
+    - https://doi.org/10.5281/zenodo.15612193 
+    appendix_url: appendix-files/sec25cycle2ae-final178.pdf
+    paper_url:
+    id: 178
+    
+-   cycle: sec25cycle2
+    title: 'SOFT: Selective Data Obfuscation for Protecting LLM Fine-tuning against Membership Inference Attacks'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15613620
+    paper_url:
+    id: 179
+    
+-   cycle: sec25cycle2
+    title: 'Breaking the Blindfold: Deep Learning-based Blind Side-channel Analysis'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15614359
+    paper_url:
+    id: 180
+    
+-   cycle: sec25cycle2
+    title: 'CloudFlow Framework and CloudBench Suite'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15609299
+    appendix_url: appendix-files/sec25cycle2ae-final181.pdf
+    paper_url:
+    id: 181
+    
+-   cycle: sec25cycle2
+    title: 'GlitchFHE: Attacking Fully Homomorphic Encryption Using Fault Injection'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15616188
+    paper_url:
+    id: 182
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Efficiency Robustness of Dynamic Deep Learning Systems'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15612037
+    paper_url:
+    id: 183
+    
+-   cycle: sec25cycle2
+    title: 'Practically Secure Honey Password Vaults: New Design and New Evaluation against Online Guessing'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_urls:
+    - https://doi.org/10.5281/zenodo.15612143
+    - https://doi.org/10.5281/zenodo.15646753 
+    appendix_url: appendix-files/sec25cycle2ae-final184.pdf
+    paper_url:
+    id: 184
+    
+-   cycle: sec25cycle2
+    title: 'BGP Vortex: Update Message Floods Can Create Internet Instabilities'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15612433
+    appendix_url: appendix-files/sec25cycle2ae-final185.pdf
+    paper_url:
+    id: 185
+    
+-   cycle: sec25cycle2
+    title: 'Precise and Effective Gadget Chain Mining through Deserialization Guided Call Graph Construction'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15606159
+    appendix_url: appendix-files/sec25cycle2ae-final186.pdf
+    paper_url:
+    id: 186
+    
+-   cycle: sec25cycle2
+    title: 'Ariadne: Navigating through the Labyrinth of Data-Driven Customization Inconsistencies in Android'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://doi.org/10.5281/zenodo.15612788
+    appendix_url: appendix-files/sec25cycle2ae-final187.pdf
+    paper_url:
+    id: 187
+    
+-   cycle: sec25cycle2
+    title: 'Navigating Security and Privacy Threats in Homeless Service Provision'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15612259
+    paper_url:
+    id: 188
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and Privacy of Synthetic Image Generation'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15605704
+    paper_url:
+    id: 189
+    
+-   cycle: sec25cycle2
+    title: 'Backdooring Bias ((B^2)) into Diffusion Models'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15612673?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjZjYWQ3NWRmLWMyZTctNGRkMy1iNDBjLWVkZmY1NGM4NzI1MyIsImRhdGEiOnt9LCJyYW5kb20iOiI0OTk3NGIxZjhmMjYxYjRjYThmODAxMjE1ZjNjM2RlYSJ9.hRiipjswsKwSrgmM_z_Tgw87kInlyxxoQoeDzc9cPZ3yalWJy5WEHA7ktyWHEv7hc4fYqnuChyk5HrF-H7R4Jw
+    paper_url:
+    id: 190
+    
+-   cycle: sec25cycle2
+    title: 'From Risk to Resilience: Towards Assessing and Mitigating the Risk of Data Reconstruction Attacks in Federated Learning'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15612436?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjYwZGUwMTY5LWYzNGMtNDEwMS04OTI1LWY3Yzg5MmI1M2M4MCIsImRhdGEiOnt9LCJyYW5kb20iOiIzNjI5NzZkYTVjOTI2YmY2MzBhYmNjZDgyNGMyMWVhNCJ9.zutPibX6ta0aUUrhAeGoUcfWaQP5TBpdHMO5dtH0FJ5W3f6V6j19qhKeZg1xrxd3WlDi93mgypzvY72BKXNIhQ
+    paper_url:
+    id: 191
+    
+-   cycle: sec25cycle2
+    title: 'Watch Out Your TV Box: Reversing and Blocking a P2P-based Illegal Streaming Ecosystem'
+    badges: 'Badges: Available'
+    artifact_url: 
+    - https://zenodo.org/records/15602764?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjUwZjYwZmI2LTY1MTctNDMxNS05NjQwLTFiZTgyYzRhMTU4ZiIsImRhdGEiOnt9LCJyYW5kb20iOiIyYWRhOTkyZjYyNzhhMmI1MDI1ZTAyZmNkMmYxYjFlMyJ9.YlMGX7NQqIAWIZXHeX8SRqofWh5oUgJAN-3iiN6j84OltOxZrOtHibmWbYgVM-Q3DlnAlrI84pUS38dGiDeNQA
+    - https://zenodo.org/records/15602938?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjcyZWI3NWJlLWZlYjYtNGY5YS05Y2I0LWJhNWY4Y2QyM2E5OSIsImRhdGEiOnt9LCJyYW5kb20iOiJhMjAxMTM0MGEyM2FiMGNmYWY5NWFkYzJkMTE0ZTQ1YSJ9.pgnHdDeXprugF6M2cgv2_-68aSmDeCgmZCDXJ5xzZwZUznFAAadHqA0wPpDh2OOcFjPE7tJIRzUYtf1NVsv3fw
+    paper_url:
+    id: 192
+    
+-   cycle: sec25cycle2
+    title: 'Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15613562
+    paper_url:
+    id: 193
+    
+-   cycle: sec25cycle2
+    title: 'Shadows in Cipher Spaces: Exploiting Tweak Repetition in Hardware Memory Encryption'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15614377
+    appendix_url: appendix-files/sec25cycle2ae-final194.pdf
+    paper_url:
+    id: 194
+    
+-   cycle: sec25cycle2
+    title: 'Save what must be saved: Secure context switching with Sailor'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15613680
+    appendix_url: appendix-files/sec25cycle2ae-final195.pdf
+    paper_url:
+    id: 195
+    
+-   cycle: sec25cycle2
+    title: 'Efficient Batchable Secure Outsourced Computation: Depth-Aware Arithmetization of Common Primitives for BFV & BGV'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15613816
+    paper_url:
+    id: 196
+    
+-   cycle: sec25cycle2
+    title: 'LLMxCPG: Context-Aware Vulnerability Detection Through Code Property Graph-Guided Large Language Models'
+    badges: 'Badges: Available, Functional'
+    artifact_url: https://zenodo.org/records/15614095
+    appendix_url: appendix-files/sec25cycle2ae-final197.pdf
+    paper_url:
+    id: 197
+    
+-   cycle: sec25cycle2
+    title: 'Investigating the Impact of Online Community Involvement on Safety Practices and Perceived Risks Among People Who Use Drugs'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15614373
+    paper_url:
+    id: 198
+    
+-   cycle: sec25cycle2
+    title: 'I wasn’t sure if this is indeed a security risk: Data-driven Understanding of Security Issue Reporting in GitHub Repositories of Open Source npm Packages'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15614029
+    paper_url:
+    id: 199
+    
+-   cycle: sec25cycle2
+    title: 'Exploiting Task-Level Vulnerabilities: An Automatic Jailbreak Attack and Defense Benchmarking for LLMs'
+    badges: 'Badges: Available'
+    paper_url:
+    id: 200
+    
+-   cycle: sec25cycle2
+    title: 'Addressing Sensitivity Distinction in Local Differential Privacy : A General Utility-Optimized Framework'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://zenodo.org/records/15614307
+    appendix_url: appendix-files/sec25cycle2ae-final201.pdf
+    paper_url:
+    id: 201
+    
+-   cycle: sec25cycle2
+    title: 'No, I Cant Be a Security Personnel on Your Phone: Security and Privacy Threats From Sharing Infrastructure in Rural Ghana'
+    badges: 'Badges: Available'
+    artifact_url: https://osf.io/fvs97/files/osfstorage?view_only=d1916a62678d474d923ea629e7e6338c
+    paper_url:
+    id: 202
+    
+-   cycle: sec25cycle2
+    title: 'PrivacyXray: Detecting Privacy Breaches in LLMs through Semantic Consistency and Probability Certainty'
+    badges: 'Badges: Available'
+    artifact_url: https://zenodo.org/records/15615045
+    paper_url:
+    id: 203
+    
+-   cycle: sec25cycle2
+    title: 'SoK: Towards a Unified Approach of Applied Replicability for Computer Security'
+    badges: 'Badges: Available'
+    artifact_url: https://doi.org/10.5281/zenodo.15616973
+    paper_url:
+    id: 204
+    
+-   cycle: sec25cycle2
+    title: 'Privacy Solution or Menace? Investigating Perceptions of Radio Frequency Sensing'
+    badges: 'Badges: Available'
+    artifact_url: https://osf.io/6wamz/?view_only=72093eb73d0343edb65cb9c374a2e7d4
+    paper_url:
+    id: 205
+    
+-   cycle: sec25cycle2
+    title: 'Red Bleed: A Pragmatic Near-Infrared Presentation Attack on Facial Biometric Authentication Systems'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_url: https://doi.org/10.5281/zenodo.15621762
+    appendix_url: appendix-files/sec25cycle2ae-final206.pdf
+    paper_url:
+    id: 206
+    
+-   cycle: sec25cycle2
+    title: 'From Purity to Peril: Backdooring Merged Models From "Harmless" Benign Components'
+    badges: 'Badges: Available, Functional, Reproduced'
+    artifact_urls:
+    - https://zenodo.org/records/14738608
+    - https://zenodo.org/records/14760016
+    - https://zenodo.org/records/14738289 
+    appendix_url: appendix-files/sec25cycle2ae-final207.pdf
+    paper_url:
+    id: 207
+---
 
 <table>
   <thead>

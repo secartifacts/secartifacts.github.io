@@ -44,7 +44,6 @@ issues:
 
 {% for issue in page.issues %}
   <h2>{{ issue.name }}</h2>
-
   <table>
     <thead>
       <tr>
