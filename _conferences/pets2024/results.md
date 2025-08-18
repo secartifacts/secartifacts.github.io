@@ -1,7 +1,6 @@
 ---
 title: Results
 order: 40
-custom_css: pets-badges
 artifacts:
 
   - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0102.pdf"
@@ -66,7 +65,7 @@ artifacts:
 
   - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0012.pdf"
     title: "Block Cookies, Not Websites: Analysing Mental Models and Usability of the Privacy-Preserving Browser Extension CookieBlock"
-    artifact_url: "https://dx.doi.org/20.500.11850/627400"
+    artifact_url: "https://dx.doi.org/20.50s0.11850/627400"
     badge: "artifact-available"
 
   - paper_url: "https://petsymposium.org/popets/2024/popets-2024-0015.pdf"
@@ -345,6 +344,16 @@ artifacts:
     badge: "artifact-reproduced"
 ---
 
+<style>
+a.pets-artifact-badge {
+  font-weight: bold;
+  font-size: smaller;
+  color: #72bf02;
+  background-color: #000000;
+  padding: 2px;
+  text-decoration: none;
+}
+</style>
 
 Results obtained from <a href="https://petsymposium.org/popets/2024/">PETS 2024 proceedings</a>.
 

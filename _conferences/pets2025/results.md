@@ -1,7 +1,6 @@
 ---
 title: Results
 order: 40
-custom_css: pets-badges
 artifacts:
 
   - paper_url: "https://petsymposium.org/popets/2025/popets-2025-0151.pdf"
@@ -501,6 +500,17 @@ artifacts:
     badges: "available,functional"
 
 ---
+
+<style>
+a.pets-artifact-badge {
+  font-weight: bold;
+  font-size: smaller;
+  color: #72bf02;
+  background-color: #000000;
+  padding: 2px;
+  text-decoration: none;
+}
+</style>
 
 Results obtained from <a href="https://petsymposium.org/popets/2025/">PETS 2025 proceedings</a>.
 

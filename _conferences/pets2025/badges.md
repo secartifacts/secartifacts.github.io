@@ -1,8 +1,18 @@
 ---
 title: Badges
 order: 20
-custom_css: pets-badges
 ---
+
+<style>
+a.pets-artifact-badge {
+  font-weight: bold;
+  font-size: smaller;
+  color: #72bf02;
+  background-color: #000000;
+  padding: 2px;
+  text-decoration: none;
+}
+</style>
 
 Each accepted artifact can be granted up to three badges. During the submission,
 the authors must select which badges they want their artifacts to be evaluated

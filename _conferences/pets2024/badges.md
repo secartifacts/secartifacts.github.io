@@ -1,8 +1,18 @@
 ---
 title: Badges
 order: 20
-custom_css: pets-badges
 ---
+
+<style>
+a.pets-artifact-badge {
+  font-weight: bold;
+  font-size: smaller;
+  color: #72bf02;
+  background-color: #000000;
+  padding: 2px;
+  text-decoration: none;
+}
+</style>
 
 For PETS 2024, each accepted artifact will be granted one of the following two
 badges. During the submission, the authors must select which badge they want
