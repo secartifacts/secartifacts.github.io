@@ -30,7 +30,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Antonio Muñoz, _University of Malaga_
 * Aoyang Fang, _The Chinese University of Hong Kong_
 * Atefeh Mohseni, _University of California_
-* Ayomide Akinsanya, _Stevens Institute of Technology_
 * Baodong Chen, _The Ohio State University_
 * Billy Tsouvalas, _Stony Brook University_
 * Bocheng Chen, _Michigan State University_
@@ -81,7 +80,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Huayi Duan, _ETH Zürich_
 * Hugo Kermabon-Bobinnec, _Concordia University_
 * Ismat Jarin, _UC Irvine_
-* Jaeho Lee, _Yonsei University_
 * Jake Ginesin, _Northeastern University_
 * Jean-Charles Noirot Ferrand, _University of Wisconsin-Madison_
 * Jessy Ayala, _University of California, Irvine_
@@ -111,13 +109,11 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Kiho Lee, _ETRI_
 * Kun Wang, _Zhejiang University_
 * Kunyang Li, _University of Wisconsin-Madison_
-* Kyle Fredrickson, _UCSC_
 * Kyle Zeng, _Arizona State University_
 * Leonhard Balduf, _TU Darmstadt_
 * Linard Arquint, _ETH Zurich_
 * Lingzhi Wang, _Northwestern University_
 * Long Huang, _Louisiana State University_
-* Luca Baldesi, _University of California, Irvine_
 * Lukas Lamster, _Graz University of Technology_
 * Marton Bognar, _DistriNet, KU Leuven_
 * Maxime Puys, _University Clermont Auvergne_
@@ -132,7 +128,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Mingfei Cheng, _Singapore Management University_
 * Minghui Xu, _Shandong University_
 * Mingming Chen, _The Pennsylvania State University_
-* Mingming Zhang, _Zhongguancun Laboratory_
 * Mingxi Ye, _Sun Yat-sen University_
 * Mingyi Liu, _Georgia Institute of Technology_
 * Mir Masood Ali, _University of Illinois Chicago_
@@ -166,9 +161,7 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Sebastian Hasler, _University of Stuttgart_
 * Sebastian Kappes, _Max Planck Institute for Informatics_
 * Seonyoung Cheon, _Yonsei University_
-* Seyed Behnam andarzian, _Radboud University_
 * Seyed Mohammad Mehdi Mirnajafizadeh, _Wayne State University_
-* Shahroz Tariq, _CSIRO's Data61_
 * Sharad Agarwal, _University College London_
 * Shenao Yan, _University of Connecticut_
 * Shenghan Zheng, _University of California_
@@ -176,7 +169,6 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Shiwei Feng, _Purdue University_
 * Shixuan Guan, _San Diego State University_
 * Shixuan Zhao, _The Ohio State University_
-* Shiza Ali, _University of Washington_
 * Shubham Agarwal, _CISPA Helmholtz Center for Information Security_
 * Shuo Wang, _Shanghai Jiao Tong University_
 * Shuofeng Liu, _The University of Queensland_
@@ -187,18 +179,15 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Soomin Kim, _KAIST_
 * Stanley Wu, _University of Chicago_
 * Tao Ni City, _University of Hong Kong_
-* Tasnuva Farheen, _Louisiana State University_
 * Tian Dong, _Shanghai Jiao Tong University_
 * Tianchang Yang, _The Pennsylvania State University_
 * Ting Zhu, _The Ohio State University_
 * Tolga Atalay, _Virginia Tech_
 * Tomer Laor, _Ben-Gurion University of the Negev_
-* Tooba Aamir, _CSIRO's Data61_
 * Torsten Krauß, _University of Würzburg_
 * Tuo Li, _Tsinghua University_
 * Tyler Tucker, _University of Florida_
 * Vaishnavi Raghavajosyula, _Max Planck Institute for Informatics_
-* Vidya Lakshmi Rajagopalan, _Stevens Institute of Technology_
 * Vijayanta Jain, _University of Maine_
 * Wanning Ding, _Syracuse University_
 * Wei Song, _UNSW Sydney_
@@ -242,6 +231,7 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 * Yupei Liu, _The Pennsylvania State University_
 * Yupeng Yang, _Georgia Institute of Technology_
 * Yuxiang Yang, _Tsinghua University_
+* Zahra Yazdani, _Georgia Institute of Technology_
 * Zenong Zhang, _Google_
 * Zheng Yang, _Georgia Institute of Technology_
 * Zheng Yu, _Northwestern University_
@@ -264,6 +254,17 @@ Contact the AEC chairs at [sec25aec@usenix.org](mailto:sec25aec@usenix.org).
 
 ## Artifact Evaluation Committee (Single review cycle)
 
+* Ayomide Akinsanya, _Stevens Institute of Technology_
 * David Balash, _University of Richmond_
+* Jaeho Lee, _Yonsei University_
+* Luca Baldesi, _University of California, Irvine_
+* Mingming Zhang, _Zhongguancun Laboratory_
 * Nan Wang, _CSIRO's Data61_
 * Pascal Cotret, _Lab-STICC / ENSTA Bretagne_
+* Seyed Behnam andarzian, _Radboud University_
+* Shahroz Tariq, _CSIRO's Data61_
+* Shiza Ali, _University of Washington_
+* Tasnuva Farheen, _Louisiana State University_
+* Tooba Aamir, _CSIRO's Data61_
+* Kyle Fredrickson, _UCSC_
+* Vidya Lakshmi Rajagopalan, _Stevens Institute of Technology_
