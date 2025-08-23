@@ -111,9 +111,9 @@ issues:
         {% for badge in artifact.badge %}
             {% if badge == "available" %}
                 <span title="IACR CHES Artifacts Available">✅</span>
-            {% elif badge == "functional" %}
+            {% elsif badge == "functional" %}
                 <span title="IACR CHES Artifacts Functional">💡</span>
-            {% elif badge == "best" %}
+            {% elsif badge == "best" %}
                 <span title="IACR CHES Best Artifact Award">🥇</span>
             {% endif %}
         {% endfor %}
