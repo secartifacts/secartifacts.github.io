@@ -20,7 +20,7 @@ evaluation in 2020.
 
 - 2026: clarification for badges requirements, modification of the
   [`ARTIFACT_APPENDIX.md`](./pets2026/ARTIFACT-APPENDIX.md), introduction of an
-  [FAQ](./pets2026/faq.md), sharing of [repository examples for Docker and other
+  [FAQ](./pets2026/faq), sharing of [repository examples for Docker and other
   resources](https://github.com/PoPETS-AEC/examples-and-other-resources) .
 - 2025: switch to <a class="pets-artifact-badge">Artifact: Available</a>, <a
   class="pets-artifact-badge">Artifact: Functional</a>, and  <a
