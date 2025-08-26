@@ -2578,9 +2578,10 @@ artifacts:
     
 -   cycle: sec25cycle2
     title: 'Cloak, Honey, Trap: Proactive Defenses Against LLM Agents'
-    badges: 'Badges: Available'
+    badges: 'Badges: Available, Functional'
     artifact_url: https://zenodo.org/records/15601740
-    paper_url:
+    appendix_url: appendix-files/sec25cycle2ae-final134.pdf
+    paper_url: 
     id: 134
     
 -   cycle: sec25cycle2

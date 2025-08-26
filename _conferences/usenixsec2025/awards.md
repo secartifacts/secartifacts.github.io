@@ -107,7 +107,7 @@ ninjas_reviewer_awards:
   {% endfor %}
 </ul>
 
-## ⭐ Noteworthy Reviewer Awards
+## ⭐ Noteworthy Reviewer Recognition
 
 <ul>
   {% assign sorted_noteworthy_reviewer_awards = page.noteworthy_reviewer_awards | sort %}
@@ -116,7 +116,7 @@ ninjas_reviewer_awards:
   {% endfor %}
 </ul>
 
-## 🥷 Artifact Ninjas
+## 🥷 Ninja Reviewer Recognition
 
 <ul>
   {% assign sorted_ninjas_reviewer_awards = page.ninjas_reviewer_awards | sort %}
