@@ -3067,7 +3067,8 @@ artifacts:
 -   cycle: sec25cycle2
     title: 'Exploiting Task-Level Vulnerabilities: An Automatic Jailbreak Attack and Defense Benchmarking for LLMs'
     badges: 'Badges: Available'
-    paper_url:
+    artifact_url: https://doi.org/10.5281/zenodo.16902911
+    paper_url: 
     id: 200
     
 -   cycle: sec25cycle2
