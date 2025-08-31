@@ -97,6 +97,26 @@ Authors should consider one of the following methods to package the software com
 
 Authors should reach out to the AE chairs when other formats look more reasonable in their judgment. For example, if properly justified, a single-blind video call may be scheduled to demonstrate Functionality or Reproducibility for experiments involving specialized hardware (e.g., jailbroken phones, software-defined radios, etc.).
 
+## Artifact Evaluation badges using `ndssbadges.sty`
+
+The `ndssbadges.sty` LaTeX style file can be used to add Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](ndss_ae_package.zip) package and place the following line early in your main .tex file:
+```
+% Valid options: available, functional, and/or reproduced
+\usepackage[xx]{ndssbadges}
+```
+
+Replace `xx` with a comma-separated list of the awarded badges (e.g., `available,functional`) and copy the corresponding PDF graphics for the awarded badges to the working directory for LaTeX compilation.
+
+Tips:
+
+* Please use, where needed, manual line breaks and multi-line titles to ensure sufficient title-badge spacing. In the "demo/" folder of the package, you will find an example of an optimally spaced paper title and the source files we used to compile it.
+
+* When uploading the camera-ready PDF, submitting a PDF that is overlength because of the artifact appendix may result in an error. However, you may ignore the format checker of HotCRP if you are sure that the paper is correct otherwise.
+
+* In your LaTeX document, the `\usepackage[...]{ndssbadges}` directive must come after `\documentclass` and before `\begin{document}`.
+
+* If your LaTeX document has many `\usepackage` directives, place `\usepackage[...]{ndssbadges}` near the end of those.  This may avoid problems relating to conflicting options for the `graphicx` package.
+
 ## Resources
 The following materials may be useful when preparing an artifact:
 - [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger
