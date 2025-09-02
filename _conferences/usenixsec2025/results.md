@@ -2578,9 +2578,10 @@ artifacts:
     
 -   cycle: sec25cycle2
     title: 'Cloak, Honey, Trap: Proactive Defenses Against LLM Agents'
-    badges: 'Badges: Available'
+    badges: 'Badges: Available, Functional'
     artifact_url: https://zenodo.org/records/15601740
-    paper_url:
+    appendix_url: appendix-files/sec25cycle2ae-final134.pdf
+    paper_url: 
     id: 134
     
 -   cycle: sec25cycle2
@@ -3066,7 +3067,8 @@ artifacts:
 -   cycle: sec25cycle2
     title: 'Exploiting Task-Level Vulnerabilities: An Automatic Jailbreak Attack and Defense Benchmarking for LLMs'
     badges: 'Badges: Available'
-    paper_url:
+    artifact_url: https://doi.org/10.5281/zenodo.16902911
+    paper_url: 
     id: 200
     
 -   cycle: sec25cycle2
