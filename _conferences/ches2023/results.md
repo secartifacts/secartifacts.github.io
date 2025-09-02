@@ -40,6 +40,12 @@ issues:
         artifact_url: https://artifacts.iacr.org/tches/2023/a17/
       - title: Efficient Regression-Based Linear Discriminant Analysis for Side-Channel Security Evaluations – Towards Analytical Attacks against 32-bit Implementations
         artifact_url: https://artifacts.iacr.org/tches/2023/a18/
+  - name: Issue 4
+    artifacts:
+      - title: Enhancing Quality and Security of the PLL-TRNG
+        artifact_url: https://artifacts.iacr.org/tches/2023/a19/
+      - title: "Exploiting Intermediate Value Leakage in Dilithium: A Template-Based Approach"
+        artifact_url: https://artifacts.iacr.org/tches/2023/a22/
 ---
 
 {% for issue in page.issues %}
