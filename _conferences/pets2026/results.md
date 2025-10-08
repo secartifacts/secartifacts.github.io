@@ -16,8 +16,8 @@ issues:
 
     - paper_url: ""
       title: "dX-Privacy for Text and the Curse of Dimensionality"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/r-carpentier/dx-privacy-curse/tree/acabdd7cc72046d32c354001cda6cf97ac7ebdf1"
+      badges: "available, functional"
 
     - paper_url: ""
       title: "Location-Enhanced Information Flow for Home Automations"
