@@ -26,8 +26,8 @@ issues:
 
     - paper_url: ""
       title: "PriVA-C: Defending Voice Assistants from Fingerprinting Attacks"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/dilawer11/PriVA-C/tree/fc0e1fc8c1cb4656ff72d3b32a4d4e43367dc243"
+      badges: "available"
 
     - paper_url: ""
       title: "Bot Among Us: Exploring User Awareness and Privacy Concerns About Chatbots in Group Chats"
@@ -41,8 +41,8 @@ issues:
 
     - paper_url: ""
       title: "Ephemeral Network-Layer Fingerprinting Defenses"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/maybenot-io/popets-2026.1-ephemeral-defs-paper-artifacts/tree/31ff58466742c69b738191bc66789064bac849c2"
+      badges: "available, functional, reproduced"
 
     - paper_url: ""
       title: "Evaluating connection migration based QUIC censorship circumvention"
@@ -61,8 +61,8 @@ issues:
 
     - paper_url: ""
       title: "Personal Data Flows and Privacy Policy Traceability in Third-party GPT Integrations"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://doi.org/10.5281/zenodo.17094729"
+      badges: "available, functional, reproduced"
 
     - paper_url: ""
       title: "Sanitization or Deception? Rethinking Privacy Protection in Large Language Models"
