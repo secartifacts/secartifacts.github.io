@@ -66,8 +66,8 @@ issues:
 
     - paper_url: ""
       title: "Sanitization or Deception? Rethinking Privacy Protection in Large Language Models"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/BipinPaudel/PrivacyOrDeception_PETS/tree/253ac69e826b13c0ab072d25e90b9f2739a69af5"
+      badges: "available"
 
     - paper_url: ""
       title: "Word-level Annotation of GDPR Transparency Compliance in Privacy Policies using Large Language Models"
