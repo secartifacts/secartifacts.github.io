@@ -22,9 +22,9 @@ Submission page: [https://ndss26ae-summer.hotcrp.com/](https://ndss26ae-summer.h
 
 ### Fall Deadline
 * Paper notification to authors: Wed, 22 Oct 2025
-* Artifact registration deadline: Mon, 27 Oct 2025
-* Artifact submission deadline: Fri, 31 Oct 2025
-* Kick-the-tires stage (answering AEC preliminary questions): Tue, 4 Nov 2025 to Thu, 13 Nov 2025
+* Artifact registration deadline: ~~Mon, 27 Oct 2025~~ Fri, 31 Oct 2025
+* Artifact submission deadline: ~~Fri, 31 Oct 2025~~ Thu, 6 Nov 2025
+* Kick-the-tires stage (answering AEC preliminary questions): ~~Tue, 4 Nov 2025 to Thu, 13 Nov 2025~~ Tue, 10 Nov 2025 to Thu, 17 Nov 2025
 * Artifact decisions: Mon, 15 Dec 2025
 * Camera-ready deadline for papers: Wed, 17 Dec 2025
 
