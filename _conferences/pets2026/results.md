@@ -5,11 +5,6 @@ issues:
   - issue_name: "2026.1"
     artifacts:
     - paper_url: ""
-      title: "Gaze3P: Gaze-Based Prediction of Perceived Privacy"
-      artifact_url: ""
-      badges: ""
-
-    - paper_url: ""
       title: "Ad Personalization and Transparency in Mobile Ecosystems: A Comparative Analysis of Google’s and Apple’s EU App Stores"
       artifact_url: "https://github.com/seemoo-lab/appstore-ad-tools/tree/4bc9d4f70b13e52523382b81574c62983c3ca879"
       badges: "available, functional, reproduced"
@@ -21,8 +16,8 @@ issues:
 
     - paper_url: ""
       title: "Location-Enhanced Information Flow for Home Automations"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://doi.org/10.17605/OSF.IO/NPHRV"
+      badges: "available, functional, reproduced"
 
     - paper_url: ""
       title: "PriVA-C: Defending Voice Assistants from Fingerprinting Attacks"
@@ -36,8 +31,8 @@ issues:
 
     - paper_url: ""
       title: "SPRINT: Scalable Secure & Differentially Private Inference for Transformers"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/SAP/sprint/tree/69179165f305075af9c765ee415bf1c77da4bd28"
+      badges: "available, functional"
 
     - paper_url: ""
       title: "Ephemeral Network-Layer Fingerprinting Defenses"
@@ -51,13 +46,13 @@ issues:
 
     - paper_url: ""
       title: "Privacy Attacks on Matrix Profiles based on Reconstruction Techniques"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://gitlab.inria.fr/haoying.zhang/attack_matrix_profile/-/tree/f0afde55f6e10888802312ab7e44ef10ba9d7943"
+      badges: "available, functional, reproduced"
 
     - paper_url: ""
       title: "Making Sense of Private Advertising: A Principled Approach to a Complex Ecosystem"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/kylehogan/idealAdsFunctionalities/tree/5bddc412b536da75395ff822a853f126f9bdccfb"
+      badges: "available, functional, reproduced"
 
     - paper_url: ""
       title: "Personal Data Flows and Privacy Policy Traceability in Third-party GPT Integrations"
@@ -76,8 +71,8 @@ issues:
 
     - paper_url: ""
       title: "ReporTor: Facilitating User Reporting of Issues Encountered in Naturalistic Web Browsing via the Tor Browser"
-      artifact_url: ""
-      badges: ""
+      artifact_url: "https://github.com/sameer-patil/reportor/tree/76b865e64b208f3c544c5f85d7ce67c7875b3364"
+      badges: "available, functional"
 
     - paper_url: ""
       title: "Securing Private Federated Learning in a Malicious Setting: A Scalable TEE-Based Approach with Client Auditing"
