@@ -5,14 +5,14 @@ order: 30
 
 Artifact Evaluation (AE) in USENIX Security '26 will be conducted in two phases: (1) a **mandatory AE phase for _artifact availability_** after main paper acceptance and before the final camera-ready papers are due (Phase-1); (2) an **optional AE phase for _functionality and reproducibility_** checks after final papers are due (Phase-2). 
 In both cases, the submitted artifacts will be reviewed by the Artifact Evaluation Committee (AEC). Artifacts should be submitted in the same cycle as the accepted paper. 
-All authors are encouraged to check the separate deadlines for both phases in the [TBA -- Call for Artifacts](https://www.usenix.org/conference/usenixsecurity26/call-for-artifacts). Having two separate deadlines ensures that authors have additional time to prepare their artifacts for the more advanced and optional ["Artifact Functional" and "Results Reproducible"](badges) badges in Phase-2. Please note that papers that have been "Accepted" after "Shepherd Approval" have a slightly later deadline for Phase-1.
+All authors are encouraged to check the separate deadlines for both phases in the [Call for Artifacts](https://www.usenix.org/conference/usenixsecurity26/call-for-artifacts). Having two separate deadlines ensures that authors have additional time to prepare their artifacts for the more advanced and optional ["Artifact Functional" and "Results Reproducible"](badges) badges in Phase-2. Please note that papers that have been "Accepted" after "Shepherd Approval" have a slightly later deadline for Phase-1.
 Also note that the AE process is *single-blind*, so you do not need to anonymize your submission (neither artifacts nor paper).
 
 For each cycle, a single HotCRP instance will be used to manage the AE for both phases.
 
 **HotCRP links for artifact submission:**
 
-* Cycle-1: TBA 
+* Cycle-1: https://sec26cycle1ae.usenix.hotcrp.com/
 * Cycle-2: TBA 
 
 The following describes what the authors are expected to do prior to each deadline.
