@@ -5,25 +5,26 @@ order: 30
 
 Artifact Evaluation (AE) in USENIX Security '26 will be conducted in two phases: (1) a **mandatory AE phase for _artifact availability_** after main paper acceptance and before the final camera-ready papers are due (Phase-1); (2) an **optional AE phase for _functionality and reproducibility_** checks after final papers are due (Phase-2). 
 In both cases, the submitted artifacts will be reviewed by the Artifact Evaluation Committee (AEC). Artifacts should be submitted in the same cycle as the accepted paper. 
-All authors are encouraged to check the separate deadlines for both phases in the [TBA -- Call for Artifacts](https://www.usenix.org/conference/usenixsecurity26/call-for-artifacts). Having two separate deadlines ensures that authors have additional time to prepare their artifacts for the more advanced and optional ["Artifact Functional" and "Results Reproducible"](badges) badges in Phase-2. Please note that papers that have been "Accepted" after "Shepherd Approval" or after being "Invited for Major Revision" have a slightly later deadline for Phase-1.
+All authors are encouraged to check the separate deadlines for both phases in the [Call for Artifacts](https://www.usenix.org/conference/usenixsecurity26/call-for-artifacts). Having two separate deadlines ensures that authors have additional time to prepare their artifacts for the more advanced and optional ["Artifact Functional" and "Results Reproducible"](badges) badges in Phase-2. Please note that papers that have been "Accepted" after "Shepherd Approval" have a slightly later deadline for Phase-1.
 Also note that the AE process is *single-blind*, so you do not need to anonymize your submission (neither artifacts nor paper).
 
 For each cycle, a single HotCRP instance will be used to manage the AE for both phases.
 
 **HotCRP links for artifact submission:**
 
-* Cycle-1: TBA 
-* Cycle-2 TBA 
+* Cycle-1: [https://sec26cycle1ae.usenix.hotcrp.com/](https://sec26cycle1ae.usenix.hotcrp.com/)
+* Cycle-2: TBA 
 
 The following describes what the authors are expected to do prior to each deadline.
 
 ## Phase-1: Artifacts Available
 
 **Phase-1 AE is mandatory for all papers that get accepted to USENIX Security '26**. Accepted papers that registered for any form of artifact evaluation (i.e., all papers that did not check the box “Artifact evaluation does not apply to this submission” when submitting their USENIX paper), but fail their availability verification, including because artifacts aren't submitted on time, will have their acceptance rescinded.
+In cases where the authors feel that the artifact cannot be shared, a dedicated justification must be provided at paper submission time. The justification will be considered by the reviewers; if the reviewers do not find the argument sufficient, the authors are required to submit their artifact, or their paper will be rejected.
 
 In this phase, the AEC will assess and ensure that the artifacts are in compliance with the ["Artifacts Available"](badges) badge requirements. The authors need to submit a **permanent link to their artifacts** hosted on recommended platforms (e.g., [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Dryad](https://datadryad.org/stash/), [Software Heritage](https://archive.softwareheritage.org/), **but not GitHub, GitLab, or personal websites**). 
 
-The AEC will ensure that all the artifacts that were promised to be made available in the ["Open-Science" section](https://www.usenix.org/conference/usenixsecurity26/submission-policies-and-instructions#:~:text=of%20the%20paper%2C-,one%20additional%20page,-for%20discussing%20ethics) of the submitted paper were made available publicly and permanently. This evaluation will be completed _before the camera-ready versions of the main paper are due_.
+The AEC will ensure that all the artifacts that were promised to be made available in the ["Open-Science" section](/usenixsec2026/ethics-open-science) of the submitted paper were made available publicly and permanently. This evaluation will be completed _before the camera-ready versions of the main paper are due_.
 
 Upon successful completion of the AE -- availability verification, the authors have to include:
 - the permanent link to their artifacts repository in the camera-ready version of their paper;
