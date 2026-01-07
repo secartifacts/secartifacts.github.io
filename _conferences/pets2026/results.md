@@ -5,6 +5,11 @@ issues:
   - issue_name: "2026.1"
     artifacts:
     - paper_url: ""
+      title: "Gaze3P: Gaze-Based Prediction of Perceived Privacy"
+      artifact_url: "https://doi.org/10.5281/zenodo.17104154"
+      badges: "available"
+
+    - paper_url: ""
       title: "Ad Personalization and Transparency in Mobile Ecosystems: A Comparative Analysis of Google’s and Apple’s EU App Stores"
       artifact_url: "https://github.com/seemoo-lab/appstore-ad-tools/tree/4bc9d4f70b13e52523382b81574c62983c3ca879"
       badges: "available, functional, reproduced"
@@ -46,7 +51,7 @@ issues:
 
     - paper_url: ""
       title: "Privacy Attacks on Matrix Profiles based on Reconstruction Techniques"
-      artifact_url: "https://gitlab.inria.fr/haoying.zhang/attack_matrix_profile/-/tree/f0afde55f6e10888802312ab7e44ef10ba9d7943"
+      artifact_url: "https://gitlab.inria.fr/petscraft-public/attacks-by-reconstruction/-/tree/17dac8b10ca7998a3bf143ee30c88443899509d3"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
@@ -71,7 +76,7 @@ issues:
 
     - paper_url: ""
       title: "ReporTor: Facilitating User Reporting of Issues Encountered in Naturalistic Web Browsing via the Tor Browser"
-      artifact_url: "https://github.com/sameer-patil/reportor/tree/76b865e64b208f3c544c5f85d7ce67c7875b3364"
+      artifact_url: "https://doi.org/10.7278/S5d-f8b6-satb"
       badges: "available, functional"
 
     - paper_url: ""
@@ -83,6 +88,29 @@ issues:
       title: "How Experts Personalize Privacy & Security Advice for At-Risk Users"
       artifact_url: "https://doi.org/10.17605/osf.io/pqh84"
       badges: "available"
+
+  - issue_name: "2026.2"
+    artifacts:
+    - paper_url: ""
+      title: "Breaking BAD? Better Call SAUL! -- Breaking and Fixing Bloom Filters with Added Diffusion"
+      artifact_url: "https://github.com/SchaeferJ/BreakingBAD/tree/11ea61c1bdd0edf3082b77b60bacbc0991b3564f"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Frequency Estimation of Correlated Multi-attribute Data under Local Differential Privacy"
+      artifact_url: "https://github.com/shafizurRseeam/Corr-RR/tree/cc6c059fcc073ab55feeb230ce66d78929e042c1"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
 
 ---
 
@@ -124,9 +152,9 @@ The results can also be found on the <a href="https://petsymposium.org/popets/20
       {% if artifact.artifact_url %}
         {% if artifact.badges == "available" %}
           <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Available</a>
-        {% elsif artifact.badges == "available,functional" %}
+        {% elsif artifact.badges == "available, functional" %}
           <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Available, Functional</a>
-        {% elsif artifact.badges == "available,functional,reproduced" %}
+        {% elsif artifact.badges == "available, functional, reproduced" %}
           <a class="pets-artifact-badge" href="{{artifact.artifact_url}}">Artifact: Available, Functional, Reproduced</a>
         {% endif %}
       {% endif %}
