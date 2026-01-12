@@ -102,8 +102,8 @@ issues:
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "Preserving Target Distributions With Differentially Private Count Mechanisms"
+      artifact_url: "https://github.com/nitinkohli/fixed_point_privacy/tree/dbbf3ce302142f56c3740e052c0216eb6af6917b"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
@@ -125,7 +125,7 @@ a.pets-artifact-badge {
 }
 </style>
 
-The results can also be found on the <a href="https://petsymposium.org/popets/2026/">PETS 2026 proceedings</a>.
+The results can also be found on the <a href="https://petsymposium.org/2026/paperlist.php">PETS 2026 proceedings</a>.
 
 {% for issue in page.issues %}
 
