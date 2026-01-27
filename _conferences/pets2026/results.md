@@ -112,10 +112,24 @@ issues:
       badges: "available, functional"
 
     - paper_url: ""
+      title: "Privacy Bias in LLMs: A Contextual Integrity-based Auditing Metric"
+      artifact_url: "https://github.com/yansh/privacy-bias/tree/fce9c3adc7b95fc1bbe3c39cca469deada0145c5"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
       title: ""
       artifact_url: ""
       badges: "available, functional, reproduced"
 
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
 ---
 
 <style>
