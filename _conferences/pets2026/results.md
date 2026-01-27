@@ -117,8 +117,8 @@ issues:
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "Clicking into Exposure: Uncovering Privacy Risks of Google Click Identifier in YouTube Ads"
+      artifact_url: "https://doi.org/10.17617/3.H5T0W4"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
