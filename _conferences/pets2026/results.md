@@ -122,8 +122,8 @@ issues:
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "CoinJoin ecosystem insights for Wasabi 1.x, Wasabi 2.x and Whirlpool coordinator-based privacy mixers"
+      artifact_url: "https://github.com/crocs-muni/pets26_coinjoin_analysis/tree/36d61641c9525ae2f828df67d35329c16c351ff3"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
