@@ -46,8 +46,8 @@ issues:
 
     - paper_url: "https://doi.org/10.56553/popets-2026-0014"
       title: "Evaluating connection migration based QUIC censorship circumvention"
-      artifact_url: "https://github.com/inspire-group/QUICstep-PETS/tree/0a3d0b577bcffc7e43c092920f94652a4e513b4a"
-      badges: "available"
+      artifact_url: "https://github.com/inspire-group/QUICstep-PETS/tree/fdc3ff5f1a39396bb0ba8dcb2015ec9df30a89aa"
+      badges: "available, functional, reproduced"
 
     - paper_url: "https://doi.org/10.56553/popets-2026-0005"
       title: "Privacy Attacks on Matrix Profiles based on Reconstruction Techniques"
@@ -124,6 +124,61 @@ issues:
     - paper_url: ""
       title: "CoinJoin ecosystem insights for Wasabi 1.x, Wasabi 2.x and Whirlpool coordinator-based privacy mixers"
       artifact_url: "https://github.com/crocs-muni/pets26_coinjoin_analysis/tree/36d61641c9525ae2f828df67d35329c16c351ff3"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Secure Change-Point Detection for Time Series under Homomorphic Encryption"
+      artifact_url: "https://github.com/FedericoMazzone/secure-change-point-detection/tree/8b12738aa2ab91afe4c9995a8d13546d1a96d686"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Exercising the CCPA Opt-out Right on Android: Legally Mandated but Practically Challenging"
+      artifact_url: "https://github.com/privacy-tech-lab/gpc-android/tree/04b82f2e3d59cb5d7af2bd4a36d4a523fe559d8e"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "AI-in-the-Loop: Privacy Preserving Real-Time Scam Detection and Conversational Scambaiting by Leveraging LLMs and Federated Learning"
+      artifact_url: "https://github.com/supreme-lab/ai-in-the-loop/tree/9443fed81b563848131789bfc724ccea9a8a2e61"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Cryptographically-Secured Domain Validation"
+      artifact_url: "https://github.com/inspire-group/cryptographic-dv-tamarin-model/tree/540698b9034bb654c7f39132b5bff33d13fab9ba"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Obscura: Enabling Ephemeral Proxies for Traffic Encapsulation in WebRTC Media Streams Against Cost-Effective Censors"
+      artifact_url: "https://github.com/AfonsoVilalonga/Obscura---Artifact/tree/a0bdf4d803391138ddab2270799ac5877343ff7e"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: ""
+      artifact_url: ""
       badges: "available, functional, reproduced"
 
     - paper_url: ""
