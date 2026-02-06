@@ -152,28 +152,28 @@ issues:
       badges: "available, functional"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "Are we collaborative yet? A Usability Perspective on Mixnet Latency for Real-Time Applications"
+      artifact_url: "https://github.com/KillianDavitt/mixnet-user-study/tree/9d05904350c0673f0fb7a054fa5a706f4eb4f02a"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "What-App? App usage detection using encrypted LTE/5G traffic"
+      artifact_url: "https://github.com/Jinjin-Wang07/whatapp-popets26-ae/tree/3a63924dd2d69384091e2c748a2aae4e6888474a"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "CURE: Privacy-Preserving Split Learning Done Right"
+      artifact_url: "https://github.com/CRYPTO-KU/CURE-Privacy-Preserving-Split-Learning/tree/3a130dfcbf1f8f41c7c02e6ffcedb5be1e57b6ce"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "Analysis and Attacks on the Reputation System of Nym"
+      artifact_url: "https://github.com/alexiscao/nym-reputation-system/tree/60af552d3db60cd72f18429db52e6a62edb48f65"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
-      badges: "available, functional, reproduced"
-
-    - paper_url: ""
-      title: ""
-      artifact_url: ""
-      badges: "available, functional, reproduced"
-
-    - paper_url: ""
-      title: ""
-      artifact_url: ""
-      badges: "available, functional, reproduced"
-
-    - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "SentinelTouch: A Lightweight Privacy-Preserving Biometric-Fingerprinting Authentication and Identification System Based on Neural Networks and Homomorphic Encryption"
+      artifact_url: "https://github.com/stamcenter/sentineltouch/tree/43926b171d2126386ae3986c47ee7d734b70b44a"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
