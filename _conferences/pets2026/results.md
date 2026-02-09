@@ -177,14 +177,59 @@ issues:
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "Humanitarian Aid Distribution with Privacy-Preserving Assessment Capabilities"
+      artifact_url: "https://github.com/spring-epfl/aid-distribution-with-assessments-artifacts/tree/4e4b64c40cbd00c6520df2b78d5e7e5956ff5524"
       badges: "available, functional, reproduced"
 
     - paper_url: ""
-      title: ""
-      artifact_url: ""
+      title: "Gryphes: Hybrid Proofs for Modular SNARKs with Applications to zkRollups"
+      artifact_url: "https://github.com/hkust-okx-zkdex-project/pets26-artifacts/tree/f8ea4a48b0af869e486c641b9ac2ef0bad30872f"
       badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Pantomime: Motion Data Anonymization Using Foundation Motion Models"
+      artifact_url: "https://github.com/kit-ps/Pantomime-Motion-Data-Anonymization-using-Foundation-Motion-Models/tree/39aaca8ca68131c249d46b582b9e913c2fb15881"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Privacy by Voice: Designing Usable Privacy Notices for the Voice Interface"
+      artifact_url: "https://osf.io/h7wkm/overview?view_only=baedc79e9f304172ae000f8392c30c9e"
+      badges: "available"
+
+    - paper_url: ""
+      title: "tigro: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations"
+      artifact_url: "https://github.com/tigro-project/artifact/tree/09e8a6a053091f7899996b6450db862a55f70525"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Multi-Party Private Join"
+      artifact_url: "https://github.com/hpicrypto/mppj-artifacts/tree/c0f9fea21409bfe2c1d8ce8fce20fa74746563eb"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Privacy vs. Profit: The Impact of Google's Manifest Version 3 (MV3) Update on Ad Blocker Effectiveness"
+      artifact_url: "https://github.com/lukic-papadopoulos-research/impact_of_google_mv3_update_on_ad_blocker_effectiveness/tree/c95598f906b9b1f4b1a64143ddd3e31d6bfc4b72"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "“I Just Press Allow”: Understanding Privacy Practices of New Internet Users in Urban India"
+      artifact_url: "https://github.com/Priyankapopuri08/PoPETs-Understanding-Privacy-Practices/tree/1191ca5b1274b49bab8ed1d38a6cc3c790b70fd1"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Website fingerprinting on Nym: Attacks and Defenses"
+      artifact_url: "https://github.com/spring-epfl/WF4NYM-artifacts/tree/e6f95df158658ed99c28115aad82924f9f534f88"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "HyperVerITAS: Verifying Image Transformations at Scale on Boolean Hypercubes"
+      artifact_url: "https://github.com/glgreiner/HyperVerITAS/tree/915c48a29252067121832ea9c51fdaff5ec9a961"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis"
+      artifact_url: ""
+      badges: "available, functional"
 ---
 
 <style>
