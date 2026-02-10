@@ -148,7 +148,7 @@ issues:
 
     - paper_url: ""
       title: "Obscura: Enabling Ephemeral Proxies for Traffic Encapsulation in WebRTC Media Streams Against Cost-Effective Censors"
-      artifact_url: "https://github.com/AfonsoVilalonga/Obscura---Artifact/tree/a0bdf4d803391138ddab2270799ac5877343ff7e"
+      artifact_url: "https://github.com/AfonsoVilalonga/Obscura---Artifact/tree/027ab152ada5cfcaade2962a11f8f45f0fe43f7b"
       badges: "available, functional"
 
     - paper_url: ""
