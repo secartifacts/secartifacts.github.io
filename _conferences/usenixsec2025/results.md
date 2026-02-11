@@ -555,14 +555,6 @@ artifacts:
     id: 92
     
 -   cycle: sec25cycle1
-    title: 'Challenging Overreach: Addressing the Discrepancy Between Mobile App Privacy Practices and User Intention'
-    badges: 'Badges: Available'
-    artifact_url: https://zenodo.org/records/14699402
-    appendix_url:
-    paper_url:
-    id: 93
-    
--   cycle: sec25cycle1
     title: 'Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack'
     badges: 'Badges: Available'
     artifact_url: https://zenodo.org/records/14673783
