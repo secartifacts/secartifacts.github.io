@@ -228,7 +228,7 @@ issues:
 
     - paper_url: ""
       title: "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis"
-      artifact_url: ""
+      artifact_url: "https://github.com/jqxue1999/Artifact/tree/3146ec3ebb1035300d2ea4e341af2220d8bb53e2"
       badges: "available, functional"
 ---
 
