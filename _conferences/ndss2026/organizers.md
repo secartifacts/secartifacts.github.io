@@ -7,7 +7,9 @@ Artifact Evaluation Co-chairs: [Mathy Vanhoef](https://www.mathyvanhoef.com/) (K
 
 ### Artifact Evaluation Committee
 
-* Abdullah Al Ishtiaq (The Pennsylvania State University)
+Nine members received the Distinguished Evaluator Award 🏆 from the organizers.
+
+* Abdullah Al Ishtiaq (The Pennsylvania State University) 🏆
 * Alessandro Erba (Karlsruhe Institute of Technology)
 * Ali Ranjbar (The Pennsylvania State University)
 * Amit Samanta (University of Utah)
@@ -21,7 +23,7 @@ Artifact Evaluation Co-chairs: [Mathy Vanhoef](https://www.mathyvanhoef.com/) (K
 * Changming Liu (Google)
 * Chaoqi Zhang (Indiana University Bloomington)
 * Christian van Sloun (RWTH Aachen University)
-* Christoph Sendner (University of California, Irvine)
+* Christoph Sendner (University of California, Irvine) 🏆
 * Chuanpu Fu (Tsinghua University)
 * Chuanqi Xu (Yale University)
 * Corban Villa (UC Berkeley)
@@ -31,11 +33,11 @@ Artifact Evaluation Co-chairs: [Mathy Vanhoef](https://www.mathyvanhoef.com/) (K
 * Dipsy Desai (University of Southern California)
 * Dominik Roy George (Eindhoven University of Technology)
 * Enrico Bassetti (European Space Agency, TU Delft)¹
-* Eric Ackermann (CISPA)
+* Eric Ackermann (CISPA) 🏆
 * Evangelos Bitsikas (Northeastern University)
 * Fabian Bäumer (Ruhr University Bochum)
 * Fabian Fleischer (Georgia Institute of Technology)
-* Felix Lange (Paderborn University)
+* Felix Lange (Paderborn University) 🏆
 * Fuman Xie (The University of Queensland)
 * Georgio Nicolas (COSIC, KU Leuven)¹
 * Giorgia Di Pietro (Sapienza University of Rome)
@@ -77,19 +79,19 @@ Artifact Evaluation Co-chairs: [Mathy Vanhoef](https://www.mathyvanhoef.com/) (K
 * Michael Brown (Trail of Bits)
 * Michele Guerra (New York University Abu Dhabi)
 * Mingda Han (Shandong University)
-* Mingming Zha (Indiana University Bloomington)
+* Mingming Zha (Indiana University Bloomington) 🏆
 * Mingyi Liu (Georgia Institute of Technology)
 * Mohammad Ishtiaq Ashiq Khan (Virginia Tech)
-* Moritz Bley (CISPA Helmholtz Center for Information Security)
+* Moritz Bley (CISPA Helmholtz Center for Information Security) 🏆
 * Muhammad Ibrahim (Georgia Institute of Technology)
 * Nanda Rani (Indian Institute of Technology Kanpur)
 * Nico Heitmann (Paderborn University)
 * Nico Schiller (CISPA Helmholtz Center for Information Security)
 * Nicola Bottura (Sapienza University of Rome)
 * Nicola Ruaro (University of California, Santa Barbara)¹
-* Paul Staat (MPI-SP)
-* Petar Paradžik (University of Zagreb)
-* Pierre Ayoub (LAAS-CNRS)
+* Paul Staat (MPI-SP) 🏆
+* Petar Paradžik (University of Zagreb) 🏆
+* Pierre Ayoub (LAAS-CNRS) 🏆
 * Prianka Mandal (William & Mary)
 * Puzhuo Liu (Ant Group & Tsinghua University)
 * Qiming Guo (Texas A&M University Corpus Christi)¹
