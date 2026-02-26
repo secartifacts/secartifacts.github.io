@@ -117,6 +117,7 @@ artifacts:
 - title:	"Consensus in the Known Participation Model with Byzantine Failures and Sleepy Replicas"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.16956543"
+  award: "Distinguished Artifact Award 🏆"
 
 - title:	"Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing"
   badges:	"available,functional,reproduced"
@@ -129,6 +130,10 @@ artifacts:
 - title:	"Cross-Cache Attacks for the Linux Kernel via PCP Massaging"
   badges:	"available,functional"
   artifact_url:	"https://doi.org/10.5281/zenodo.17640260"
+
+- title:	"Cross-Consensus Reliable Broadcast and its Applications"
+  badges:	"available,functional,reproduced"
+  artifact_url:	"https://doi.org/10.5281/zenodo.16945739"
 
 - title:	"CryptPEFT: Efficient and Private Neural Network Inference via Parameter-Efficient Fine-Tuning"
   badges:	"available,functional,reproduced"
@@ -193,7 +198,7 @@ artifacts:
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17531662"
 
-- title:	"HoneySat Artifact Evaluation"
+- title:	"HoneySat: A Network-based Satellite Honeypot Framework"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17871431"
 
@@ -261,18 +266,6 @@ artifacts:
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.16953762"
 
-- title:	"NDSS '25 Artifact Appendix: Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)"
-  badges:	"available,functional,reproduced"
-  artifact_url:	"https://doi.org/10.5281/zenodo.17428590"
-
-- title:	"NDSS '26 Artifact Appendix: Cross-Consensus Reliable Broadcast and its Applications"
-  badges:	"available,functional,reproduced"
-  artifact_url:	"https://doi.org/10.5281/zenodo.16945739"
-
-- title:	"NDSS '26 Artifact Appendix: Pando: Extremely Scalable BFT Based on Committee Sampling"
-  badges:	"available,functional,reproduced"
-  artifact_url:	"https://doi.org/10.5281/zenodo.16959662"
-
 - title:	"NetRadar: Enabling Robust Carpet Bombing DDoS Detection"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17582527"
@@ -300,6 +293,10 @@ artifacts:
 - title:	"PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed Graphs"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17811170"
+
+- title:	"Pando: Extremely Scalable BFT Based on Committee Sampling"
+  badges:	"available,functional,reproduced"
+  artifact_url:	"https://doi.org/10.5281/zenodo.16959662"
 
 - title:	"PANDORA: Lightweight Adversarial Defense for Edge IoT using Uncertainty-Aware Metric Learning"
   badges:	"available,functional,reproduced"
@@ -416,6 +413,11 @@ artifacts:
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.16565359"
 
+- title:	"Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)"
+  badges:	"available,functional,reproduced"
+  artifact_url:	"https://doi.org/10.5281/zenodo.17428590"
+  award: "Distinguished Artifact Award 🏆"
+
 - title:	"Unshaken by Weak Embedding: Robust Probabilistic Watermarking for Dataset Copyright Protection"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17873466"
@@ -447,6 +449,7 @@ artifacts:
 - title:	"When Mixnets Fail: Evaluating, Quantifying, and Mitigating the Impact of Adversarial Nodes in Mix Networks"
   badges:	"available,functional,reproduced"
   artifact_url:	"https://doi.org/10.5281/zenodo.17703144"
+  award: "Distinguished Artifact Award 🏆"
 
 - title:	"ZKSL: Verifiable and Efficient Split Federated Learning via Asynchronous Zero-Knowledge Proofs"
   badges:	"available"
@@ -467,6 +470,10 @@ artifacts:
 
 ---
 
+<style>
+.award-winners-list  { font-size: 0.9em; }
+</style>
+
 **Evaluated Artifacts**: 114
 
 **Evaluation Results**:
@@ -474,6 +481,15 @@ artifacts:
 * 112 Available
 * 97 Functional
 * 70 Reproduced
+
+**Three artifacts recieved the Distinguished Artifact Award**:
+
+* [Consensus in the Known Participation Model with Byzantine Failures and Sleepy Replicas](https://doi.org/10.5281/zenodo.16956543) by Chenxu Wang (Shandong University), Sisi Duan (Tsinghua University), Minghui Xu (Shandong University), Feng Li (Shandong University), and Xiuzhen Cheng (Shandong University).
+* [Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)](https://doi.org/10.5281/zenodo.17428590) by Giacomo Longo (CASD - Italian Defense University), Giacomo Ratto (University of Genova), Alessio Merlo (CASD - Italian Defense University), and Enrico Russo (University of Genova).
+* [When Mixnets Fail: Evaluating, Quantifying, and Mitigating the Impact of Adversarial Nodes in Mix Networks](https://doi.org/10.5281/zenodo.17703144) by Mahdi Rahimi (KU Leuven).
+{: .award-winners-list}
+
+**All evaluated artifacts**:
 
 <table>
   <thead>
