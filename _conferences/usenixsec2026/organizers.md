@@ -28,7 +28,6 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 * Antonio	Muñoz, _University of Malaga_
 * Arman	Riasi, _Virginia Tech_
 * Arshia	Arya, _University of California, San Diego_
-* Arturo	Villacañas, _Independent researcher_
 * Ashish	Kumar, _Penn State University_
 * Atefeh	Mohseni-Ejiyeh, _UC Santa Barbara, Harness_
 * Bernd	Gruner, _German Aerospace Center (DLR)_
@@ -240,5 +239,6 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 			
 ## Artifact Evaluation Committee (Single review cycle)
 
+* Arturo	Villacañas, _Independent researcher_
 * Noa Izsak, _CISPA Helmholtz Center for Information Security_
 * Tim Leonhard	Storm, _Paderborn University_

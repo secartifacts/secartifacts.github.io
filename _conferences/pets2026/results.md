@@ -230,6 +230,124 @@ issues:
       title: "SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis"
       artifact_url: "https://github.com/jqxue1999/Artifact/tree/3146ec3ebb1035300d2ea4e341af2220d8bb53e2"
       badges: "available, functional"
+
+  - issue_name: "2026.3"
+    artifacts:
+    - paper_url: ""
+      title: "Dodge: A Client-Side Framework for Application-Layer Video Fingerprinting Defenses"
+      artifact_url: "https://github.com/trafnex/dodge-framework/tree/649479dddb1d4f6087871db166cfd9435c8404b2"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Weight Initialization based on Gradient Similarity for Versatile Machine Unlearning"
+      artifact_url: "https://github.com/Ldoun/WIG/tree/99af870ec4ab29732d81bcf3245413ff24588305"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Chatbot Confessions: Large-Scale Analysis of Private Data Disclosure in Shared AI Chatbot Conversations"
+      artifact_url: "https://github.com/Majid-Mollaeefar/chatbot-confessions-artifact/tree/b29076b178d396daeb77befcf52a6d271fef92a6"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents"
+      artifact_url: "https://github.com/ZhengYeah/AudAgent/tree/1744583f6a906a70c9509b80c2196ab5dbec8d4a"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "Understanding Privacy and Quality Tradeoffs in Synthetic Network Data"
+      artifact_url: "https://github.com/noise-lab/networking-mia-pets/tree/a7a279e3eb89b56280b0f77081ed7748fc046af2"
+      badges: "available"
+
+    - paper_url: ""
+      title: "An Improved Entropy Measure for Web Browser Fingerprinting Risk"
+      artifact_url: "https://github.com/google/fingerprinting-risk-measures/tree/f45ee12ca187369aebab0aaa6421b3a6a6be80e6"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Quantifying Classifier Utility under Local Differential Privacy"
+      artifact_url: "https://github.com/ZhengYeah/QCU-LDP/tree/4acd03ee0db439884bab3df789fbd9ced64e7529"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Redefining Website Fingerprinting Attacks with Multi-Agent LLMs"
+      artifact_url: "https://huggingface.co/datasets/steve666666/WFP_datasets/tree/bc1b9be8c5d950bfa6f915dc906fcf8991fbd522"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Pseudonymity at Risk: Linkage Attacks on Blockchain Users with Off-Chain Cues"
+      artifact_url: "https://github.com/LatentSpaceExplorer/de-anonymizing-blockchain-users-through-off-chain-data-linkage/tree/682d1c75f0d005e500d5a188a388a61104c4d3ea"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries"
+      artifact_url: "https://github.com/ObliviousAI/dp-recorder/tree/85d189ebd7ff81a52984708322ee2c2d8c479db4"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "PROVGEN: A Privacy-Preserving Approach for Outcome Validation in Genomic Research"
+      artifact_url: "https://github.com/SpidLab/PROVGEN-A-Privacy-Preserving-Approach-for-Outcome-Validation-in-Genomic-Research/tree/ec4e6daf81f30e17d4e6114333df4245168791e2"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "DP-Hype: Distributed Differentially Private Hyperparameter Search"
+      artifact_url: "https://github.com/UzL-PrivSec/dp-hype/tree/35a327da3105a50aa62d27871f3a5bbe12b3b810"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "CensorLess: Cost-Efficient Censorship Circumvention Through Serverless Cloud Functions"
+      artifact_url: "https://bitbucket.org/umass-lab/censorless/src/ce7a6289204c7a7fdf55dc41f83561e404e2bba3/"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "Dynamic Probabilistic Noise Injection for Membership Inference Defense"
+      artifact_url: "https://github.com/Javad-Forough/DynaNoise-PoPETs2026-Artifact/tree/27c6ba5664eb3ba28973d44e2ea4830d15fd3ee5"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "Access Granted, Privacy Lost: Formalizing & Quantifying the Hidden Anonymity Risks of Exclusive-Use Systems"
+      artifact_url: "https://github.com/OSUSecLab/EUF/tree/60212e23a04fa2398fbf32979e56343066b07620"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "OAuthHub: Mitigating OAuth Data Overaccess through a Local Data Hub"
+      artifact_url: "https://github.com/AISmithLab/OAuthHub/tree/8dacd23941a5b87ad884b0e3d436ce158dffb451"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "Banned Books: Analysis of Censorship on Amazon.com"
+      artifact_url: "https://github.com/citizenlab/chat-censorship/tree/0acb521837e64d142bbf6f627f95656f6f0d8f3e/amazon"
+      badges: "available"
+
+    - paper_url: ""
+      title: "Practical Semi-Open Chat Groups for Secure Messaging Applications"
+      artifact_url: "https://github.com/luizabrs/semi-open-messaging-groups/tree/313fda3197b5153145d03a365eb4ef78ab5a0928"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "zkRevoke: Configurable Untraceability for Verifiable Credentials using ZKPs"
+      artifact_url: "https://doi.org/10.5281/zenodo.19673896"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "EXADPrinter: Semi-Exhaustive Permissionless Device Fingerprinting Within the Android Ecosystem"
+      artifact_url: "https://github.com/AISmithLab/OAuthHub/tree/8dacd23941a5b87ad884b0e3d436ce158dffb451"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "The Masks We (Think We) Wear: Privacy Threats of Browser-Extension Wallets in the Web3 Ecosystem"
+      artifact_url: "https://github.com/podiumdesu/wallet-privacy-threats/tree/0219ebc49acd69ce26640dc2b33329d168d7c310"
+      badges: "available, functional, reproduced"
+
+    - paper_url: ""
+      title: "TraCS: Trajectory Collection in Continuous Space under Local Differential Privacy"
+      artifact_url: "https://github.com/ZhengYeah/TraCS/tree/90d9f2f446f32955ec9ac43f5b3d57ad6ae760a7"
+      badges: "available, functional"
+
+    - paper_url: ""
+      title: "Revisiting the LiRA Membership Inference Attack Under Realistic Assumptions"
+      artifact_url: "https://github.com/najeebjebreel/lira_analysis/tree/193896f1957db7ab6decc32883d913780c868e4e"
+      badges: "available, functional, reproduced"
+
 ---
 
 <style>

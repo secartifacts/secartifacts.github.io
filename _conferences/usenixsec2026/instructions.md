@@ -13,7 +13,7 @@ For each cycle, a single HotCRP instance will be used to manage the AE for both 
 **HotCRP links for artifact submission:**
 
 * Cycle-1: [https://sec26cycle1ae.usenix.hotcrp.com/](https://sec26cycle1ae.usenix.hotcrp.com/)
-* Cycle-2: TBA 
+* Cycle-2: [https://sec26cycle2ae.usenix.hotcrp.com/](https://sec26cycle2ae.usenix.hotcrp.com/) 
 
 The following describes what the authors are expected to do prior to each deadline.
 

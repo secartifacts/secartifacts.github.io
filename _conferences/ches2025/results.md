@@ -171,6 +171,119 @@ artifacts:
     issue: 3
     badge:
     - functional
+  - title: 'XBOOT: Free-XOR Gates for CKKS with Applications to Transciphering'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a33/
+    issue: 4
+    badge:
+    - functional
+  - title: Accelerating NTT with RISC-V Vector Extension for Fully Homomorphic Encryption
+    artifact_url: https://artifacts.iacr.org/tches/2025/a34/
+    issue: 4
+    badge:
+    - functional
+  - title: Entropy extractor based high-throughput post-processings for True Random
+      Number Generators
+    artifact_url: https://artifacts.iacr.org/tches/2025/a35/
+    issue: 4
+    badge:
+    - functional
+  - title: A Fast Heuristic for Mapping Boolean Circuits to Functional Bootstrapping
+    artifact_url: https://artifacts.iacr.org/tches/2025/a36/
+    issue: 4
+    badge:
+    - functional
+  - title: 'ABE Cubed: Advanced Benchmarking Extensions for ABE Squared'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a37/
+    issue: 4
+    badge:
+    - functional
+  - title: 'pracy: A Practical Compiler for Attribute-Based Encryption in Python'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a38/
+    issue: 4
+    badge:
+    - functional
+  - title: Accelerating Hash-Based Polynomial Commitment Schemes with Linear Prover
+      Time
+    artifact_url: https://artifacts.iacr.org/tches/2025/a39/
+    issue: 4
+    badge:
+    - functional
+  - title: 'ECTester: Reverse-engineering side-channel countermeasures of ECC implementations'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a40/
+    issue: 4
+    badge:
+    - functional
+  - title: 'HADES: Automated Hardware Design Exploration for Cryptographic Primitives'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a41/
+    issue: 4
+    badge:
+    - functional
+  - title: Fault Attacks on ECC Signature Verification
+    artifact_url: https://artifacts.iacr.org/tches/2025/a42/
+    issue: 4
+    badge:
+    - functional
+  - title: Generation of Fast Finite Field Arithmetic for Cortex-M4 with ECDH and SQIsign
+      Applications Artifacts Functional
+    artifact_url: https://artifacts.iacr.org/tches/2025/a43/
+    issue: 4
+    badge:
+    - functional
+  - title: Fault Injection Evaluation with Statistical Analysis - How to Deal with Nearly
+      Fabricated Large Circuits
+    artifact_url: https://artifacts.iacr.org/tches/2025/a44/
+    issue: 4
+    badge:
+    - functional
+  - title: 'Let us walk on the 3-isogeny graph: efficient, fast, and simple'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a45/
+    issue: 4
+    badge:
+    - functional
+  - title: 'Sharing the Mask: TFHE Bootstrapping on Packed Messages'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a46/
+    issue: 4
+    badge:
+    - functional
+  - title: Constant-Cycle Hardware Private Circuits
+    artifact_url: https://artifacts.iacr.org/tches/2025/a47/
+    issue: 4
+    badge:
+    - available
+  - title: Avengers assemble! Supervised learning meets lattice reduction --- A single
+      power trace attack against CRYSTALS-Kyber key generation
+    artifact_url: https://artifacts.iacr.org/tches/2025/a48/
+    issue: 4
+    badge:
+    - functional
+  - title: Masking-Friendly Post-Quantum Signatures in the Threshold-Computation-in-the-Head
+      Framework
+    artifact_url: https://artifacts.iacr.org/tches/2025/a49/
+    issue: 4
+    badge:
+    - functional
+  - title: Faster amortized bootstrapping using the incomplete NTT for free
+    artifact_url: https://artifacts.iacr.org/tches/2025/a50/
+    issue: 4
+    badge:
+    - functional
+  - title: A New Perspective on Key Switching for BGV-like Schemes
+    artifact_url: https://artifacts.iacr.org/tches/2025/a51/
+    issue: 4
+    badge:
+    - functional
+  - title: 'BASTION: A Framework for Secure Third-Party IP Integration in NoC-based
+      SoC Platforms'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a54/
+    issue: 4
+    badge:
+    - functional
+  - title: 'mid-pSquare: Leveraging the Strong Side-Channel Security of Prime-Field
+      Masking in Software'
+    artifact_url: https://artifacts.iacr.org/tches/2025/a55/
+    issue: 4
+    badge:
+    - available
 ---
 
 {% assign issue = 0 %}
