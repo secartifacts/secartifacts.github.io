@@ -1,11 +1,11 @@
 ---
 title: Results
 order: 20
-available_img: ieeebadges-available.png
+available_img: ieeespbadges-available.png
 available_name: Artifacts Available
-functional_img: ieeebadges-functional.png
+functional_img: ieeespbadges-functional.png
 functional_name: Artifacts Functional
-reproducible_img: ieeebadges-reproduced.png
+reproducible_img: ieeespbadges-reproduced.png
 reproducible_name: Artifacts Reproduced
 artifacts:
 - title: 'The Secrets Must Not Flow: Scaling Security Verification to Large Codebases'
