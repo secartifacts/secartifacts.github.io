@@ -1,0 +1,28 @@
+ID,Title,Status,"# Reviews",Ava
+1,"The Secrets Must Not Flow: Scaling Security Verification to Large Codebases",Accepted-Available-Functional-Reproducible,3,4 4 5
+3,"Leafblower: a Leakage Attack Against TEE-Based Encrypted Databases",Accepted-Available,3,4 4 4
+4,Towards Practical Zero-Knowledge Proof for PSPACE,Accepted-Available-Functional-Reproducible,2,3 5
+5,"Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware",Accepted-Available,2,3 5
+6,"SeqAss: Using Sequential Associative Caches to Mitigate Conflict-Based Cache Attacks With Reduced Cache Misses and Performance Overhead",Accepted-Available-Functional-Reproducible,2,4 5
+7,"Battering RAM: Low-Cost Interposer Attacks on Confidential Computing via Dynamic Memory Aliasing",Accepted-Available,1/2,5
+8,"AEX-NStep: Probabilistic Interrupt Counting Attacks on Intel SGX",Accepted-Available,3,4 4 5
+9,"Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing",Accepted-Available-Functional-Reproducible,2,3 3
+10,"WebCloak: Characterizing and Mitigating Threats from LLM-Driven Web Agents as Intelligent Scrapers",Accepted-Available-Functional-Reproducible,2,4 5
+11,"deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses",Accepted-Available-Functional-Reproducible,3,4 5 5
+12,"Transient Architectural Execution: From Weird Gates to Weird Programs",Accepted-Available-Functional-Reproducible,2,4 5
+13,Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention,Accepted-Available-Functional-Reproducible,2,4 5
+14,"VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments",Accepted-Available-Functional-Reproducible,2,3 4
+15,"KeyTAR: Practical Keystroke Timing Attacks and Input Reconstruction",Accepted-Available-Functional-Reproducible,3,4 4 5
+16,Mechanized Safety and Liveness Proofs for the Mysticeti Consensus Protocol under the LiDO-DAG Framework,Accepted-Available-Functional-Reproducible,2,4 4
+17,"Cosseter: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis",Accepted-Available-Functional,2,5 5
+18,"InsPIRe: Communication-Efficient PIR with Server-side Preprocessing",Accepted-Available,1/2,4
+20,"SoK: Robustness in Large Language Models against Jailbreak Attacks",Accepted-Available-Functional-Reproducible,2,4 5
+21,"Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization",Accepted-Available-Functional-Reproducible,2,5 5
+22,"2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",Accepted-Available-Functional-Reproducible,3,4 4 4
+23,"EnchTable: Unified Safety Alignment Transfer in Fine-tuned Large Language Models",Accepted-Available,2,4 4
+24,Practical Anonymous Two-Party Gradient Boosting Decision Tree,Accepted-Available-Functional-Reproducible,2,3 5
+25,"GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation",Accepted-Available-Functional-Reproducible,2,4 5
+26,"Artifact for ""Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis""",Accepted-Available-Functional,2,4 4
+28,"CenRL: A Framework for Performing Intelligent Censorship Measurements",Accepted-Available,2,3 4
+29,"Sealing the Window: Efficient Tamper Protection for Provenance Logs",Accepted-Available,2,1 3
+30,"Rain: Transiently Leaking Data from Public Clouds Using Old Vulnerabilities",Accepted-Available-Functional-Reproducible,2,3 5
