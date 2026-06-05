@@ -184,6 +184,8 @@ artifacts:
 * 9 Artifact Functional
 * 37 Artifact Reproduced
 
+Please note that badges are cumulative, thus higher-level badges include lower-level ones.
+
 <table>
   <thead>
     <tr>
