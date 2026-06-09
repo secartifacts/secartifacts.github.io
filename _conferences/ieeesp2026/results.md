@@ -73,7 +73,7 @@ artifacts:
   artifact_url: https://zenodo.org/records/17230472
 - title: 'Practical Anonymous Two-Party Gradient Boosting Decision Tree'
   badges: reproducible
-  artifact_url: nan
+  artifact_url: https://zenodo.org/records/17373936
 - title: 'GHost in the SHELL: A GPU-to-Host Memory Attack and Its Mitigation'
   badges: reproducible
   artifact_url: https://zenodo.org/records/17364307
@@ -173,7 +173,7 @@ artifacts:
 - title: 'Sealing the Window: Efficient Tamper Protection for Provenance Logs'
   badges: reproducible
   artifact_url: https://doi.org/10.5281/zenodo.19371297
-- title: 'It’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications'
+- title: 'It\’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications'
   badges: functional
   artifact_url: https://doi.org/10.5281/zenodo.19009015
 ---
