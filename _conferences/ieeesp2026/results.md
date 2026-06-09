@@ -188,16 +188,16 @@ artifacts:
 <table>
   <thead>
     <tr>
-      <th>
+      <th style="width: 10%;">
         Title
       </th>
       <th>
         Avail.
       </th>
-      <th>
+      <th style="width: 10%;"> 
         Review.
       </th>
-      <th>
+      <th style="width: 10%;">
         Repro.
       </th>
       <th>
