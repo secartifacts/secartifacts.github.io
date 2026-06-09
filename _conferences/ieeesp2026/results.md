@@ -188,10 +188,10 @@ artifacts:
 <table>
   <thead>
     <tr>
-      <th style="width: 10%;">
+      <th >
         Title
       </th>
-      <th>
+      <th style="width: 10%;">
         Avail.
       </th>
       <th style="width: 10%;"> 
