@@ -5,8 +5,8 @@ available_img: ieeespbadges-available.png
 available_name: Artifacts Available
 functional_img: ieeespbadges-functional.png
 functional_name: Artifacts Functional
-reproducible_img: ieeespbadges-reproduced.png
-reproducible_name: Artifacts Reproduced
+reproduced_img: ieeespbadges-reproduced.png
+reproduced_name: Artifacts Reproduced
 artifacts:
 - title: 'The Secrets Must Not Flow: Scaling Security Verification to Large Codebases'
   badges: reproducible
@@ -184,7 +184,6 @@ artifacts:
 * 9 Artifact Functional
 * 37 Artifact Reproduced
 
-Please note that badges are cumulative, thus higher-level badges include lower-level ones.
 
 <table>
   <thead>
@@ -219,18 +218,18 @@ Please note that badges are cumulative, thus higher-level badges include lower-l
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "available" %}
+        {% if artifact.badges contains "available" or artifact.badges contains "functional"  or artifact.badges contains "reproduced"  %}
         <img alt="{{ page.available_name }}" src="{{ site.baseurl }}/images/{{ page.available_img }}">
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "functional" %}
+        {% if artifact.badges contains "functional"  or artifact.badges contains "reproduced" %}
         <img alt="{{ page.functional_name }}" src="{{ site.baseurl }}/images/{{ page.functional_img }}">
         {% endif %}
       </td>
       <td width="62px">
-        {% if artifact.badges contains "reproducible" %}
-        <img alt="{{ page.reproducible_name }}" src="{{ site.baseurl }}/images/{{ page.reproducible_img }}">
+        {% if artifact.badges contains "reproduced" %}
+        <img alt="{{ page.reproduced_name }}" src="{{ site.baseurl }}/images/{{ page.reproduced_img }}">
         {% endif %}
       </td>
       <td>
