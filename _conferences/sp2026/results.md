@@ -1,11 +1,11 @@
 ---
 title: Results
 order: 20
-available_img: ieeespbadges-available.png
+available_img: spbadges-available.png
 available_name: Artifacts Available
-functional_img: ieeespbadges-functional.png
+functional_img: spbadges-functional.png
 functional_name: Artifacts Functional
-reproduced_img: ieeespbadges-reproduced.png
+reproduced_img: spbadges-reproduced.png
 reproduced_name: Artifacts Reproduced
 artifacts:
 - title: 'The Secrets Must Not Flow: Scaling Security Verification to Large Codebases'
@@ -173,17 +173,16 @@ artifacts:
 - title: 'Sealing the Window: Efficient Tamper Protection for Provenance Logs'
   badges: reproduced
   artifact_url: https://doi.org/10.5281/zenodo.19371297
-- title: 'It\’s a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications'
+- title: "It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications"
   badges: functional
   artifact_url: https://doi.org/10.5281/zenodo.19009015
 ---
 
 **Evaluation Results**:
 
-* 10 Artifact Available 
-* 9 Artifact Functional
+* 56 Artifact Available 
+* 46 Artifact Functional
 * 37 Artifact Reproduced
-
 
 <table>
   <thead>
