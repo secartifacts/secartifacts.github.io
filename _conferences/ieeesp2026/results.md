@@ -43,7 +43,7 @@ artifacts:
   artifact_url: https://zenodo.org/records/17364183
 - title: 'Practical Covert Channel across Isolated Browser Instances via GPU Command Queue Contention'
   badges: reproduced
-  artifact_url: 10.5281/zenodo.17368239
+  artifact_url: https://doi.org/10.5281/zenodo.17368240
 - title: 'VMSCAPE: Exposing and Exploiting Incomplete Branch Predictor Isolation in Cloud Environments'
   badges: reproduced
   artifact_url: https://doi.org/10.5281/zenodo.17376076
