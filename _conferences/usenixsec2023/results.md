@@ -881,6 +881,7 @@ artifacts:
       <th>Funct.</th>
       <th>Repro.</th>
       <th>Available At</th>
+      <th>Author's link</th>
     </tr>
   </thead>
   <tbody>
@@ -919,6 +920,7 @@ artifacts:
           <a href="{{artifact.appendix_url}}" target="_blank">Appendix</a><br>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
     {% endfor %}
   </tbody>

@@ -1,0 +1,5 @@
+<td>
+  {% assign dir_name = page.path | remove_first:"_conferences/" | split:"/" | first %}
+  {% assign af_url = site.data.artifinder_links[dir_name][include.title] %}
+  {% if af_url %}<a href="{{ af_url }}" target="_blank">Author's link</a>{% endif %}
+</td>

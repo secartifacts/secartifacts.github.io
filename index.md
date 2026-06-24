@@ -35,3 +35,8 @@ To increase the discoverability of these artifacts, the [ArtiFinder](https://git
 The following pages list the automatically extracted artifacts.
 As these results were not manually verified, mistakes are possible, for which pull requests are very welcome.
 Currently, ArtiFinder was used to collect artifacts from A* conferences from the years 2000--2025.
+
+{% for conf in site.data.artifinder_index %}
+**{{ conf[0] | upcase }}**: {% for year in conf[1] %}{{ year }} {% endfor %}
+
+{% endfor %}

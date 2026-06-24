@@ -1,5 +1,8 @@
 _site
 .jekyll-cache
+_data/artifinder_artifacts.yaml
+_data/artifinder_links.yaml
+_data/artifinder_index.yaml
 .jekyll-metadata
 .DS_Store
 vendor/

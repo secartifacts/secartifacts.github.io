@@ -693,6 +693,7 @@ Results include evaluation of the USENIX Security Summer submissions and will be
       <th>Repro.</th>
       <th>Repository</th>
       <th>Appendix</th>
+      <th>Author's link</th>
     </tr>
   </thead>
   <tbody>
@@ -728,6 +729,7 @@ Results include evaluation of the USENIX Security Summer submissions and will be
           <a href="{{artifact.appendix_url}}">Appendix</a>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
   {% endfor %}
   </tbody>
