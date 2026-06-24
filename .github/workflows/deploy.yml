@@ -35,9 +35,10 @@ jobs:
           ruby-version: "3.2"
           bundler-cache: true
 
-      - uses: actions/configure-pages@v5
+      - id: pages
+        uses: actions/configure-pages@v5
 
-      - run: bundle exec jekyll build
+      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
