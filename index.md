@@ -5,7 +5,7 @@ title: Security Research Artifacts
 The goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
 usable hardware and software systems as well as to validate the results of the accepted papers.
 
-This website collects resources and results around artifact evaluation for security conferences and workshops.
+This website collects resources and results around artifact evaluation for security conferences and workshops, as well as published [artifacts](#artifacts-without-evaluation) that did not go through a formal evaluation process.
 
 ## Conference Artifact Evaluations
 
@@ -32,11 +32,6 @@ This website collects resources and results around artifact evaluation for secur
 
 While artifact evaluation is becoming more and more widespread, there are many papers that release artifacts without going through a formal evaluation process.
 To increase the discoverability of these artifacts, the [ArtiFinder](https://github.com/DistriNet/ArtiFinder) tool was developed to automatically collect artifact URLs from papers.
-The following pages list the automatically extracted artifacts.
-As these results were not manually verified, mistakes are possible, for which pull requests are very welcome.
-Currently, ArtiFinder was used to collect artifacts from A* conferences from the years 2000--2025.
-
-{% for conf in site.data.artifinder_index %}
-**{{ conf[0] | upcase }}**: {% for year in conf[1] %}{{ year }} {% endfor %}
-
-{% endfor %}
+A [dedicated page](non-evaluated) list these automatically extracted artifacts.
+As these results were not manually verified, mistakes are possible, for which pull requests to the [dataset repository](https://github.com/DistriNet/ArtiFinder-Data) are very welcome.
+Currently, ArtiFinder was used to collect artifacts from A* conferences from the years 2000--2025 and ACSAC between 2017--2025.

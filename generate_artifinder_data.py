@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Generate _data/artifinder_artifacts.yaml and _data/artifinder_links.yaml.
+"""Generate _data/artifinder_nonevaluated.yaml and _data/artifinder_authorlinks.yaml.
 
-artifinder_artifacts.yaml: non-evaluated papers with discovered artifacts,
+artifinder_nonevaluated.yaml: non-evaluated papers with discovered artifacts,
   cross-checked against _conferences to exclude formally evaluated ones.
 
-artifinder_links.yaml: for papers that went through evaluation, cases where
+artifinder_authorlinks.yaml: for papers that went through evaluation, cases where
   ArtiFinder found a different artifact URL than the one in results.md.
 """
 
@@ -14,8 +14,8 @@ import yaml
 
 DATA_DIR = "_artifinder/data"
 CONFERENCES_DIR = "_conferences"
-ARTIFACTS_OUT = "_data/artifinder_artifacts.yaml"
-LINKS_OUT = "_data/artifinder_links.yaml"
+ARTIFACTS_OUT = "_data/artifinder_nonevaluated.yaml"
+LINKS_OUT = "_data/artifinder_authorlinks.yaml"
 
 # Maps _conferences directory prefix → _artifinder/data directory name
 CONF_PREFIX_MAP = {
@@ -83,7 +83,7 @@ evaluated_lookup = {
 }
 print(f"Loaded evaluated titles for {len(evaluated_lookup)} conference-years")
 
-# ── Generate artifinder_artifacts.yaml ────────────────────────────────────────
+# ── Generate artifinder_nonevaluated.yaml ─────────────────────────────────────
 
 conferences = sorted(os.listdir(DATA_DIR))
 artifacts_result = {}
@@ -133,9 +133,9 @@ os.makedirs(os.path.dirname(ARTIFACTS_OUT), exist_ok=True)
 with open(ARTIFACTS_OUT, "w") as fh:
     yaml.dump(artifacts_result, fh, allow_unicode=True, sort_keys=False)
 
-print(f"artifinder_artifacts.yaml — excluded: {total_excluded}, kept: {total_kept}")
+print(f"artifinder_nonevaluated.yaml — excluded: {total_excluded}, kept: {total_kept}")
 
-# ── Generate artifinder_links.yaml ────────────────────────────────────────────
+# ── Generate artifinder_authorlinks.yaml ──────────────────────────────────────
 # For evaluated papers where ArtiFinder found a different artifact URL.
 # Keyed by _conferences directory name → raw results.md title → AF url.
 
@@ -172,4 +172,4 @@ for dir_name, (conf, year, by_norm) in sorted(conf_data.items()):
 with open(LINKS_OUT, "w") as fh:
     yaml.dump(links_result, fh, allow_unicode=True, sort_keys=False)
 
-print(f"artifinder_links.yaml — {total_links} alternative links across {len(links_result)} conf-years")
+print(f"artifinder_authorlinks.yaml — {total_links} alternative links across {len(links_result)} conf-years")

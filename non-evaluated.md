@@ -17,7 +17,7 @@ Results are not manually verified — pull requests with corrections are welcome
 </style>
 
 <div class="af-toc">
-{% for conf in site.data.artifinder_artifacts %}
+{% for conf in site.data.artifinder_nonevaluated %}
   {% assign conf_total = 0 %}
   {% for year_data in conf[1] %}
     {% assign conf_total = conf_total | plus: year_data[1].size %}
@@ -29,7 +29,7 @@ Results are not manually verified — pull requests with corrections are welcome
 {% endfor %}
 </div>
 
-{% for conf in site.data.artifinder_artifacts %}
+{% for conf in site.data.artifinder_nonevaluated %}
 <h2 id="{{ conf[0] }}">{{ conf[0] | upcase }}</h2>
 
 {% for year_data in conf[1] %}
