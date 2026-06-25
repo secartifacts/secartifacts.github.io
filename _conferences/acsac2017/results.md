@@ -72,9 +72,7 @@ Results automatically obtained from <a href="https://www.acsac.org/2017/artifact
       <th>
         Available At
       </th>
-      <th>
-        Author's link
-      </th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

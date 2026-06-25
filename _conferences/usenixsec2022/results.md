@@ -693,7 +693,7 @@ Results include evaluation of the USENIX Security Summer submissions and will be
       <th>Repro.</th>
       <th>Repository</th>
       <th>Appendix</th>
-      <th>Author's link</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

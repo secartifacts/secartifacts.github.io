@@ -1,10 +1,14 @@
 ---
-title: Non-evaluated Artifacts
-permalink: /non-evaluated/
+title: Non-evaluated artifacts
+permalink: /artifinder/
 ---
 
 Artifacts automatically discovered by [ArtiFinder](https://github.com/DistriNet/ArtiFinder) that were not submitted to formal artifact evaluation.
-Results are not manually verified — pull requests with corrections are welcome.
+Results are not manually verified, please submit a [pull request](https://github.com/DistriNet/ArtiFinder-Data) if you spot a mistake or want to validate correctly extracted links (marked with a <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr> in the dataset).
+
+In addition to these links, we also cross-checked the URLs submitted for artifact evaluation with those extracted from the papers.
+When there is a mismatch, the URL reported in the paper is listed on the artifact evaluation outcome page under "Author's link".
+These can often point to project websites or actively maintained repositories instead of archived versions (or even expired temporary URLs).
 
 <style>
 .af-toc { margin: 1.5rem 0 2rem; padding: 0.75rem 1.25rem; background: #f8f8f8; border-radius: 6px; }

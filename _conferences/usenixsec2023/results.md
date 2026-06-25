@@ -881,7 +881,7 @@ artifacts:
       <th>Funct.</th>
       <th>Repro.</th>
       <th>Available At</th>
-      <th>Author's link</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

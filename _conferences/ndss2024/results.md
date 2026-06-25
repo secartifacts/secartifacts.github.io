@@ -180,7 +180,7 @@ artifacts:
       <th>Functional</th>
       <th>Reproduced</th>
       <th>Available at</th>
-      <th>Author's link</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

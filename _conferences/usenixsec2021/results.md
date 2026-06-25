@@ -176,7 +176,7 @@ artifacts:
       <th>Title</th>
       <th>Badge</th>
       <th>Artifact URL</th>
-      <th>Author's link</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

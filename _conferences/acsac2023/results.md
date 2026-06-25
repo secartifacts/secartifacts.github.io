@@ -150,9 +150,7 @@ Results automatically obtained from <a href="https://www.acsac.org/2023/program/
       <th>
         Available At
       </th>
-      <th>
-        Author's link
-      </th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>

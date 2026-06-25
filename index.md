@@ -32,6 +32,6 @@ This website collects resources and results around artifact evaluation for secur
 
 While artifact evaluation is becoming more and more widespread, there are many papers that release artifacts without going through a formal evaluation process.
 To increase the discoverability of these artifacts, the [ArtiFinder](https://github.com/DistriNet/ArtiFinder) tool was developed to automatically collect artifact URLs from papers.
-A [dedicated page](non-evaluated) list these automatically extracted artifacts.
+A [dedicated page](artifinder) list these automatically extracted artifacts.
 As these results were not manually verified, mistakes are possible, for which pull requests to the [dataset repository](https://github.com/DistriNet/ArtiFinder-Data) are very welcome.
 Currently, ArtiFinder was used to collect artifacts from A* conferences from the years 2000--2025 and ACSAC between 2017--2025.

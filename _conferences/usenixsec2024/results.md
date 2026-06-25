@@ -1034,7 +1034,7 @@ artifacts:
       <th width="75px">Funct.</th>
       <th width="75px">Repro.</th>
       <th>Available At</th>
-      <th>Author's link</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>
