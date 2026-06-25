@@ -13,6 +13,7 @@ Results are not manually verified — pull requests with corrections are welcome
 .af-toc-heading { font-size: 0.95rem; margin: 0 0 0.2rem; }
 .af-toc-years { font-size: 0.9rem; margin: 0; }
 .af-count { color: #888; font-size: 0.82em; }
+.af-validated { color: #4a9; font-size: 0.85em; margin-left: 0.2em; cursor: default; }
 </style>
 
 <div class="af-toc">
@@ -37,7 +38,7 @@ Results are not manually verified — pull requests with corrections are welcome
 | Paper | Artifact |
 |-------|----------|
 {% for a in year_data[1] -%}
-| [{{ a.title }}]({{ a.page_link }}) | <{{ a.artifact }}> |
+| [{{ a.title }}]({{ a.page_link }}) | <{{ a.artifact }}>{% if a.validated %} <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% endif %} |
 {% endfor %}
 
 {% endfor %}

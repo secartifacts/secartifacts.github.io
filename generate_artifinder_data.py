@@ -119,6 +119,7 @@ for conf in conferences:
                 "title": p["title"],
                 "page_link": p.get("page_link"),
                 "artifact": p["discovered_artifact"],
+                "validated": bool(p.get("validated")),
             })
 
         total_kept += len(artifacts)
@@ -150,15 +151,19 @@ for dir_name, (conf, year, by_norm) in sorted(conf_data.items()):
         af_papers = yaml.safe_load(fh) or []
 
     af_by_norm = {
-        normalize_title(p["title"]): normalize_url(p.get("discovered_artifact") or "")
+        normalize_title(p["title"]): {
+            "url": normalize_url(p.get("discovered_artifact") or ""),
+            "validated": bool(p.get("validated")),
+        }
         for p in af_papers
     }
 
     dir_links = {}
     for norm_title, (raw_title, eval_url) in by_norm.items():
-        af_url = af_by_norm.get(norm_title, "")
+        af_entry = af_by_norm.get(norm_title, {})
+        af_url = af_entry.get("url", "")
         if af_url and af_url != eval_url:
-            dir_links[raw_title] = af_url
+            dir_links[raw_title] = {"url": af_url, "validated": af_entry["validated"]}
             total_links += 1
 
     if dir_links:
