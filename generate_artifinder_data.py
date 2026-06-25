@@ -19,6 +19,7 @@ LINKS_OUT = "_data/artifinder_links.yaml"
 
 # Maps _conferences directory prefix → _artifinder/data directory name
 CONF_PREFIX_MAP = {
+    "acsac": "acsac",
     "ndss": "ndss",
     "usenixsec": "usenix",
     "sp": "sp",

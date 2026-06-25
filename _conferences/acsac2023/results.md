@@ -150,6 +150,9 @@ Results automatically obtained from <a href="https://www.acsac.org/2023/program/
       <th>
         Available At
       </th>
+      <th>
+        Author's link
+      </th>
     </tr>
   </thead>
   <tbody>
@@ -196,6 +199,7 @@ Results automatically obtained from <a href="https://www.acsac.org/2023/program/
         <br>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
     {% endfor %}
   </tbody>
