@@ -20,7 +20,7 @@ We ask you to build the repository and preview your changes before submitting th
 You have three options to preview changes:
 * configure your forked repository on GitHub to use your branch for GitHub Pages
   and view it at `your_username.github.io/secartifacts.github.io`
-* install Jekyll and Bundler locally, run `./generate.sh` to generate required data files, then run `bundle exec jekyll serve` at the root of the repository
+* install Jekyll and Bundler locally, run `./scripts/generate.sh` to generate required data files, then run `bundle exec jekyll serve` at the root of the repository
 * build the repository via [jekyll's docker container](https://github.com/envygeeks/jekyll-docker), for example using
   the following command to start a jekyll server on [http://localhost:4000/](http://localhost:4000/):
   ``` sh

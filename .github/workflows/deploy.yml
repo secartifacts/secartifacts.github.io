@@ -28,7 +28,7 @@ jobs:
 
       - run: pip install pyyaml
 
-      - run: python3 generate_artifinder_data.py
+      - run: python3 scripts/generate_artifinder_data.py
 
       - uses: ruby/setup-ruby@v1
         with:

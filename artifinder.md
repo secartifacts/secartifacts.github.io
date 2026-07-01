@@ -8,7 +8,7 @@ If you notice a mistake in the automatically extracted links or want to manually
 
 In addition to these links, we also cross-checked the URLs submitted for artifact evaluation with those extracted from the papers.
 When there is a mismatch, the URL reported in the paper is listed on the artifact evaluation outcome page under "Link in paper".
-These can often point to project websites or actively maintained repositories instead of archived versions (or even expired temporary URLs).
+These can often point to project websites or actively maintained repositories instead of archived versions or expired temporary URLs.
 
 <style>
 .af-toc { margin: 1.5rem 0 2rem; padding: 0.75rem 1.25rem; background: #f8f8f8; border-radius: 6px; font-size: 0.82rem; }
