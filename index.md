@@ -30,8 +30,8 @@ This website collects resources and results around artifact evaluation for secur
 
 ## Artifacts without evaluation
 
-While artifact evaluation is becoming more and more widespread, there are many papers that release artifacts without going through a formal evaluation process.
+While artifact evaluation is becoming more and more widespread, many papers release artifacts without going through a formal evaluation process -- either by choice, or due to being published at conference editions that did not (yet) feature AE.
 To increase the discoverability of these artifacts, the [ArtiFinder](https://github.com/DistriNet/ArtiFinder) tool was developed to automatically collect artifact URLs from papers.
-A [dedicated page](artifinder) list these automatically extracted artifacts.
-As these results were not manually verified, mistakes are possible, for which pull requests to the [dataset repository](https://github.com/DistriNet/ArtiFinder-Data) are very welcome.
-Currently, ArtiFinder was used to collect artifacts from A* conferences from the years 2000--2025 and ACSAC between 2017--2025.
+A **[dedicated page](artifinder)** list these automatically extracted artifacts.
+Due to this methodology, mistakes in the links are possible, for which pull requests to the [dataset repository](https://github.com/DistriNet/ArtiFinder-Data) are very welcome.
+As of now, ArtiFinder was used to collect artifacts from IEEE S&P, ACM CCS, USENIX Security, and NDSS from 2000--2025, and ACSAC between 2017--2025.

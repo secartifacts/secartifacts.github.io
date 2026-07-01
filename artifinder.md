@@ -4,10 +4,10 @@ permalink: /artifinder/
 ---
 
 Artifacts automatically discovered by [ArtiFinder](https://github.com/DistriNet/ArtiFinder) that were not submitted to formal artifact evaluation.
-Results are not manually verified, please submit a [pull request](https://github.com/DistriNet/ArtiFinder-Data) if you spot a mistake or want to validate correctly extracted links (marked with a <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr> in the dataset).
+If you notice a mistake in the automatically extracted links or want to manually validate correct entries (marked with a <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr> in the dataset), please submit a [pull request](https://github.com/DistriNet/ArtiFinder-Data)!
 
 In addition to these links, we also cross-checked the URLs submitted for artifact evaluation with those extracted from the papers.
-When there is a mismatch, the URL reported in the paper is listed on the artifact evaluation outcome page under "Author's link".
+When there is a mismatch, the URL reported in the paper is listed on the artifact evaluation outcome page under "Link in paper".
 These can often point to project websites or actively maintained repositories instead of archived versions (or even expired temporary URLs).
 
 <style>
@@ -17,7 +17,6 @@ These can often point to project websites or actively maintained repositories in
 .af-toc-heading { font-size: 0.95rem; margin: 0 0 0.2rem; }
 .af-toc-years { font-size: 0.9rem; margin: 0; }
 .af-count { color: #888; font-size: 0.82em; }
-.af-validated { color: #4a9; font-size: 0.85em; margin-left: 0.2em; cursor: default; }
 </style>
 
 <div class="af-toc">
@@ -42,7 +41,7 @@ These can often point to project websites or actively maintained repositories in
 | Paper | Artifact |
 |-------|----------|
 {% for a in year_data[1] -%}
-| [{{ a.title }}]({{ a.page_link }}) | <{{ a.artifact }}>{% if a.validated %} <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% endif %} |
+| [{{ a.title }}]({{ a.page_link }}) | <{{ a.artifact }}>{% if a.validated %} <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% else %} <abbr title="This link was automatically extracted and has not been manually validated." class="af-unvalidated">?</abbr>{% endif %} |
 {% endfor %}
 
 {% endfor %}

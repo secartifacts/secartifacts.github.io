@@ -9,7 +9,7 @@ This repository includes the sources for Jekyll to render the HTML pages.
 
 ## Contributing
 
-You can contribute to this website and repository via pull requests. 
+You can contribute to this website and repository via pull requests.
 Please fork the [GitHub repository](https://github.com/secartifacts/secartifacts.github.io),
 modify the respective files, and submit a pull request from your personal branch.
 In the pull request, please describe your changes and any reasons for the changes.
@@ -17,7 +17,7 @@ Once reviewed it will be merged and available on the secartifacts website.
 
 
 We ask you to build the repository and preview your changes before submitting the pull request.
-You have three options to preview changes: 
+You have three options to preview changes:
 * configure your forked repository on GitHub to use your branch for GitHub Pages
   and view it at `your_username.github.io/secartifacts.github.io`
 * install Jekyll and Bundler locally, run `./generate.sh` to generate required data files, then run `bundle exec jekyll serve` at the root of the repository

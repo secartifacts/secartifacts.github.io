@@ -1,5 +1,5 @@
 <td>
   {% assign dir_name = page.path | remove_first:"_conferences/" | split:"/" | first %}
   {% assign af_entry = site.data.artifinder_authorlinks[dir_name][include.title] %}
-  {% if af_entry %}<a href="{{ af_entry.url }}" target="_blank">Author's link</a>{% if af_entry.validated %} <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% endif %}{% endif %}
+  {% if af_entry %}<a href="{{ af_entry.url }}" target="_blank">Link in paper</a>{% if af_entry.validated %} <abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% else %} <abbr title="This link was automatically extracted and has not been manually validated." class="af-unvalidated">?</abbr>{% endif %}{% endif %}
 </td>
