@@ -38,7 +38,7 @@ details > summary { font-size: 1.5em; font-weight: bold; cursor: pointer; margin
 {% for a in year_data[1] -%}
 <tr>
 <td><a href="{{ a.page_link }}">{{ a.title }}</a></td>
-<td><a href="{{ a.artifact }}" target="_blank">{{ a.artifact }}</a></td>
+<td><a href="{{ a.artifact }}" target="_blank" title="{{ a.artifact }}">Discovered artifact</a></td>
 <td>{% if a.validated %}<abbr title="This extracted link has been manually validated." class="af-validated">✓</abbr>{% else %}<abbr title="This link was automatically extracted and has not been manually validated." class="af-unvalidated">?</abbr>{% endif %}</td>
 </tr>
 {% endfor %}
