@@ -1,24 +1,30 @@
 #!/usr/bin/env python3
-"""Generate _data/artifinder_nonevaluated.yaml and _data/artifinder_authorlinks.yaml.
+"""
+Generate _data/artifinder_nonevaluated.yaml, _data/artifinder_authorlinks.yaml,
+and _data/artifinder_names.yaml.
 
 artifinder_nonevaluated.yaml: non-evaluated papers with discovered artifacts,
   cross-checked against _conferences to exclude formally evaluated ones.
 
-artifinder_authorlinks.yaml: for papers that went through evaluation, cases where
-  ArtiFinder found a different artifact URL than the one in results.md.
+artifinder_authorlinks.yaml: for papers that went through evaluation, collect where
+  ArtiFinder found a different artifact URL in the paper than the one in results.md.
+
+artifinder_names.yaml: display names for the conference identifiers used above.
 """
 
 import os
 import re
+from typing import Any
+
 import yaml
 
-DATA_DIR = "_artifinder/data"
-CONFERENCES_DIR = "_conferences"
+ARTIFINDER_DATA_DIR = "_artifinder/data"
+EVAL_RESULTS_DIR = "_conferences"
 ARTIFACTS_OUT = "_data/artifinder_nonevaluated.yaml"
 LINKS_OUT = "_data/artifinder_authorlinks.yaml"
 NAMES_OUT = "_data/artifinder_names.yaml"
 
-# Maps _conferences directory prefix → _artifinder/data directory name
+# _conferences directory prefix to _artifinder/data directory name
 CONF_PREFIX_MAP = {
     "acsac": "acsac",
     "ndss": "ndss",
@@ -26,7 +32,7 @@ CONF_PREFIX_MAP = {
     "sp": "sp",
 }
 
-# Maps _artifinder/data directory name → display name
+# _artifinder/data directory name to display name
 CONF_DISPLAY_NAMES = {
     "acsac": "ACSAC",
     "ccs": "ACM CCS",
@@ -36,12 +42,15 @@ CONF_DISPLAY_NAMES = {
 }
 
 
-def normalize_title(title):
-    title = re.sub(r"\s*\[artifacts?\]", "", title, flags=re.IGNORECASE)
-    return re.sub(r"\s+", " ", title).strip().rstrip(".").lower()
+def compare_titles(title_a: str, title_b: str) -> bool:
+    def normalize(title: str) -> str:
+        title = re.sub(r"\s*\[artifacts?\]", "", title, flags=re.IGNORECASE)
+        return re.sub(r"\s+", " ", title).strip().rstrip(".").lower()
+
+    return normalize(title_a) == normalize(title_b)
 
 
-def normalize_url(url):
+def normalize_url(url: str) -> str:
     if not url:
         return ""
     url = url.strip().rstrip("/")
@@ -49,7 +58,7 @@ def normalize_url(url):
     return url
 
 
-def read_front_matter(path):
+def read_front_matter(path: str) -> dict[str, Any]:
     with open(path) as f:
         content = f.read().replace("\t", "  ")
     parts = content.split("---")
@@ -58,133 +67,143 @@ def read_front_matter(path):
     return yaml.safe_load(parts[1]) or {}
 
 
-def get_eval_url(artifact):
+def get_eval_url(artifact: dict[str, Any]) -> str:
     url = artifact.get("artifact_url")
     if isinstance(url, list):
         url = url[0] if url else None
-    return normalize_url(url or "")
+    return normalize_url(str(url)) if url else ""
+
+def conf_id_for_prefix(prefix: str) -> str | None:
+    return CONF_PREFIX_MAP.get(prefix)
 
 
-def load_conference_data():
-    """Return {dir_name: {norm_title: (raw_title, eval_url)}} for all matching conf-years."""
-    result = {}
-    for entry in os.listdir(CONFERENCES_DIR):
+# {(conf, year): (eval_dir_name, [(title, eval_url), ...])}
+EvaluatedPapers = dict[tuple[str, str], tuple[str, list[tuple[str, str]]]]
+
+
+def load_evaluated_papers() -> EvaluatedPapers:
+    """
+    Read titles and artifact URLs from _conferences/*/results.md, i.e. papers
+    that went through formal artifact evaluation.
+    """
+    result: EvaluatedPapers = {}
+    for entry in os.listdir(EVAL_RESULTS_DIR):
         m = re.match(r"^([a-z]+)(\d{4})$", entry)
-        if not m or m.group(1) not in CONF_PREFIX_MAP:
+        if not m:
             continue
-        results_path = os.path.join(CONFERENCES_DIR, entry, "results.md")
+        conf_id = conf_id_for_prefix(m.group(1))
+        if conf_id is None:
+            continue
+        results_path = os.path.join(EVAL_RESULTS_DIR, entry, "results.md")
         if not os.path.exists(results_path):
             continue
         fm = read_front_matter(results_path)
-        by_norm = {}
-        for a in fm.get("artifacts", []):
-            by_norm[normalize_title(a["title"])] = (a["title"], get_eval_url(a))
-        if by_norm:
-            result[entry] = (CONF_PREFIX_MAP[m.group(1)], m.group(2), by_norm)
+        titles = [(a["title"], get_eval_url(a)) for a in fm.get("artifacts", [])]
+        if titles:
+            result[(conf_id, m.group(2))] = (entry, titles)
     return result
 
 
-conf_data = load_conference_data()
+def generate_artifact_data(evaluated_papers: EvaluatedPapers) -> None:
+    """
+    Walk each conference-year's ArtiFinder papers once, splitting them into:
+    - non-evaluated papers with a discovered artifact (artifinder_nonevaluated.yaml)
+    - evaluated papers where ArtiFinder found a different artifact URL than the
+      one submitted for evaluation, keyed by _conferences directory name
+      (artifinder_authorlinks.yaml)
+    """
+    conferences = sorted(os.listdir(ARTIFINDER_DATA_DIR))
+    artifacts_result = {}
+    links_result = {}
+    total_kept = 0
+    total_excluded = 0
+    total_links = 0
 
-# Build evaluated-title lookup for artifact filtering: {(conf, year): set_of_norm_titles}
-evaluated_lookup = {
-    (conf, year): set(by_norm.keys())
-    for _, (conf, year, by_norm) in conf_data.items()
-}
-print(f"Loaded evaluated titles for {len(evaluated_lookup)} conference-years")
+    for conf in conferences:
+        conf_dir = os.path.join(ARTIFINDER_DATA_DIR, conf)
+        if not os.path.isdir(conf_dir):
+            continue
 
-# ── Generate artifinder_nonevaluated.yaml ─────────────────────────────────────
+        years = sorted(
+            (f[:-5] for f in os.listdir(conf_dir) if f.endswith(".yaml")),
+            reverse=True,
+        )
 
-conferences = sorted(os.listdir(DATA_DIR))
-artifacts_result = {}
-total_kept = 0
-total_excluded = 0
+        year_to_artifacts = {}
+        for year in years:
+            path = os.path.join(conf_dir, f"{year}.yaml")
+            with open(path) as fh:
+                papers = yaml.safe_load(fh) or []
 
-for conf in conferences:
-    conf_dir = os.path.join(DATA_DIR, conf)
-    if not os.path.isdir(conf_dir):
-        continue
+            # Evaluated titles for this conference-year, empty if it never went
+            # through formal evaluation (or has no matching _conferences entry).
+            dir_name, evaluated = evaluated_papers.get((conf, year), (None, []))
 
-    years = sorted(
-        (f[:-5] for f in os.listdir(conf_dir) if f.endswith(".yaml")),
-        reverse=True,
-    )
+            noneval_artifacts = []
+            mismatched_urls = {}
+            for p in papers:
+                # Does this ArtiFinder paper correspond to a formally evaluated one?
+                match = next(
+                    (t for t in evaluated if compare_titles(p["title"], t[0])), None
+                )
+                has_artifact = bool(p.get("discovered_artifact"))
 
-    conf_data_out = {}
-    for year in years:
-        path = os.path.join(conf_dir, f"{year}.yaml")
-        with open(path) as fh:
-            papers = yaml.safe_load(fh) or []
+                if match is not None:
+                    # Evaluated paper: only relevant if ArtiFinder found a URL that
+                    # differs from the one submitted for evaluation.
+                    if has_artifact:
+                        raw_title, eval_url = match
+                        af_url = normalize_url(p["discovered_artifact"])
+                        if af_url and af_url != eval_url:
+                            mismatched_urls[raw_title] = {
+                                "url": af_url,
+                                "validated": bool(p.get("validated")),
+                            }
+                            total_links += 1
+                        total_excluded += 1
+                    # Skip the rest for evaluated papers.
+                    continue
 
-        evaluated = evaluated_lookup.get((conf, year), set())
+                if not has_artifact:
+                    continue
 
-        artifacts = []
-        for p in papers:
-            if not p.get("discovered_artifact"):
-                continue
-            if normalize_title(p["title"]) in evaluated:
-                total_excluded += 1
-                continue
-            artifacts.append({
-                "title": p["title"],
-                "page_link": p.get("page_link"),
-                "artifact": p["discovered_artifact"],
-                "validated": bool(p.get("validated")),
-            })
+                # Save non-evaluated papers with a discovered artifact.
+                noneval_artifacts.append({
+                    "title": p["title"],
+                    "page_link": p.get("page_link"),
+                    "artifact": p["discovered_artifact"],
+                    "validated": bool(p.get("validated")),
+                })
 
-        total_kept += len(artifacts)
-        if artifacts:
-            conf_data_out[year] = artifacts
+            total_kept += len(noneval_artifacts)
+            if noneval_artifacts:
+                year_to_artifacts[year] = noneval_artifacts
+            if dir_name and mismatched_urls:
+                links_result[dir_name] = mismatched_urls
 
-    if conf_data_out:
-        artifacts_result[conf] = conf_data_out
+        if year_to_artifacts:
+            artifacts_result[conf] = year_to_artifacts
 
-os.makedirs(os.path.dirname(ARTIFACTS_OUT), exist_ok=True)
-with open(ARTIFACTS_OUT, "w") as fh:
-    yaml.dump(artifacts_result, fh, allow_unicode=True, sort_keys=False)
+    os.makedirs(os.path.dirname(ARTIFACTS_OUT), exist_ok=True)
+    with open(ARTIFACTS_OUT, "w") as fh:
+        yaml.dump(artifacts_result, fh, allow_unicode=True, sort_keys=False)
+    print(f"artifinder_nonevaluated.yaml: excluded {total_excluded}, kept {total_kept}")
 
-print(f"artifinder_nonevaluated.yaml — excluded: {total_excluded}, kept: {total_kept}")
+    with open(LINKS_OUT, "w") as fh:
+        yaml.dump(links_result, fh, allow_unicode=True, sort_keys=False)
+    print(f"artifinder_authorlinks.yaml: {total_links} alternative links across {len(links_result)} conf-years")
 
-# ── Generate artifinder_authorlinks.yaml ──────────────────────────────────────
-# For evaluated papers where ArtiFinder found a different artifact URL.
-# Keyed by _conferences directory name → raw results.md title → AF url.
 
-links_result = {}
-total_links = 0
+def generate_names() -> None:
+    with open(NAMES_OUT, "w") as fh:
+        yaml.dump(CONF_DISPLAY_NAMES, fh, allow_unicode=True, sort_keys=False)
 
-for dir_name, (conf, year, by_norm) in sorted(conf_data.items()):
-    af_path = os.path.join(DATA_DIR, conf, f"{year}.yaml")
-    if not os.path.exists(af_path):
-        continue
+    print(f"artifinder_names.yaml: {len(CONF_DISPLAY_NAMES)} conference names")
 
-    with open(af_path) as fh:
-        af_papers = yaml.safe_load(fh) or []
 
-    af_by_norm = {
-        normalize_title(p["title"]): {
-            "url": normalize_url(p.get("discovered_artifact") or ""),
-            "validated": bool(p.get("validated")),
-        }
-        for p in af_papers
-    }
+if __name__ == "__main__":
+    evaluated_papers = load_evaluated_papers()
+    print(f"Loaded evaluated titles for {len(evaluated_papers)} conference-years")
 
-    dir_links = {}
-    for norm_title, (raw_title, eval_url) in by_norm.items():
-        af_entry = af_by_norm.get(norm_title, {})
-        af_url = af_entry.get("url", "")
-        if af_url and af_url != eval_url:
-            dir_links[raw_title] = {"url": af_url, "validated": af_entry["validated"]}
-            total_links += 1
-
-    if dir_links:
-        links_result[dir_name] = dir_links
-
-with open(LINKS_OUT, "w") as fh:
-    yaml.dump(links_result, fh, allow_unicode=True, sort_keys=False)
-
-print(f"artifinder_authorlinks.yaml — {total_links} alternative links across {len(links_result)} conf-years")
-
-# ── Generate artifinder_names.yaml ────────────────────────────────────────────
-
-with open(NAMES_OUT, "w") as fh:
-    yaml.dump(CONF_DISPLAY_NAMES, fh, allow_unicode=True, sort_keys=False)
+    generate_artifact_data(evaluated_papers)
+    generate_names()
