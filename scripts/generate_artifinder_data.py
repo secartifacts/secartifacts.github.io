@@ -16,6 +16,7 @@ DATA_DIR = "_artifinder/data"
 CONFERENCES_DIR = "_conferences"
 ARTIFACTS_OUT = "_data/artifinder_nonevaluated.yaml"
 LINKS_OUT = "_data/artifinder_authorlinks.yaml"
+NAMES_OUT = "_data/artifinder_names.yaml"
 
 # Maps _conferences directory prefix → _artifinder/data directory name
 CONF_PREFIX_MAP = {
@@ -23,6 +24,15 @@ CONF_PREFIX_MAP = {
     "ndss": "ndss",
     "usenixsec": "usenix",
     "sp": "sp",
+}
+
+# Maps _artifinder/data directory name → display name
+CONF_DISPLAY_NAMES = {
+    "acsac": "ACSAC",
+    "ccs": "ACM CCS",
+    "ndss": "NDSS",
+    "sp": "IEEE S&P",
+    "usenix": "USENIX Security",
 }
 
 
@@ -173,3 +183,8 @@ with open(LINKS_OUT, "w") as fh:
     yaml.dump(links_result, fh, allow_unicode=True, sort_keys=False)
 
 print(f"artifinder_authorlinks.yaml — {total_links} alternative links across {len(links_result)} conf-years")
+
+# ── Generate artifinder_names.yaml ────────────────────────────────────────────
+
+with open(NAMES_OUT, "w") as fh:
+    yaml.dump(CONF_DISPLAY_NAMES, fh, allow_unicode=True, sort_keys=False)

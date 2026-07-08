@@ -2,6 +2,7 @@ _site
 .jekyll-cache
 _data/artifinder_nonevaluated.yaml
 _data/artifinder_authorlinks.yaml
+_data/artifinder_names.yaml
 .jekyll-metadata
 .DS_Store
 vendor/

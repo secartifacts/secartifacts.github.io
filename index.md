@@ -28,10 +28,22 @@ This website collects resources and results around artifact evaluation for secur
   {% endif %}
 {% endfor %}
 
-## Artifacts without evaluation
+## Artifacts Without Evaluation
 
 While artifact evaluation is becoming more and more widespread, many papers release artifacts without going through a formal evaluation process -- either by choice, or due to being published at conference editions that did not (yet) feature AE.
 To increase the discoverability of these artifacts, the [ArtiFinder](https://github.com/DistriNet/ArtiFinder) tool was developed to automatically collect artifact URLs from papers.
 A **[dedicated page](artifinder)** list these automatically extracted artifacts.
 Due to this methodology, mistakes in the links are possible, for which pull requests to the [dataset repository](https://github.com/DistriNet/ArtiFinder-Data) are very welcome.
-As of now, ArtiFinder was used to collect artifacts from IEEE S&P, ACM CCS, USENIX Security, and NDSS from 2000--2025, and ACSAC between 2017--2025.
+
+{% for conf in site.data.artifinder_nonevaluated %}
+  {% assign conf_id = conf[0] %}
+  {% assign conf_name = site.data.artifinder_names[conf_id] %}
+  {% assign latest_year = "" %}
+  {% assign earliest_year = "" %}
+  {% for year_data in conf[1] %}
+    {%- if forloop.first -%}{% assign latest_year = year_data[0] %}{%- endif -%}
+    {%- if forloop.last -%}{% assign earliest_year = year_data[0] %}{%- endif -%}
+  {% endfor %}
+**{{ conf_name }}**: [{% if earliest_year == latest_year %}{{ latest_year }}{% else %}{{ earliest_year }}--{{ latest_year }}{% endif %}]({{ '/artifinder/' | relative_url }}#{{ conf_id }}-{{ latest_year }})
+
+{% endfor %}

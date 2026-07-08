@@ -21,14 +21,16 @@ details > summary { font-size: 1.5em; font-weight: bold; cursor: pointer; margin
 </style>
 
 {% for conf in site.data.artifinder_nonevaluated %}
+{% assign conf_id = conf[0] %}
+{% assign conf_name = site.data.artifinder_names[conf_id] %}
 {% assign conf_total = 0 %}
 {% for year_data in conf[1] %}{% assign conf_total = conf_total | plus: year_data[1].size %}{% endfor %}
 <details>
-<summary><strong>{{ conf[0] | upcase }}</strong> <span class="af-count">({{ conf_total }})</span></summary>
-<p class="af-years">{% for year_data in conf[1] %}{% unless forloop.first %} &middot; {% endunless %}<a href="#{{ conf[0] }}-{{ year_data[0] }}">{{ year_data[0] }}</a> <span class="af-count">({{ year_data[1].size }})</span>{% endfor %}</p>
+<summary><strong>{{ conf_name }}</strong> <span class="af-count">({{ conf_total }})</span></summary>
+<p class="af-years">{% for year_data in conf[1] %}{% unless forloop.first %} &middot; {% endunless %}<a href="#{{ conf_id }}-{{ year_data[0] }}">{{ year_data[0] }}</a> <span class="af-count">({{ year_data[1].size }})</span>{% endfor %}</p>
 
 {% for year_data in conf[1] %}
-<h3 id="{{ conf[0] }}-{{ year_data[0] }}">{{ conf[0] | upcase }} {{ year_data[0] }} <span class="af-count">({{ year_data[1].size }})</span></h3>
+<h3 id="{{ conf_id }}-{{ year_data[0] }}">{{ conf_name }} {{ year_data[0] }} <span class="af-count">({{ year_data[1].size }})</span></h3>
 
 <table class="af-table">
 <thead><tr><th>Paper</th><th>Artifact</th><th></th></tr></thead>
