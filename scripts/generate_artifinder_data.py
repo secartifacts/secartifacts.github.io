@@ -51,11 +51,25 @@ def compare_titles(title_a: str, title_b: str) -> bool:
 
 
 def normalize_url(url: str) -> str:
+    """
+    Strips whitespace and trailing slash. Adds an http:// scheme if none is
+    present, but never rewrites an existing scheme.
+    For comparing two URLs regardless of scheme, use compare_urls.
+    """
     if not url:
         return ""
     url = url.strip().rstrip("/")
-    url = re.sub(r"^http://", "https://", url)
+    if not re.match(r"^https?://", url, re.IGNORECASE):
+        url = f"http://{url}"
     return url
+
+
+def compare_urls(url_a: str, url_b: str) -> bool:
+    def normalize(url: str) -> str:
+        url = url.strip().rstrip("/")
+        return re.sub(r"^https?://", "", url, flags=re.IGNORECASE).lower()
+
+    return normalize(url_a) == normalize(url_b)
 
 
 def read_front_matter(path: str) -> dict[str, Any]:
@@ -154,7 +168,7 @@ def generate_artifact_data(evaluated_papers: EvaluatedPapers) -> None:
                     if has_artifact:
                         raw_title, eval_url = match
                         af_url = normalize_url(p["discovered_artifact"])
-                        if af_url and af_url != eval_url:
+                        if af_url and not compare_urls(af_url, eval_url):
                             mismatched_urls[raw_title] = {
                                 "url": af_url,
                                 "validated": bool(p.get("validated")),
@@ -171,7 +185,7 @@ def generate_artifact_data(evaluated_papers: EvaluatedPapers) -> None:
                 noneval_artifacts.append({
                     "title": p["title"],
                     "page_link": p.get("page_link"),
-                    "artifact": p["discovered_artifact"],
+                    "artifact": normalize_url(p["discovered_artifact"]),
                     "validated": bool(p.get("validated")),
                 })
 
