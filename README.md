@@ -6,21 +6,19 @@ As part of the generalization we changed from static HTML pages to a Jekyll-rend
 This process is integrated into GitHub Pages.
 This repository includes the sources for Jekyll to render the HTML pages.
 
-
 ## Contributing
 
-You can contribute to this website and repository via pull requests. 
+You can contribute to this website and repository via pull requests.
 Please fork the [GitHub repository](https://github.com/secartifacts/secartifacts.github.io),
 modify the respective files, and submit a pull request from your personal branch.
 In the pull request, please describe your changes and any reasons for the changes.
 Once reviewed it will be merged and available on the secartifacts website.
 
-
 We ask you to build the repository and preview your changes before submitting the pull request.
-You have three options to preview changes: 
-* configure your forked repository on GitHub to use your branch for GitHub Pages
+You have three options to preview changes:
+* [configure](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) your forked repository on GitHub to publish to GitHub Pages using Actions
   and view it at `your_username.github.io/secartifacts.github.io`
-* install Jekyll and Bundler locally then run `bundle exec jekyll serve` at the root of the repository
+* install Jekyll and Bundler locally, run `./scripts/generate.sh` to generate the ArtiFinder data files, then run `bundle exec jekyll serve` at the root of the repository
 * build the repository via [jekyll's docker container](https://github.com/envygeeks/jekyll-docker), for example using
   the following command to start a jekyll server on [http://localhost:4000/](http://localhost:4000/):
   ``` sh
@@ -35,7 +33,6 @@ To add a conference, copy the `.md` in `_conferences` from one of the existing c
 (e.g. `usesec.md`) in the root folder to your conference name (e.g. `sp.md`).
 This will lead to creating `sp.html` when rendered.
 Adapt this page to your conference name by changing the title and text (e.g. change `USENIX Security` to `IEEE S&P`).
-
 
 ## Adding another year to an existing conference
 

@@ -180,6 +180,7 @@ artifacts:
       <th>Functional</th>
       <th>Reproduced</th>
       <th>Available at</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>
@@ -214,6 +215,7 @@ artifacts:
           <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
     {% endfor %}
   </tbody>

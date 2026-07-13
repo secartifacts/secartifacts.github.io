@@ -110,6 +110,7 @@ Results automatically obtained from <a href="https://www.acsac.org/2021/program/
       <th>
         Available At
       </th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>
@@ -151,6 +152,7 @@ Results automatically obtained from <a href="https://www.acsac.org/2021/program/
         <br>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
     {% endfor %}
   </tbody>

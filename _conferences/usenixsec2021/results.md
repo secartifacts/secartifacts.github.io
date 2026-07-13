@@ -176,6 +176,7 @@ artifacts:
       <th>Title</th>
       <th>Badge</th>
       <th>Artifact URL</th>
+      {% include artifinder_link_header.html %}
     </tr>
   </thead>
   <tbody>
@@ -198,6 +199,7 @@ artifacts:
           <a href="{{artifact.artifact_url}}">Artifact</a>
         {% endif %}
       </td>
+      {% include artifinder_link_cell.html title=artifact.title %}
     </tr>
   {% endfor %}
   </tbody>
