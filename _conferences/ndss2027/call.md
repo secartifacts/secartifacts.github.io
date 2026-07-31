@@ -10,9 +10,9 @@ Before submitting your artifact, please check the information and submission gui
 *All AE-related deadlines are Anywhere on Earth (AoE).*
 
 ### Summer Cycle
-* Artifact registration deadline (for accepted/minor revisions): Fri, 31 Jul 2026
-* Artifact submission deadline (for accepted/minor revisions): Tue, 4 Aug 2026
-* Kick-the-tires stage (preliminary questions for authors): Thu, 6 Aug 2026 to Tue, 18 Aug 2026
+* Artifact registration deadline (for accepted/minor revisions): Wed, 5 Aug 2026
+* Artifact submission deadline (for accepted/minor revisions): Mon, 10 Aug 2026
+* Kick-the-tires stage (preliminary questions for authors): Wed, 12 Aug 2026 to Tue, 25 Aug 2026
 * In-depth reviewing: includes sending preliminary reviews for authors and online AEC discussions
 * Artifact registration deadline (for major revisions): Fri, 4 Sep 2026
 * Artifact submission deadline (for major revisions): Tue, 8 Sep 2026
