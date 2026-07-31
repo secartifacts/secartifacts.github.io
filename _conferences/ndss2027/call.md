@@ -18,7 +18,7 @@ Before submitting your artifact, please check the information and submission gui
 * Artifact submission deadline (for major revisions): Tue, 8 Sep 2026
 * Artifact decisions: Fri, 25 Sep 2026
 
-Submission page: TBD
+Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.hotcrp.com)
 
 ### Fall Cycle
 * Artifact registration deadline (for accepted/minor revisions): Mon, 9 Nov 2026
