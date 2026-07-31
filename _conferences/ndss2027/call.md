@@ -13,10 +13,9 @@ Before submitting your artifact, please check the information and submission gui
 * Artifact registration deadline (for accepted/minor revisions): Wed, 5 Aug 2026
 * Artifact submission deadline (for accepted/minor revisions): Mon, 10 Aug 2026
 * Kick-the-tires stage (preliminary questions for authors): Wed, 12 Aug 2026 to Tue, 25 Aug 2026
-* In-depth reviewing: includes sending preliminary reviews for authors and online AEC discussions
-* Artifact registration deadline (for major revisions): Fri, 4 Sep 2026
-* Artifact submission deadline (for major revisions): Tue, 8 Sep 2026
-* Artifact decisions: Fri, 25 Sep 2026
+* Artifact registration deadline (for major revisions): Fri, 18 Sep 2026
+* Artifact submission deadline (for major revisions): Sun, 20 Sep 2026
+* Artifact decisions: Fri, 9 Oct 2026
 
 Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.hotcrp.com)
 
@@ -24,7 +23,6 @@ Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.ho
 * Artifact registration deadline (for accepted/minor revisions): Mon, 9 Nov 2026
 * Artifact submission deadline (for accepted/minor revisions): Mon, 16 Nov 2026
 * Kick-the-tires stage (preliminary questions for authors): Thu, 19 Nov 2026 to Tue, 1 Dec 2026
-* In-depth reviewing: includes sending preliminary reviews for authors and online AEC discussions
 * Artifact registration deadline (for major revisions): Fri, 18 Dec 2026
 * Artifact submission deadline (for major revisions): Sun, 20 Dec 2026
 * Artifact decisions: Tue, 29 Dec 2026
