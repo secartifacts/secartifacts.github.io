@@ -29,9 +29,15 @@ Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.ho
 
 Submission page: TBD
 
-## Paper Registration
+## Artifact Evaluation Process
 
-Accepted, minor, and major revision papers are eligible for an Artifact Evaluation. To properly register your paper for the registration deadline, the submission should at minimum include the following:
+We follow a two step process: You first need to _register_ your artifact before then _submitting_ it a few days later. Papers that received an "accepted" or "minor revision" verdict are eligible for Artifact Evaluation. Papers receiving a "major revision" verdict first need to complete their revision and will become eligible if they are accepted. They follow an independent cycle (see above for different deadlines).
+
+Please note that we require at least one contact author to be reachable and respond to questions in a timely manner during the entire evaluation period to allow round trip communications between the AEC and the authors. Also note that artifacts must be submitted in their respective cycle.
+
+### Artifact Registration
+
+To properly register your paper for the registration deadline, create a submission on HotCRP. Your submission should at minimum include the following at registration time:
 
 - A concise description of the research and how the artifacts support it ("Abstract" field)
 - The paper as reviewed by the NDSS TPC
@@ -39,21 +45,19 @@ Accepted, minor, and major revision papers are eligible for an Artifact Evaluati
 
 The AEC operates on a tight timeline, and without the above information, they cannot start their work. You are allowed to enter provisional text and update it until the submission deadline, as long as the information provided at this stage is accurate and complete.
 
-## Full Submission and Evaluation
+### Artifact Submission and Evaluation Process
 
-Authors are invited to submit artifacts soon after receiving the paper notification. At least one contact author must be reachable and respond to questions in a timely manner during the entire evaluation period to allow round trip communications between the AEC and the authors. Artifacts can be submitted only in the AE time frame associated with the paper submission round.
-
-In addition to accepted papers, papers that receive a major or minor revision decision are eligible for AE: at artifact submission time, their authors should justify the necessary changes that they intend to carry out on the initially submitted paper and how such changes relate to the submitted artifact.
-
-At submission time, authors choose which badges they want to be evaluated for. The requirements that must be fulfilled for each badge are listed under [*badges*](badges). Members of the AEC will evaluate each artifact using the artifact appendix and instructions as guides, as detailed later on this page. Evaluators will communicate anonymously with authors through HotCRP to resolve minor issues and ask clarifying questions.
+For their submission, authors choose which badges they want to be evaluated for. The requirements that must be fulfilled for each badge are listed under [*badges*](badges). Members of the AEC will evaluate each artifact using the artifact appendix and instructions as guides, as detailed later on this page. Evaluators will communicate anonymously with authors through HotCRP to resolve minor issues and ask clarifying questions.
 
 Evaluation starts with a *kick-the-tires* period during which evaluators ensure they can access their assigned artifacts and perform basic operations such as building and running a minimal working example. Artifact evaluations include feedback about the artifact, giving authors the option to address any significant blocking issues for AE work using this feedback. Communication after the kick-the-tires stage end can address interpretation concerns for the produced results or minor syntactic issues in the submitted materials.
 
-After kick-the-tires, in-depth reviewing continues. This stage includes sending preliminary reviews for authors and online AEC discussions.
+After the kick-the-tires stage, in-depth reviewing commences. This stage includes sending preliminary reviews for authors and online AEC discussions.
 
-For prospective authors: The target should be to present and document your artifact in a way that AEC members can use it and complete the evaluation successfully with minimal (and ideally no) interaction. To ensure that your instructions are complete, we suggest that you run through them on a fresh setup prior to submission, following exactly the instructions you have provided.
+As artifact author, your target should be to present and document your artifact in a way that AEC members can use it and complete the evaluation successfully with minimal (and ideally no) interaction. To ensure that your instructions are complete, we strongly recommend that you run through them on a fresh setup prior to submission, following exactly the instructions you have provided.
 
-## Artifact details and requirements
+## Your Artifact
+
+### Artifact Details and Requirements
 
 Artifacts can be, e.g., software, datasets, models, test suites, or mechanized proofs. Paper proofs are not accepted, as evaluators lack the time and often the expertise to carefully review them. Physical objects, such as specialized computer hardware, are also not accepted, due to the difficulty of making them available to evaluators.
 
@@ -63,27 +67,27 @@ Artifact evaluation is single-blind. Each AEC member will independently test and
 
 Submitting an artifact for evaluation does not give the AEC permission to make its contents public or to retain any part of it after evaluation. Thus, authors are free to include proprietary models, data files, or code in artifacts. Participating in the AE process does not require the public release of artifacts, though it is highly encouraged.
 
-## Artifact preparation
+### Artifact Preparation
 
-Artifacts must be packaged to ease evaluation and use, including instructions for the evaluators and an artifact appendix to complement the paper. Packaging is not only about evaluation, but also about future use of the artifact by other researchers who may want to build on top of it or use it as a baseline.
+Artifacts must be packaged for ease of evaluation and use. They must include instructions for the evaluators and an artifact appendix to complement the paper. Packaging is not only about evaluation, but it also enables future use of the artifact by other researchers who may want to build on top of it or use it as a baseline.
 
 Some artifacts may attempt to perform malicious or destructive operations by design. Such cases should be explicitly flagged in detail at submission time so that the AEC can take appropriate precautions before installing and running these artifacts.
 
-### Instructions
+#### Instructions
 An artifact package must include an _exhaustive_ "README" document containing adequate instructions and other documentation to present and explain the nature and functionality of the artifact and, if applicable, to conduct the required experiments for result reproduction.
 
 When allowed by the characteristics of the artifact, authors are encouraged to provide a minimal working example. During the kick-the-tires stage, artifact evaluators will use it for preliminary functionality testing: doing so may anticipate issues that would otherwise only appear after a complete artifact evaluation attempt is conducted.
 
 Along with badge descriptions, evaluator guides from AE efforts in related security and systems conferences can be very helpful for the authors to set their expectations on how well-prepared artifact instructions should look like. Several such resources are provided at the end of this page.
 
-### Artifact appendix
+#### Artifact Appendix
 The artifact appendix must be a self-contained document that describes a roadmap for evaluators. Alongside the description of the hardware, software, and other configuration requirements, the artifact appendix should enumerate the list of major **claims** made by the paper that can be reproduced through the artifact. The artifact appendix will be published in conjunction with the paper.
 
 A template for the artifact appendix can be found here: [LaTeX Template](ndss_ae_appendix_template_v1.tex) (to be used in conjunction with the NDSS template for research papers). Artifact appendices are limited in length to **2 pages**; contact the AE chairs before submission to discuss well-motivated exceptions.
 
 Linking the paper's claims to the artifact is a necessary step that allows artifact evaluators to reproduce results. Authors must state their paper's key results and claims clearly. Also, claims should be concrete, especially if these claims may differ from the expectations set by the paper. The AEC will still evaluate artifacts relatively to their paper, but an explanation can help set expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, authors are encouraged to be transparent with the AEC about difficulties that evaluators might encounter in using the artifact or its maturity relative to the paper's content.
 
-## Artifact packaging
+### Artifact Packaging
 
 Authors should consider one of the following methods to package the software components of their artifacts. Then, a link to access the package should be provided on the HotCRP submission form.
 
@@ -97,9 +101,9 @@ Authors should consider one of the following methods to package the software com
 
 Authors should reach out to the AE chairs when other formats look more reasonable in their judgment. For example, if properly justified, a single-blind video call may be scheduled to demonstrate Functionality or Reproducibility for experiments involving specialized hardware (e.g., jailbroken phones, software-defined radios, etc.).
 
-## Artifact Evaluation badges using `ndssbadges.sty`
+### After Completion: Adding Badges to Paper
 
-The `ndssbadges.sty` LaTeX style file can be used to add Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](../ndss2026/ndss_ae_package.zip) package and place the following line early in your main .tex file:
+Once you passed artifact evaluation, the `ndssbadges.sty` LaTeX style file can be used to add obtained Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](../ndss2026/ndss_ae_package.zip) package and place the following line early in your main .tex file:
 ```
 % Valid options: available, functional, and/or reproduced
 \usepackage[xx]{ndssbadges}
@@ -117,7 +121,7 @@ Tips:
 
 * If your LaTeX document has many `\usepackage` directives, place `\usepackage[...]{ndssbadges}` near the end of those. This may avoid problems relating to conflicting options for the `graphicx` package.
 
-## Resources
+### Resources
 The following materials may be useful when preparing an artifact:
 - [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger
 - [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/), by Rohan Padhye
