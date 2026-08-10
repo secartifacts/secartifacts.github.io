@@ -75,7 +75,6 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 * Hongyan	CHANG, _MBZUAI_
 * Huiyun	Peng, _Purdue University_
 * Iman	Alipour, _Max Planck Institute for Informatics_
-* Ismat	Jarin, _University of California, Irvine_
 * Jan	Drescher, _TU Braunschweig_
 * Jean-Charles	Noirot Ferrand, _University of Wisconsin-Madison_
 * Jiahao	Cao, _Tsinghua University_
@@ -223,7 +222,6 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 * Zachary	Espiritu, _MongoDB Research_
 * Zewei	Shi, _The University of Melbourne; CSIRO's Data61_
 * Zeyang	Zhuang, _The Chinese University of Hong Kong_
-* Zhengjie	Ji, _Virginia Tech_
 * Zhengyao	Lin, _Carnegie Mellon University_
 * Zhikang	Xie, _The University of Hong Kong_
 * Zhiyu	Zhang, _Institute of Information Engineering, Chinese Academy of Sciences_
@@ -240,5 +238,7 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 ## Artifact Evaluation Committee (Single review cycle)
 
 * Arturo	Villacañas, _Independent researcher_
+* Ismat	Jarin, _University of California, Irvine_
 * Noa Izsak, _CISPA Helmholtz Center for Information Security_
 * Tim Leonhard	Storm, _Paderborn University_
+* Zhengjie Ji, _Virginia Tech_
