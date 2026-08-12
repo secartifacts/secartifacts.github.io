@@ -63,7 +63,7 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 * Fujiao	Ji, _University of Tennessee, Knoxville_
 * Giuseppe	Parrella, _University of Salerno_
 * Guilhem	Lacombe, _VERIMAG, Université Grenoble-Alpes_
-* Guillaume	DIDIER, _Universität des Saarlandes_
+* Guillaume	Didier, _Universität des Saarlandes_
 * Guofeng	Tang, _Singapore Management University_
 * Guruprasad	Viswanathan Ramesh, _University of Wisconsin-Madison_
 * Gwihwan	Go, _Tsinghua University_
