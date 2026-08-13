@@ -563,7 +563,7 @@ artifacts:
 
 -   cycle: sec26cycle1
     title: 'Side-Channel Attacks on Open vSwitch'
-    badges: 'Badges: Available, Functional'
+    badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://doi.org/10.5281/zenodo.17965902
     appendix_url: appendix-files/sec26cycle1ae-final88.pdf
     paper_url:
@@ -2658,9 +2658,9 @@ artifacts:
     
 -   cycle: sec26cycle2
     title: 'Principled Design of Indexing Functions for Memory Coloring'
-    badges: 'Badges: Available'
+    badges: 'Badges: Available, Functional, Reproduced'
     artifact_url: https://doi.org/10.5281/zenodo.18494189
-    appendix_url: 
+    appendix_url: appendix-files/sec26cycle2ae-final194.pdf
     paper_url:
     id: 194
     

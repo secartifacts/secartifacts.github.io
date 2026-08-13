@@ -54,7 +54,7 @@ ninjas_reviewer_awards:
 - Ahmed Lekssays, Qatar Computing Research Institute
 - Antonio Muñoz, University of Malaga
 - Eric Ackermann, CISPA
-- Felix Lange, Paderborn University
+- Felix Graf Lange, Paderborn University
 - Guillaume Didier, Universität des Saarlandes
 - Hassan El Alami, Howard University
 - Hocheol Nam, KAIST
@@ -71,8 +71,9 @@ ninjas_reviewer_awards:
 
 - [CompLeak: Deep Learning Model Compression Exacerbates Privacy Leakage](https://www.usenix.org/conference/usenixsecurity26/presentation/li-na) - Na Li, Yansong Gao, Hongsheng Hu, Boyu Kuang, Anmin Fu
 - [Leveraging Cryptographic Simulator Synthesis for Formally Verifying the FOO E-Voting Protocol -- Artifacts](https://www.usenix.org/conference/usenixsecurity26/presentation/baelde) - David Baelde, Adrien Koutsos, Justine Sauvage
-- [Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification](https://www.usenix.org/conference/usenixsecurity26/presentation/edalatnejad) - Kasra EdalatNejad, Sebastian Faust, Jonas Hofmann, Philipp-Florens Lehwalder, and Thomas Schneider 
-- [Meerkat: Pushing the Practical Limits of Dynamic Bisection with PoC Mutation](https://www.usenix.org/conference/usenixsecurity26/presentation/bursey) - Joseph Bursey, Christoph Sendner, and Ardalan Amiri Sani
+- [Do You Need a Receipt? Anonymous Credential Revocation at Continental Scale via Private Record Certification](https://www.usenix.org/conference/usenixsecurity26/presentation/edalatnejad) - Kasra EdalatNejad, Sebastian Faust, Jonas Hofmann, Philipp-Florens Lehwalder, Thomas Schneider 
+- [Meerkat: Pushing the Practical Limits of Dynamic Bisection with PoC Mutation](https://www.usenix.org/conference/usenixsecurity26/presentation/bursey) - Joseph Bursey, Christoph Sendner, Ardalan Amiri Sani, Zhiyun Qian
+- [Principled Design of Indexing Functions for Memory Coloring](https://www.usenix.org/conference/usenixsecurity26/presentation/duebler) - Stephan Dübler, Jana Hofmann, Boris Köpf, Stavros Volos
 
 ## 🏆 Distinguished Reviewer Awards
 

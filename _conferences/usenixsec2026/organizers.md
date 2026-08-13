@@ -57,7 +57,7 @@ Contact the AEC chairs at [sec26aec@usenix.org](mailto:sec26aec@usenix.org).
 * Fabian	Thomas, _CISPA Helmholtz Center for Information Security_
 * Fariba	Osali, _Max Planck Institute for Informatics_
 * Federico	Mazzone, _University of Twente_
-* Felix	Lange, _Paderborn University_
+* Felix Graf Lange, _Paderborn University_
 * Feng	Luo, _The Hong Kong Polytechnic University_
 * Florian	Roudot, _Univ Rennes_
 * Fujiao	Ji, _University of Tennessee, Knoxville_
