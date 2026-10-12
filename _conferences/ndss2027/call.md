@@ -13,9 +13,10 @@ Before submitting your artifact, please check the information and submission gui
 * Artifact registration deadline (for accepted/minor revisions): Wed, 5 Aug 2026
 * Artifact submission deadline (for accepted/minor revisions): Mon, 10 Aug 2026
 * Kick-the-tires stage (preliminary questions for authors): Wed, 12 Aug 2026 to Tue, 25 Aug 2026
+* Artifact decisions: Fri, 9 Oct 2026
 * Artifact registration deadline (for major revisions): Fri, 18 Sep 2026
 * Artifact submission deadline (for major revisions): Sun, 20 Sep 2026
-* Artifact decisions: Fri, 9 Oct 2026
+* Artifact decisions (for major revisions): Sun, 25 Oct 2026
 
 Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.hotcrp.com)
 
@@ -103,7 +104,10 @@ Authors should reach out to the AE chairs when other formats look more reasonabl
 
 ### After Completion: Adding Badges to Paper
 
-Once you passed artifact evaluation, the `ndssbadges.sty` LaTeX style file can be used to add obtained Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](../ndss2026/ndss_ae_package.zip) package and place the following line early in your main .tex file:
+Once you successfully passed artifact evaluation and obtained one or more badges, there are two steps left to do:
+
+1. Update your artifact appendix, such that it points to the DOI-backed storage as method of access, and then append the artifact appendix to your camera-ready paper.
+2. Second, use the `ndssbadges.sty` LaTeX style file to add obtained Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](../ndss2026/ndss_ae_package.zip) package and place the following line early in your main .tex file:
 ```
 % Valid options: available, functional, and/or reproduced
 \usepackage[xx]{ndssbadges}
@@ -115,7 +119,7 @@ Tips:
 
 * Please use, where needed, manual line breaks and multi-line titles to ensure sufficient title-badge spacing. In the "demo/" folder of the package, you will find an example of an optimally spaced paper title and the source files we used to compile it.
 
-* When uploading the camera-ready PDF, submitting a PDF that is overlength because of the artifact appendix may result in an error. However, you may ignore the format checker of HotCRP if you are sure that the paper is correct otherwise.
+* When uploading the camera-ready PDF, submitting a PDF that is overlength because of the appended artifact appendix may result in an error. However, you may ignore the format checker of HotCRP if you are sure that the paper is correct otherwise.
 
 * In your LaTeX document, the `\usepackage[...]{ndssbadges}` directive must come after `\documentclass` and before `\begin{document}`.
 
