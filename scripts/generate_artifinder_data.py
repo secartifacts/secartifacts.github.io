@@ -87,6 +87,14 @@ def get_eval_url(artifact: dict[str, Any]) -> str:
         url = url[0] if url else None
     return normalize_url(str(url)) if url else ""
 
+def get_discovered_url(paper: dict[str, Any]) -> str:
+    """
+    ArtiFinder lists discovered links ordered by score, we only consider the first (highest-ranked) one.
+    """
+    urls = paper.get("artifacts_discovered") or []
+    return normalize_url(str(urls[0])) if urls else ""
+
+
 def conf_id_for_prefix(prefix: str) -> str | None:
     return CONF_PREFIX_MAP.get(prefix)
 
@@ -160,15 +168,14 @@ def generate_artifact_data(evaluated_papers: EvaluatedPapers) -> None:
                 match = next(
                     (t for t in evaluated if compare_titles(p["title"], t[0])), None
                 )
-                has_artifact = bool(p.get("discovered_artifact"))
+                af_url = get_discovered_url(p)
 
                 if match is not None:
                     # Evaluated paper: only relevant if ArtiFinder found a URL that
                     # differs from the one submitted for evaluation.
-                    if has_artifact:
+                    if af_url:
                         raw_title, eval_url = match
-                        af_url = normalize_url(p["discovered_artifact"])
-                        if af_url and not compare_urls(af_url, eval_url):
+                        if not compare_urls(af_url, eval_url):
                             mismatched_urls[raw_title] = {
                                 "url": af_url,
                                 "validated": bool(p.get("validated")),
@@ -178,14 +185,14 @@ def generate_artifact_data(evaluated_papers: EvaluatedPapers) -> None:
                     # Skip the rest for evaluated papers.
                     continue
 
-                if not has_artifact:
+                if not af_url:
                     continue
 
                 # Save non-evaluated papers with a discovered artifact.
                 noneval_artifacts.append({
                     "title": p["title"],
                     "page_link": p.get("page_link"),
-                    "artifact": normalize_url(p["discovered_artifact"]),
+                    "artifact": af_url,
                     "validated": bool(p.get("validated")),
                 })
 
