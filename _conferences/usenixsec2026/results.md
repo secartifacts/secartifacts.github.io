@@ -929,7 +929,7 @@ artifacts:
     title: 'PROBE+DETECT+MITIGATE (PDM): Enabling Cloud Tenants to Self-Defend against Microarchitectural Attacks'
     badges: 'Badges: Available'
     artifact_url: https://doi.org/10.5281/zenodo.17967755
-    appendix_url: 
+    appendix_url: appendix-files/sec26cycle1ae-paper138.pdf 
     paper_url:
     id: 138
 
