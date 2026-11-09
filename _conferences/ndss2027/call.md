@@ -21,18 +21,19 @@ Before submitting your artifact, please check the information and submission gui
 Submission page: [https://ndss27ae-summer.hotcrp.com](https://ndss27ae-summer.hotcrp.com)
 
 ### Fall Cycle
-* Artifact registration deadline (for accepted/minor revisions): Mon, 30 Nov 2026
-* Artifact submission deadline (for accepted/minor revisions): Mon, 7 Dec 2026
-* Kick-the-tires stage (preliminary questions for authors): Thu, 10 Dec 2026 to Tue, 22 Dec 2026
-* Artifact registration deadline (for major revisions): Wed, 13 Jan 2027
-* Artifact submission deadline (for major revisions): Sun, 17 Jan 2027
-* Artifact decisions: Fri, 29 Jan 2027
+* Artifact registration deadline (for accepted papers and minor/major revisions): Wed, 9 Dec 2026
+* Artifact submission deadline (for accepted papers and minor/major revisions): Sun, 13 Dec 2026
+* Kick-the-tires stage (preliminary questions for authors): Tue, 15 Dec 2026 to Tue, 22 Dec 2026
+* Artifact decisions: Sun, 1 Feb 2027
+* Camera-ready deadline for papers: Sun, 7 Feb 2027
 
-Submission page: TBD
+**Change for the Fall cycle:** All papers, including those with a minor or major revision verdict, register their artifacts right after the initial paper notification. For papers under revision, artifact evaluation runs in parallel with the revision and badges are awarded only if the paper is accepted.
+
+Submission page: [https://ndss27ae-fall.hotcrp.com](https://ndss27ae-fall.hotcrp.com)
 
 ## Artifact Evaluation Process
 
-We follow a two step process: You first need to _register_ your artifact before then _submitting_ it a few days later. Papers that received an "accepted" or "minor revision" verdict are eligible for Artifact Evaluation. Papers receiving a "major revision" verdict first need to complete their revision and will become eligible if they are accepted. They follow an independent cycle (see above for different deadlines).
+We follow a two step process: You first need to _register_ your artifact before then _submitting_ it a few days later. Papers that received an "accepted" or "minor revision" verdict are eligible for Artifact Evaluation. How papers with a "major revision" verdict are handled depends on the cycle: In the Summer cycle, they first need to complete their revision and become eligible once accepted, following separate deadlines (see above). In the Fall cycle, they register and submit their artifacts at the same deadlines as all other papers, while working on their revision.
 
 Please note that we require at least one contact author to be reachable and respond to questions in a timely manner during the entire evaluation period to allow round trip communications between the AEC and the authors. Also note that artifacts must be submitted in their respective cycle.
 
@@ -106,7 +107,7 @@ Authors should reach out to the AE chairs when other formats look more reasonabl
 
 Once you successfully passed artifact evaluation and obtained one or more badges, there are two steps left to do:
 
-1. Update your artifact appendix, such that it points to the DOI-backed storage as method of access, and then append the artifact appendix to your camera-ready paper.
+1. Update your artifact appendix, such that it points to the DOI-backed storage as method of access, and then append the artifact appendix to your camera-ready paper. The artifact appendix may be at most two pages. It does not count toward the 18-page limit of the camera-ready paper, so your paper including the appendix may be up to 20 pages.
 2. Second, use the `ndssbadges.sty` LaTeX style file to add obtained Artifact Evaluation badges to the front page of your NDSS camera-ready paper. Download the [ndssbadges](../ndss2026/ndss_ae_package.zip) package and place the following line early in your main .tex file:
 ```
 % Valid options: available, functional, and/or reproduced
@@ -119,7 +120,7 @@ Tips:
 
 * Please use, where needed, manual line breaks and multi-line titles to ensure sufficient title-badge spacing. In the "demo/" folder of the package, you will find an example of an optimally spaced paper title and the source files we used to compile it.
 
-* When uploading the camera-ready PDF, submitting a PDF that is overlength because of the appended artifact appendix may result in an error. However, you may ignore the format checker of HotCRP if you are sure that the paper is correct otherwise.
+* When you upload the camera-ready PDF, HotCRP's format checker may report that the paper exceeds 18 pages. Since the artifact appendix does not count toward that limit, you can ignore this error if the paper is otherwise correct.
 
 * In your LaTeX document, the `\usepackage[...]{ndssbadges}` directive must come after `\documentclass` and before `\begin{document}`.
 

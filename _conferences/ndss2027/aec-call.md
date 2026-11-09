@@ -7,7 +7,7 @@ We are looking for members of the Artifact Evaluation Committee (AEC), who will 
 
 We expect that the AEC will consist mainly of experienced graduate students and postdocs. Junior students and young faculty members are also welcome to apply.
 
-The expected workload is 2 reviews for the Summer cycle and 3 for the Fall cycle. We expect each review to be around 10-15 hours of work. AEC members will serve for *both* cycles: please ensure that you have sufficient time and availability during the two evaluation periods (July 2026 to September 2026 and November 2026 to January 2027).
+The expected workload is 2 reviews for the Summer cycle and 3 for the Fall cycle. We expect each review to be around 10-15 hours of work. AEC members will serve for *both* cycles: please ensure that you have sufficient time and availability during the two evaluation periods (July 2026 to September 2026 and December 2026 to February 2027).
 
 As an AEC member, you will not only help promote the reproducibility of experimental results in security research, but also get to familiarize yourself with research papers just accepted for publication at NDSS 2027 and explore their artifacts.
 For a given artifact, you may be asked to evaluate its public availability, functionality, and/or ability to reproduce the results from the paper.
