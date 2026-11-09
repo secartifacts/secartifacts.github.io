@@ -74,7 +74,7 @@ For courses, thoroughly document the course structure, including the number of
 lessons or modules, lesson titles, number and types of assessments. You should
 also consider including:
 
-  Written and programming exercises.
+- Written and programming exercises.
 - Tutorials
 - Assessments, including quizzes or exams.
 

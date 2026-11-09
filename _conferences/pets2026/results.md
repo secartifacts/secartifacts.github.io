@@ -428,7 +428,7 @@ issues:
       badges: "available, functional, reproduced"
     - paper_url: ""
       title: "Impact of Graph Structure on Membership-Inference Risk for Graph Neural Networks"
-      artifact_url: "https://github.com/PriXAI/GraphStructurePrivacyAnalysis-public/tree/0ef6dbd894d96e9aa994bc2f722aeb0c87a9830a"
+      artifact_url: "https://github.com/PriXAI/GraphStructurePrivacyAnalysis-public/tree/926aabba4d19f87c264b290a25f2c89993c32eab"
       badges: "available, functional, reproduced"
     - paper_url: ""
       title: "Maude-HCs: Model Checking the Undetectability-Performance Tradeoffs of Hidden Communication Systems"
