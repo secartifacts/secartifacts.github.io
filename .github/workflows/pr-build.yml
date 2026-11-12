@@ -1,0 +1,39 @@
+name: PR Build Check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-build-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install pyyaml
+
+      - run: python3 scripts/generate_artifinder_data.py
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+        env:
+          # commonmarker 0.23.x forces -std=c99, but Ruby headers built with GCC 15 (C23) assume bool is a keyword
+          BUNDLE_BUILD__COMMONMARKER: --with-cflags="-O2 -include stdbool.h"
+
+      - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
