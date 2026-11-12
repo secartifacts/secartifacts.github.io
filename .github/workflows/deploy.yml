@@ -34,6 +34,9 @@ jobs:
         with:
           ruby-version: "3.2"
           bundler-cache: true
+        env:
+          # commonmarker 0.23.x forces -std=c99, but Ruby headers built with GCC 15 (C23) assume bool is a keyword
+          BUNDLE_BUILD__COMMONMARKER: --with-cflags="-O2 -include stdbool.h"
 
       - id: pages
         uses: actions/configure-pages@v5
